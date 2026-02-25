@@ -1,0 +1,205 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  gap: 12px;
+  overflow-y: auto;
+}
+
+/* ── 顶部两列布局 ── */
+.top {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+/* ── 通用卡片 ── */
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top .card:first-child {
+  flex: 0 0 340px;
+}
+.top .card:last-child {
+  flex: 1;
+}
+
+.cardTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: #8b949e;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+/* ── 仪表盘 SVG ── */
+.gauge {
+  width: 100%;
+  max-width: 320px;
+  align-self: center;
+}
+
+/* ── 信息区 ── */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.bigValue {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+.bigLabel {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.updatedAt {
+  font-size: 12px;
+  color: #6e7681;
+  margin-top: 2px;
+}
+
+.divider {
+  height: 1px;
+  background: #30363d;
+  margin: 8px 0;
+}
+
+.scaleTitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: #8b949e;
+  margin-bottom: 4px;
+}
+
+.scaleList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.scaleItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.scaleDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.scaleLabel {
+  font-size: 13px;
+  color: #e6edf3;
+  flex: 1;
+}
+
+.scaleRange {
+  font-size: 12px;
+  color: #6e7681;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── 历史图表卡片 ── */
+.chartCard {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 14px 20px 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 260px;
+}
+
+.chartHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+}
+
+.limitTabs {
+  display: flex;
+  gap: 4px;
+}
+
+.limitTab {
+  height: 26px;
+  padding: 0 10px;
+  background: transparent;
+  border: 1px solid #30363d;
+  border-radius: 5px;
+  color: #8b949e;
+  font-size: 12px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.limitTab:hover {
+  border-color: #6e7681;
+  color: #e6edf3;
+}
+.limitTabActive {
+  background: #1f6feb;
+  border-color: #1f6feb;
+  color: #fff;
+}
+
+.chart {
+  flex: 1;
+  min-height: 0;
+}
+
+/* ── 占位 ── */
+.placeholder {
+  color: #6e7681;
+  font-size: 13px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* ── 错误 ── */
+.error {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: rgba(239, 83, 80, 0.12);
+  border: 1px solid rgba(239, 83, 80, 0.3);
+  border-radius: 6px;
+  color: #ff7b72;
+  font-size: 13px;
+  flex-shrink: 0;
+  margin-bottom: 8px;
+}
+.error button {
+  margin-left: auto;
+  padding: 3px 10px;
+  background: transparent;
+  border: 1px solid #ff7b72;
+  border-radius: 4px;
+  color: #ff7b72;
+  cursor: pointer;
+  font-size: 12px;
+}
+.error button:hover {
+  background: rgba(239, 83, 80, 0.2);
+}

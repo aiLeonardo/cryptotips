@@ -1,0 +1,59 @@
+dbinfo:
+  enabledb: true
+  dbtype: "mysql"
+  host: "127.0.0.1"
+  port: 3306
+  charset: "utf8mb4"
+  user: ""
+  password: ""
+  dbname: ""
+
+redis:
+  enabledb: true
+  host: "127.0.0.1"
+  port: 6379
+  password: ""
+  db: 0
+
+binance:
+  api_key: ""
+  secret_key: ""
+
+tginfo:
+  msg_interval: 5
+  tg_token: ""
+  chat_id: ""
+
+systemstats:
+  ticker: 30
+  used_percent_warn: 90
+  dir_for_files: ""
+
+trading:
+  symbol: "BTCUSDT"
+  max_leverage: 3.0
+  max_risk_per_trade: 0.01  # 1% 单笔风险
+  dry_run: true             # 设为 false 才会真实下单
+  strategy_mode: "EMA"      # "EMA" 或 "Sharpe180"（两者完全独立，不可混用）
+
+backtest:
+  start_date: "2017-09-01"
+  end_date: "2026-02-23"
+  initial_funds: 10000.0
+  strategy_mode: "EMA"      # "EMA" 或 "Sharpe180"
+
+proxy:
+  proxyenable: false
+  proxyaddr: ""
+
+apiservice:
+  port: 1024
+
+request:
+  timeout: 50
+
+feargreed:
+  interval_hours: 8   # 贪婪恐慌指数采集间隔（小时），默认 4
+
+2captcha:
+  apiKey: ""
