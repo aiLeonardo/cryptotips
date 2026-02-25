@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "Bash(go get:*)",
-      "Bash(go build:*)"
+      "Bash(go build:*)",
+      "Bash(tail:*)",
+      "Bash(certbot:*)",
+      "Bash(sudo sed:*)",
+      "Bash(sudo nginx:*)",
+      "Bash(sudo certbot:*)",
+      "Bash(sudo systemctl:*)",
+      "Bash(sudo grep:*)"
     ]
   }
 }

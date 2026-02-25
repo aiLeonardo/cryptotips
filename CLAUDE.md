@@ -173,3 +173,6 @@ npm run preview
 
 开发环境下 Vite 将 `/api/*` 请求代理到 `http://localhost:1024`，生产环境通过 `VITE_API_BASE_URL` 环境变量配置后端地址（可选，默认使用相对路径由 Nginx 等反向代理处理）。
 
+### 生产环境配置
+生产环境使用nginx来作为前端代理,nginx 配置文件路径: /etc/nginx/sites-available/default
+所有/api前缀的request都反向代理至90端口,也就是执行 cryptotips goapi 后监听的端口,是后端服务的端口
