@@ -10,10 +10,20 @@ export interface KLineItem {
 }
 
 /** 后端 /api/klines 响应的 data 字段 */
+export interface ReversalSignalItem {
+  time: number
+  type: 'top' | 'bottom'
+  score: number
+}
+
 export interface KLinesData {
   symbol: string
   interval: string
   klines: KLineItem[]
+  quoteVolumeLog?: number[]
+  quoteVolumeLogEma?: number[]
+  quoteVolumeZ?: number[]
+  reversalSignals?: ReversalSignalItem[]
 }
 
 /** 后端 /api/klines/meta 响应的 data 字段 */

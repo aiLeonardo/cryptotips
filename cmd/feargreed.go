@@ -7,7 +7,16 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var isFeargreedDaemon bool
+
 func init() {
+	feargreedCmd.Flags().BoolVarP(
+		&isFeargreedDaemon,
+		"daemon",
+		"d",
+		true,
+		"run feargreed in background (daemon mode)",
+	)
 	rootCmd.AddCommand(feargreedCmd)
 }
 
@@ -17,8 +26,10 @@ var feargreedCmd = &cobra.Command{
 	Long: `定时任务：每4小时从 alternative.me 拉取比特币贪婪恐慌指数，
 持久化保存到 MySQL fear_greed_index 表，形成历史数据供后续分析。`,
 	Run: func(cmd *cobra.Command, args []string) {
-		daemonCtx := lib.DaemonStart("feargreed")
-		defer daemonCtx.Release()
+		if isFeargreedDaemon {
+			daemonCtx := lib.DaemonStart("feargreed")
+			defer daemonCtx.Release()
+		}
 
 		lib.SetLogFilePath("./logs/feargreed.log")
 		logger := lib.LoadLogger()

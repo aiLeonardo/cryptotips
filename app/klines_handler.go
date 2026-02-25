@@ -5,6 +5,7 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/aiLeonardo/cryptotips/indicator"
 	"github.com/aiLeonardo/cryptotips/lib"
 	"github.com/aiLeonardo/cryptotips/models"
 
@@ -24,10 +25,20 @@ type KLineItem struct {
 }
 
 // KLinesResp 响应体
+type ReversalSignalItem struct {
+	Time  int64   `json:"time"`
+	Type  string  `json:"type"` // top / bottom
+	Score float64 `json:"score"`
+}
+
 type KLinesResp struct {
-	Symbol   string      `json:"symbol"`
-	Interval string      `json:"interval"`
-	KLines   []KLineItem `json:"klines"`
+	Symbol          string               `json:"symbol"`
+	Interval        string               `json:"interval"`
+	KLines          []KLineItem          `json:"klines"`
+	QuoteVolumeLog  []float64            `json:"quoteVolumeLog,omitempty"`
+	QuoteVolumeEma  []float64            `json:"quoteVolumeLogEma,omitempty"`
+	QuoteVolumeZ    []float64            `json:"quoteVolumeZ,omitempty"`
+	ReversalSignals []ReversalSignalItem `json:"reversalSignals,omitempty"`
 }
 
 // KLinesMeta 可用的 symbol/interval 组合（用于前端下拉框）
@@ -92,6 +103,8 @@ func (a *goapi) getKLines(c *gin.Context) {
 	}
 
 	items := make([]KLineItem, 0, len(records))
+	quoteVolumes := make([]float64, 0, len(records))
+	closes := make([]float64, 0, len(records))
 	for _, r := range records {
 		items = append(items, KLineItem{
 			Time:        r.OpenTime.Unix(), // TradingView 需要 Unix 秒
@@ -102,13 +115,66 @@ func (a *goapi) getKLines(c *gin.Context) {
 			Volume:      r.Volume,
 			QuoteVolume: r.QuoteVolume,
 		})
+		quoteVolumes = append(quoteVolumes, r.QuoteVolume)
+		closes = append(closes, r.Close)
 	}
 
+	logQ, emaLogQ, z := indicator.QuoteVolumeZScore(quoteVolumes, 20)
+	signals := detectReversalSignals(items, closes, z, 60, 2.0)
+
 	lib.JsonResponse(c, KLinesResp{
-		Symbol:   symbol,
-		Interval: interval,
-		KLines:   items,
+		Symbol:          symbol,
+		Interval:        interval,
+		KLines:          items,
+		QuoteVolumeLog:  logQ,
+		QuoteVolumeEma:  emaLogQ,
+		QuoteVolumeZ:    z,
+		ReversalSignals: signals,
 	})
+}
+
+// detectReversalSignals 基于成交额异常(z-score) + 价格相对区间位置，给出顶部/底部候选点。
+func detectReversalSignals(items []KLineItem, closes []float64, z []float64, window int, zThreshold float64) []ReversalSignalItem {
+	if len(items) == 0 || len(closes) != len(items) || len(z) != len(items) {
+		return nil
+	}
+	if window <= 1 {
+		window = 60
+	}
+
+	signals := make([]ReversalSignalItem, 0)
+	for i := range closes {
+		if i+1 < window || z[i] < zThreshold {
+			continue
+		}
+
+		start := i + 1 - window
+		minClose, maxClose := closes[start], closes[start]
+		for j := start + 1; j <= i; j++ {
+			if closes[j] < minClose {
+				minClose = closes[j]
+			}
+			if closes[j] > maxClose {
+				maxClose = closes[j]
+			}
+		}
+
+		if maxClose <= 0 || minClose <= 0 {
+			continue
+		}
+
+		nearTop := closes[i] >= maxClose*0.98
+		nearBottom := closes[i] <= minClose*1.02
+
+		score := z[i]
+		if nearTop {
+			signals = append(signals, ReversalSignalItem{Time: items[i].Time, Type: "top", Score: score})
+		}
+		if nearBottom {
+			signals = append(signals, ReversalSignalItem{Time: items[i].Time, Type: "bottom", Score: score})
+		}
+	}
+	return signals
 }
 
 // getKLinesMeta 返回数据库中已有的 symbol 和 interval 列表

@@ -5,12 +5,14 @@ import (
 	"crypto/md5"
 	"fmt"
 	"strconv"
+	"sync/atomic"
 	"time"
 
 	"github.com/aiLeonardo/cryptotips/lib"
 	"github.com/aiLeonardo/cryptotips/models"
 
 	gobinance "github.com/adshao/go-binance/v2"
+	"github.com/go-co-op/gocron"
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"
 )
@@ -28,16 +30,19 @@ var klineEarliestTime = map[string]time.Time{
 }
 
 type KlineFetcher struct {
-	db     *gorm.DB
-	logger *logrus.Logger
-	client *gobinance.Client
+	db        *gorm.DB
+	logger    *logrus.Logger
+	client    *gobinance.Client
+	scheduler *gocron.Scheduler
+	syncing   atomic.Bool
 }
 
 func NewKlineFetcher() *KlineFetcher {
 	return &KlineFetcher{
-		db:     lib.LoadDB(lib.NewLogrusAdapter()),
-		logger: lib.LoadLogger(),
-		client: gobinance.NewClient("", ""), // 公开数据无需 API Key
+		db:        lib.LoadDB(lib.NewLogrusAdapter()),
+		logger:    lib.LoadLogger(),
+		client:    gobinance.NewClient("", ""), // 公开数据无需 API Key
+		scheduler: gocron.NewScheduler(time.UTC),
 	}
 }
 
@@ -54,6 +59,42 @@ func (f *KlineFetcher) Run(symbol string, intervals []string) {
 	}
 	fmt.Println("\n======== 全部拉取完成 ========")
 	f.logger.Infof("[fetchklines] 全部拉取完成")
+}
+
+// StartPeriodic 启动定时增量同步：先执行一次，再按 intervalMinutes 周期执行
+func (f *KlineFetcher) StartPeriodic(symbol string, intervals []string, intervalMinutes int) {
+	if intervalMinutes <= 0 {
+		intervalMinutes = 40
+	}
+
+	f.runWithLock(symbol, intervals)
+
+	_, err := f.scheduler.Every(intervalMinutes).Minutes().Do(func() {
+		f.runWithLock(symbol, intervals)
+	})
+	if err != nil {
+		f.logger.Errorf("[fetchklines] 注册定时任务失败: %v", err)
+		return
+	}
+
+	f.scheduler.StartAsync()
+	f.logger.Infof("[fetchklines] 定时增量同步已启动，每 %d 分钟执行一次", intervalMinutes)
+}
+
+// Stop 停止定时任务
+func (f *KlineFetcher) Stop() {
+	f.scheduler.Stop()
+	f.logger.Info("[fetchklines] 定时增量同步已停止")
+}
+
+func (f *KlineFetcher) runWithLock(symbol string, intervals []string) {
+	if !f.syncing.CompareAndSwap(false, true) {
+		f.logger.Warn("[fetchklines] 上一轮同步尚未结束，跳过本轮")
+		return
+	}
+	defer f.syncing.Store(false)
+
+	f.Run(symbol, intervals)
 }
 
 // fetchAll 拉取单个 symbol/interval 的全量数据（支持断点续传）

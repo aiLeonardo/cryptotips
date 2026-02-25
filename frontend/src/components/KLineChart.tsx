@@ -13,10 +13,18 @@ import {
   type ISeriesApi,
   type UTCTimestamp,
 } from 'lightweight-charts'
-import type { KLineItem } from '../types/kline'
+import type { KLineItem, ReversalSignalItem } from '../types/kline'
 import styles from './KLineChart.module.css'
 
-interface Props { klines: KLineItem[]; symbol: string; interval: string; showVol: boolean }
+interface Props {
+  klines: KLineItem[]
+  symbol: string
+  interval: string
+  showVol: boolean
+  quoteVolumeLogEma?: number[]
+  quoteVolumeZ?: number[]
+  reversalSignals?: ReversalSignalItem[]
+}
 
 interface Tip {
   time: string
@@ -70,7 +78,15 @@ const CHART_BASE = {
 
 // ── component ──────────────────────────────────────────────────────────────────
 
-const KLineChart: FC<Props> = ({ klines, symbol, interval, showVol }) => {
+const KLineChart: FC<Props> = ({
+  klines,
+  symbol,
+  interval,
+  showVol,
+  quoteVolumeLogEma = [],
+  quoteVolumeZ = [],
+  reversalSignals = [],
+}) => {
   // flex-grow 比例：蜡烛图 / 成交量 / 成交额
   const [ratios, setRatios] = useState([6, 2, 2])
   const [tip,    setTip]    = useState<Tip | null>(null)
@@ -122,9 +138,22 @@ const KLineChart: FC<Props> = ({ klines, symbol, interval, showVol }) => {
     const qs = qc.addHistogramSeries({
       priceFormat: { type: 'volume', precision: 0, minMove: 1 },
     })
+    const qEma = qc.addLineSeries({
+      color: '#f0b429',
+      lineWidth: 2,
+      priceLineVisible: false,
+      lastValueVisible: false,
+    })
+    const zLine = qc.addLineSeries({
+      color: '#58a6ff',
+      lineWidth: 1,
+      lineStyle: 2,
+      priceLineVisible: false,
+      lastValueVisible: false,
+    })
 
     charts.current = [cc, vc, qc]
-    sers.current   = [cs, vs, qs]
+    sers.current   = [cs, vs, qs, qEma, zLine]
 
     // ── 时间轴同步 ────────────────────────────────────────────────────────────
     let timeLock = false
@@ -230,8 +259,8 @@ const KLineChart: FC<Props> = ({ klines, symbol, interval, showVol }) => {
   // ── 数据更新 ──────────────────────────────────────────────────────────────────
 
   useEffect(() => {
-    const [cs, vs, qs] = sers.current
-    if (!cs || !vs || !qs || klines.length === 0) return
+    const [cs, vs, qs, qEma, zLine] = sers.current
+    if (!cs || !vs || !qs || !qEma || !zLine || klines.length === 0) return
 
     const map = new Map<number, KLineItem>()
     klines.forEach(k => map.set(k.time, k))
@@ -240,8 +269,28 @@ const KLineChart: FC<Props> = ({ klines, symbol, interval, showVol }) => {
     cs.setData(klines.map(toCandle))
     vs.setData(klines.map((k, i) => toVol(k,  i, klines[i - 1])))
     qs.setData(klines.map((k, i) => toQVol(k, i, klines[i - 1])))
+
+    qEma.setData(klines.map((k, i) => ({
+      time: k.time as UTCTimestamp,
+      value: quoteVolumeLogEma[i] ?? 0,
+    })))
+    zLine.setData(klines.map((k, i) => ({
+      time: k.time as UTCTimestamp,
+      value: quoteVolumeZ[i] ?? 0,
+    })))
+
+    const markers = reversalSignals.map(s => ({
+      time: s.time as UTCTimestamp,
+      position: s.type === 'top' ? 'aboveBar' : 'belowBar',
+      color: s.type === 'top' ? '#ef5350' : '#26a69a',
+      shape: s.type === 'top' ? 'arrowDown' : 'arrowUp',
+      text: `${s.type === 'top' ? 'Top' : 'Bottom'} z=${s.score.toFixed(2)}`,
+    }))
+    // lightweight-charts v4 标记接口
+    ;(cs as any).setMarkers(markers)
+
     charts.current[0]?.timeScale().fitContent()
-  }, [klines])
+  }, [klines, quoteVolumeLogEma, quoteVolumeZ, reversalSignals])
 
   // ── 分隔条拖拽（i, j 为要调整比例的面板索引） ────────────────────────────────
 
@@ -279,6 +328,7 @@ const KLineChart: FC<Props> = ({ klines, symbol, interval, showVol }) => {
 
   const empty = klines.length === 0
   const clr   = tip?.up ? '#26a69a' : '#ef5350'
+  const latestZ = quoteVolumeZ.length > 0 ? quoteVolumeZ[quoteVolumeZ.length - 1] : 0
 
   return (
     <div className={styles.wrapper}>
@@ -307,7 +357,10 @@ const KLineChart: FC<Props> = ({ klines, symbol, interval, showVol }) => {
             </span>
           </div>
         ) : (
-          <span className={styles.count}>{klines.length.toLocaleString()} 根 K 线</span>
+          <>
+            <span className={styles.count}>{klines.length.toLocaleString()} 根 K 线</span>
+            <span className={styles.lt}>USDT放量Z分数: <b style={{ color: latestZ >= 2 ? '#ef5350' : '#58a6ff' }}>{latestZ.toFixed(2)}</b></span>
+          </>
         )}
       </div>
 
@@ -345,7 +398,7 @@ const KLineChart: FC<Props> = ({ klines, symbol, interval, showVol }) => {
 
         {/* 成交额面板 */}
         <div className={styles.pane} style={{ flex: ratios[2] }}>
-          <div className={styles.plabel}>成交额 USDT</div>
+          <div className={styles.plabel}>成交额 USDT（黄线=ln成交额EMA20，蓝线=放量Z）</div>
           <div ref={pane2Ref} className={styles.inner} />
         </div>
       </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import { fetchKLines, fetchKLinesMeta } from './api/klines'
-import type { KLineItem } from './types/kline'
+import type { KLineItem, ReversalSignalItem } from './types/kline'
 import Toolbar, { type PageKey } from './components/Toolbar'
 import Sidebar from './components/Sidebar'
 import KLineChart from './components/KLineChart'
@@ -20,6 +20,9 @@ export default function App() {
   const [limit,    setLimit]    = useState(DEFAULT_LIMIT)
 
   const [klines,  setKlines]  = useState<KLineItem[]>([])
+  const [quoteVolumeLogEma, setQuoteVolumeLogEma] = useState<number[]>([])
+  const [quoteVolumeZ, setQuoteVolumeZ] = useState<number[]>([])
+  const [reversalSignals, setReversalSignals] = useState<ReversalSignalItem[]>([])
   const [loading, setLoading] = useState(false)
   const [error,   setError]   = useState<string | null>(null)
   const [showVol, setShowVol] = useState(false)   // 默认隐藏成交量柱图
@@ -44,7 +47,12 @@ export default function App() {
     setLoading(true)
     setError(null)
     fetchKLines({ symbol, interval, limit })
-      .then(data => setKlines(data.klines))
+      .then(data => {
+        setKlines(data.klines)
+        setQuoteVolumeLogEma(data.quoteVolumeLogEma ?? [])
+        setQuoteVolumeZ(data.quoteVolumeZ ?? [])
+        setReversalSignals(data.reversalSignals ?? [])
+      })
       .catch(err => setError(String(err)))
       .finally(() => setLoading(false))
   }, [symbol, interval, limit])
@@ -94,6 +102,9 @@ export default function App() {
                 symbol={symbol}
                 interval={interval}
                 showVol={showVol}
+                quoteVolumeLogEma={quoteVolumeLogEma}
+                quoteVolumeZ={quoteVolumeZ}
+                reversalSignals={reversalSignals}
               />
             </>
           )}

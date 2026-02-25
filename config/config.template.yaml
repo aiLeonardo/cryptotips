@@ -55,5 +55,8 @@ request:
 feargreed:
   interval_hours: 8   # 贪婪恐慌指数采集间隔（小时），默认 4
 
+kline_sync:
+  interval_minutes: 40  # K线增量同步间隔（分钟）
+
 2captcha:
   apiKey: ""
