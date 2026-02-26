@@ -29,6 +29,19 @@ var klineEarliestTime = map[string]time.Time{
 	"1w": time.Date(2017, 8, 14, 0, 0, 0, 0, time.UTC), // 那周的周一
 }
 
+// 增量同步回看窗口：每次从最近 N 根 K 线前开始回补，覆盖交易所对近期K线的修正
+var klineLookbackBars = map[string]int{
+	"1h": 12,
+	"1d": 7,
+	"1w": 2,
+}
+
+var klineIntervalDuration = map[string]time.Duration{
+	"1h": time.Hour,
+	"1d": 24 * time.Hour,
+	"1w": 7 * 24 * time.Hour,
+}
+
 type KlineFetcher struct {
 	db        *gorm.DB
 	logger    *logrus.Logger
@@ -108,19 +121,38 @@ func (f *KlineFetcher) fetchAll(symbol, interval string) error {
 	}
 
 	var startTime time.Time
+	earliest, ok := klineEarliestTime[interval]
+	if !ok {
+		earliest = time.Date(2017, 8, 17, 0, 0, 0, 0, time.UTC)
+	}
+
 	if latestTime != nil {
-		// 断点续传：从最新已存 open_time 的下一毫秒开始
-		startTime = latestTime.Add(time.Millisecond)
-		msg := fmt.Sprintf("[%s %s] 断点续传，从 %s 继续", symbol, interval, latestTime.Format("2006-01-02 15:04:05"))
+		lookbackBars := klineLookbackBars[interval]
+		if lookbackBars <= 0 {
+			lookbackBars = 3
+		}
+		intervalDur := klineIntervalDuration[interval]
+		if intervalDur <= 0 {
+			intervalDur = time.Hour
+		}
+
+		// 回看窗口：避免交易所回补/修正最近K线导致“断点续传漏更新”
+		startTime = latestTime.Add(-time.Duration(lookbackBars) * intervalDur)
+		if startTime.Before(earliest) {
+			startTime = earliest
+		}
+
+		msg := fmt.Sprintf("[%s %s] 增量回补，从 %s 开始（最新 %s，回看 %d 根）",
+			symbol, interval,
+			startTime.Format("2006-01-02 15:04:05"),
+			latestTime.Format("2006-01-02 15:04:05"),
+			lookbackBars,
+		)
 		fmt.Println(msg)
 		f.logger.Info(msg)
 	} else {
 		// 全量拉取：从币安最早时间开始
-		if t, ok := klineEarliestTime[interval]; ok {
-			startTime = t
-		} else {
-			startTime = time.Date(2017, 8, 17, 0, 0, 0, 0, time.UTC)
-		}
+		startTime = earliest
 		msg := fmt.Sprintf("[%s %s] 全量拉取，从 %s 开始", symbol, interval, startTime.Format("2006-01-02 15:04:05"))
 		fmt.Println(msg)
 		f.logger.Info(msg)
