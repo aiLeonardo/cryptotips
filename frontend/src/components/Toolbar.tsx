@@ -13,11 +13,17 @@ interface Props {
   limit:            number
   loading:          boolean
   showVol:          boolean
+  showAmountPanel:  boolean
+  showEmaScorePanel:boolean
+  showScoreLine:    boolean
   onSymbolChange:   (v: string) => void
   onIntervalChange: (v: string) => void
   onLimitChange:    (v: number) => void
   onRefresh:        () => void
   onToggleVol:      () => void
+  onToggleAmountPanel: () => void
+  onToggleEmaScorePanel: () => void
+  onToggleScoreLine:() => void
 }
 
 // 常用 interval 排序权重（数据库可能只有部分）
@@ -34,7 +40,10 @@ const Toolbar: FC<Props> = ({
   symbols, intervals,
   selectedSymbol, selectedInterval, limit, loading,
   showVol,
-  onSymbolChange, onIntervalChange, onLimitChange, onRefresh, onToggleVol,
+  showAmountPanel,
+  showEmaScorePanel,
+  showScoreLine,
+  onSymbolChange, onIntervalChange, onLimitChange, onRefresh, onToggleVol, onToggleAmountPanel, onToggleEmaScorePanel, onToggleScoreLine,
 }) => {
   const sortedIntervals = [...intervals].sort(
     (a, b) => (INTERVAL_ORDER[a] ?? 99) - (INTERVAL_ORDER[b] ?? 99),
@@ -100,6 +109,30 @@ const Toolbar: FC<Props> = ({
             title={showVol ? '隐藏成交量柱图' : '显示成交量柱图'}
           >
             Vol
+          </button>
+
+          <button
+            className={`${styles.btnVol}${showAmountPanel ? ` ${styles.btnVolActive}` : ''}`}
+            onClick={onToggleAmountPanel}
+            title={showAmountPanel ? '隐藏成交额面板' : '显示成交额面板'}
+          >
+            Amt
+          </button>
+
+          <button
+            className={`${styles.btnVol}${showEmaScorePanel ? ` ${styles.btnVolActive}` : ''}`}
+            onClick={onToggleEmaScorePanel}
+            title={showEmaScorePanel ? '隐藏成交额EMA分数面板' : '显示成交额EMA分数面板'}
+          >
+            EMA分
+          </button>
+
+          <button
+            className={`${styles.btnVol}${showScoreLine ? ` ${styles.btnVolActive}` : ''}`}
+            onClick={onToggleScoreLine}
+            title={showScoreLine ? '隐藏Top/Bottom分数走势线' : '显示Top/Bottom分数走势线'}
+          >
+            Score
           </button>
 
           <button

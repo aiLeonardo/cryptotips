@@ -1,6 +1,8 @@
 import { useState, useEffect, useCallback } from 'react'
 import { fetchKLines, fetchKLinesMeta } from './api/klines'
+import { fetchFearGreedHistory } from './api/feargreed'
 import type { KLineItem, ReversalSignalItem } from './types/kline'
+import type { FearGreedItem } from './types/feargreed'
 import Toolbar, { type PageKey } from './components/Toolbar'
 import Sidebar from './components/Sidebar'
 import KLineChart from './components/KLineChart'
@@ -23,9 +25,13 @@ export default function App() {
   const [quoteVolumeLogEma, setQuoteVolumeLogEma] = useState<number[]>([])
   const [quoteVolumeZ, setQuoteVolumeZ] = useState<number[]>([])
   const [reversalSignals, setReversalSignals] = useState<ReversalSignalItem[]>([])
+  const [fearGreedHistory, setFearGreedHistory] = useState<FearGreedItem[]>([])
   const [loading, setLoading] = useState(false)
   const [error,   setError]   = useState<string | null>(null)
   const [showVol, setShowVol] = useState(false)   // 默认隐藏成交量柱图
+  const [showAmountPanel, setShowAmountPanel] = useState(false)
+  const [showEmaScorePanel, setShowEmaScorePanel] = useState(true)
+  const [showScoreLine, setShowScoreLine] = useState(true)
 
   /** 加载 meta（symbol + interval 列表） */
   useEffect(() => {
@@ -62,6 +68,17 @@ export default function App() {
     if (page === 'klines') loadKLines()
   }, [loadKLines, page])
 
+  /** 日线时加载贪婪指数历史（仅日线展示子面板） */
+  useEffect(() => {
+    if (page !== 'klines' || interval !== '1d') {
+      setFearGreedHistory([])
+      return
+    }
+    fetchFearGreedHistory(limit)
+      .then(d => setFearGreedHistory(d.history ?? []))
+      .catch(() => setFearGreedHistory([]))
+  }, [page, interval, limit])
+
   return (
     <div className={styles.layout}>
       {/* 顶部工具栏：品牌 + 页面专属控件 */}
@@ -74,11 +91,17 @@ export default function App() {
         limit={limit}
         loading={loading}
         showVol={showVol}
+        showAmountPanel={showAmountPanel}
+        showEmaScorePanel={showEmaScorePanel}
+        showScoreLine={showScoreLine}
         onSymbolChange={v => setSymbol(v)}
         onIntervalChange={v => setInterval(v)}
         onLimitChange={v => setLimit(v)}
         onRefresh={loadKLines}
         onToggleVol={() => setShowVol(v => !v)}
+        onToggleAmountPanel={() => setShowAmountPanel(v => !v)}
+        onToggleEmaScorePanel={() => setShowEmaScorePanel(v => !v)}
+        onToggleScoreLine={() => setShowScoreLine(v => !v)}
       />
 
       {/* 下方主体：左侧菜单 + 右侧内容 */}
@@ -102,9 +125,14 @@ export default function App() {
                 symbol={symbol}
                 interval={interval}
                 showVol={showVol}
+                showAmountPanel={showAmountPanel}
+                showEmaScorePanel={showEmaScorePanel}
+                showScoreLine={showScoreLine}
                 quoteVolumeLogEma={quoteVolumeLogEma}
                 quoteVolumeZ={quoteVolumeZ}
                 reversalSignals={reversalSignals}
+                showFearGreedPanel={interval === '1d'}
+                fearGreedHistory={fearGreedHistory}
               />
             </>
           )}
