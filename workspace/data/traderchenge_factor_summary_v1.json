@@ -1,0 +1,45 @@
+{
+  "project": "traderchenge-factor-engine-v1",
+  "generated_at": "2026-02-27T02:52:00Z",
+  "key_paths": {
+    "ontology_json": "data/youtube/traderchenge/analysis/traderchenge_factor_ontology_v1.json",
+    "ontology_report": "reports/traderchenge_factor_ontology_v1.md",
+    "data_pull_script": "scripts/factor_data_pull_v1.py",
+    "market_ext_dir": "data/market_ext",
+    "data_extension_report": "reports/traderchenge_data_extension_v1.md",
+    "factor_build_script": "scripts/traderchenge_factor_build_v1.py",
+    "factor_dataset": "data/youtube/traderchenge/analysis/traderchenge_factor_dataset_v1.csv",
+    "factor_definitions": "data/youtube/traderchenge/analysis/traderchenge_factor_definitions_v1.json",
+    "eval_metrics": "data/youtube/traderchenge/analysis/traderchenge_factor_eval_metrics_v1.json",
+    "eval_report": "reports/traderchenge_factor_eval_v1.md",
+    "integration_report": "reports/traderchenge_factor_integration_v1.md"
+  },
+  "stats": {
+    "transcripts_used": 70,
+    "ohlcv_rows": {
+      "5m": 21762,
+      "15m": 7254,
+      "1h": 1813,
+      "4h": 453,
+      "1d": 76,
+      "1w": 11
+    },
+    "derivatives_rows": {
+      "funding_rate": 227,
+      "open_interest_hist_1h": 500,
+      "global_long_short_account_ratio_1h": 500,
+      "top_long_short_account_ratio_1h": 500,
+      "top_long_short_position_ratio_1h": 500,
+      "basis_proxy_1h": 1813
+    },
+    "factor_dataset_rows": 70,
+    "eval_samples": {
+      "24h": 59,
+      "72h": 57
+    }
+  },
+  "notes": [
+    "No existing transcripts/meta files were deleted.",
+    "Execution uses local virtualenv: .venv/bin/python for reproducibility."
+  ]
+}

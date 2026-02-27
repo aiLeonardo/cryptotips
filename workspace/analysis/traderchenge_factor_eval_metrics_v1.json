@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-02-27T02:51:26.796012+00:00",
+  "sample_size": 70,
+  "sample_24h": 59,
+  "sample_72h": 57,
+  "metrics_24h": {
+    "SRCluster": {
+      "ic": 0.7256024497403807,
+      "n": 59,
+      "q_ret_spread": 0.044833845765193045,
+      "stability": 1.652899391784157
+    },
+    "BreakRetestScore": {
+      "ic": 0.2284162165269547,
+      "n": 59,
+      "q_ret_spread": -0.007533886611873708,
+      "stability": NaN
+    },
+    "PatternPressure": {
+      "ic": 0.1551098563218364,
+      "n": 59,
+      "q_ret_spread": 0.016250799590529767,
+      "stability": 1.8605066080243502
+    },
+    "MomentumExhaustion": {
+      "ic": 0.8647982958327786,
+      "n": 59,
+      "q_ret_spread": 0.05483550194203204,
+      "stability": 2.632125830433479
+    },
+    "VolConfirmScore": {
+      "ic": 0.4205568592790382,
+      "n": 59,
+      "q_ret_spread": 0.009207111364161118,
+      "stability": -1.9393674244220753
+    },
+    "InvalidationDistance": {
+      "ic": 0.22810868469674253,
+      "n": 56,
+      "q_ret_spread": 0.019180513047534688,
+      "stability": -0.4957527273005938
+    },
+    "NarrativeConsistency": {
+      "ic": -0.3085695213037567,
+      "n": 59,
+      "q_ret_spread": -0.020566300576661256,
+      "stability": -2.315607757128066
+    }
+  },
+  "metrics_72h": {
+    "SRCluster": {
+      "ic": -0.6331334332833582,
+      "n": 57,
+      "q_ret_spread": -0.06135758214625415,
+      "stability": 0.2030234160379506
+    },
+    "BreakRetestScore": {
+      "ic": -0.2992651465016816,
+      "n": 57,
+      "q_ret_spread": 0.016722173132289502,
+      "stability": NaN
+    },
+    "PatternPressure": {
+      "ic": -0.15765529514409418,
+      "n": 57,
+      "q_ret_spread": -0.02246806495200688,
+      "stability": -0.4201614321689547
+    },
+    "MomentumExhaustion": {
+      "ic": -0.5857571214392804,
+      "n": 57,
+      "q_ret_spread": -0.0422101111656442,
+      "stability": 0.20870876864424517
+    },
+    "VolConfirmScore": {
+      "ic": -0.7192413652193566,
+      "n": 57,
+      "q_ret_spread": -0.059734421063548655,
+      "stability": -0.20983736339223077
+    },
+    "InvalidationDistance": {
+      "ic": -0.32289825396048744,
+      "n": 54,
+      "q_ret_spread": -0.03811085133427912,
+      "stability": 1.6226383781338325
+    },
+    "NarrativeConsistency": {
+      "ic": 0.3160448995416931,
+      "n": 57,
+      "q_ret_spread": 0.02752636032483622,
+      "stability": -0.06691318317007577
+    }
+  }
+}

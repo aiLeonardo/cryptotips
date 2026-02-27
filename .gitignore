@@ -38,3 +38,17 @@ go.work.sum
 
 # env file
 .env
+# workspace heavy/sensitive assets
+workspace/youtube/**/audio/
+workspace/youtube/**/chunks/
+workspace/youtube/**/cookies*
+workspace/youtube/**/secrets/
+workspace/**/secrets/
+workspace/**/*.part
+workspace/**/*.m4a
+workspace/**/*.webm
+workspace/**/*.mp3
+workspace/**/*.wav
+workspace/data/raw/
+workspace/data/large/
+workspace/**/.env*

@@ -1,0 +1,2428 @@
+{
+  "generatedAt": "2026-02-26T13:24:44.155428+00:00",
+  "workspace": "/home/ubuntu/.openclaw/workspace",
+  "channel": "@TraderChenge",
+  "source": "https://www.youtube.com/@TraderChenge/videos",
+  "count": 70,
+  "success": 70,
+  "downloadFailed": 0,
+  "transcribeFailed": 0,
+  "items": [
+    {
+      "index": 1,
+      "videoId": "k7eHlz99ayA",
+      "title": "比特币有反弹迹象！比特币行情反弹就是高空机会！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "published": "8 hours ago",
+      "length": "18:41",
+      "views": "2,949 views",
+      "url": "https://www.youtube.com/watch?v=k7eHlz99ayA",
+      "startedAt": "2026-02-26T07:29:52.299460+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/k7eHlz99ayA.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 7,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/k7eHlz99ayA.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 8.93,
+      "finishedAt": "2026-02-26T08:56:24.142306+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/k7eHlz99ayA.json"
+    },
+    {
+      "index": 2,
+      "videoId": "uEy49ffWGoU",
+      "title": "比特币弱的可怕！比特币行情下一个目标57800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "published": "3 days ago",
+      "length": "16:07",
+      "views": "3,519 views",
+      "url": "https://www.youtube.com/watch?v=uEy49ffWGoU",
+      "startedAt": "2026-02-26T07:30:01.226043+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/uEy49ffWGoU.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 6,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/uEy49ffWGoU.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 37.73,
+      "finishedAt": "2026-02-26T08:57:39.216907+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/uEy49ffWGoU.json"
+    },
+    {
+      "index": 3,
+      "videoId": "KotA8yAtHHY",
+      "title": "比特币即将进入调整窗口期！？比特币行情下一个目标57800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "published": "6 days ago",
+      "length": "17:05",
+      "views": "3,053 views",
+      "url": "https://www.youtube.com/watch?v=KotA8yAtHHY",
+      "startedAt": "2026-02-26T07:30:38.954239+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/KotA8yAtHHY.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 6,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/KotA8yAtHHY.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 39.38,
+      "finishedAt": "2026-02-26T08:59:00.566146+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/KotA8yAtHHY.json"
+    },
+    {
+      "index": 4,
+      "videoId": "LCMsRZnxUKk",
+      "title": "比特币下跌趋势未变！比特币行情下一个目标57800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "published": "9 days ago",
+      "length": "19:45",
+      "views": "2,779 views",
+      "url": "https://www.youtube.com/watch?v=LCMsRZnxUKk",
+      "startedAt": "2026-02-26T07:31:18.333551+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/LCMsRZnxUKk.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 7,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/LCMsRZnxUKk.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 44.98,
+      "finishedAt": "2026-02-26T09:00:30.160203+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/LCMsRZnxUKk.json"
+    },
+    {
+      "index": 5,
+      "videoId": "QE6bRXt3eJk",
+      "title": "比特币高空思路！比特币行情下一个目标57800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "12 days ago",
+      "length": "22:25",
+      "views": "3,867 views",
+      "url": "https://www.youtube.com/watch?v=QE6bRXt3eJk",
+      "startedAt": "2026-02-26T07:32:03.313596+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/QE6bRXt3eJk.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 7,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/QE6bRXt3eJk.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 51.31,
+      "finishedAt": "2026-02-26T09:02:07.554746+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/QE6bRXt3eJk.json"
+    },
+    {
+      "index": 6,
+      "videoId": "-5IUAjhq8DU",
+      "title": "比特币关注高空机会！比特币行情先看二次下探！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "2 weeks ago",
+      "length": "30:25",
+      "views": "3,383 views",
+      "url": "https://www.youtube.com/watch?v=-5IUAjhq8DU",
+      "startedAt": "2026-02-26T07:32:54.619749+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/-5IUAjhq8DU.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 8,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/-5IUAjhq8DU.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 68.16,
+      "finishedAt": "2026-02-26T09:04:24.922863+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/-5IUAjhq8DU.json"
+    },
+    {
+      "index": 7,
+      "videoId": "GeqCM9uBfe4",
+      "title": "比特币遇阻下跌！比特币行情阻力位70800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "2 weeks ago",
+      "length": "24:01",
+      "views": "4,490 views",
+      "url": "https://www.youtube.com/watch?v=GeqCM9uBfe4",
+      "startedAt": "2026-02-26T07:34:02.784807+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/GeqCM9uBfe4.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 7,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/GeqCM9uBfe4.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 52.55,
+      "finishedAt": "2026-02-26T09:06:12.948822+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/GeqCM9uBfe4.json"
+    },
+    {
+      "index": 8,
+      "videoId": "UOMdIQA7Kvo",
+      "title": "比特币74500美元有效跌破！比特币行情下一个目标68000美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "published": "3 weeks ago",
+      "length": "21:11",
+      "views": "3,946 views",
+      "url": "https://www.youtube.com/watch?v=UOMdIQA7Kvo",
+      "startedAt": "2026-02-26T07:34:55.337032+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/UOMdIQA7Kvo.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 7,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/UOMdIQA7Kvo.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 46.35,
+      "finishedAt": "2026-02-26T09:07:39.748394+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/UOMdIQA7Kvo.json"
+    },
+    {
+      "index": 9,
+      "videoId": "OjyPJlxhA8g",
+      "title": "比特币放量下跌！比特币行情重点关注74500美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "3 weeks ago",
+      "length": "32:30",
+      "views": "3,951 views",
+      "url": "https://www.youtube.com/watch?v=OjyPJlxhA8g",
+      "startedAt": "2026-02-26T07:35:41.688177+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/OjyPJlxhA8g.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 9,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/OjyPJlxhA8g.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 66.57,
+      "finishedAt": "2026-02-26T09:09:53.893773+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/OjyPJlxhA8g.json"
+    },
+    {
+      "index": 10,
+      "videoId": "dh15o1nmvlg",
+      "title": "比特币暴跌完美兑现！比特币行情关注80000附近��现！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "3 weeks ago",
+      "length": "13:57",
+      "views": "3,243 views",
+      "url": "https://www.youtube.com/watch?v=dh15o1nmvlg",
+      "startedAt": "2026-02-26T07:36:48.255731+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/dh15o1nmvlg.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 1,
+        "method": "openai-whisper-1",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/dh15o1nmvlg.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 32.37,
+      "finishedAt": "2026-02-26T07:37:20.626620+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/dh15o1nmvlg.json"
+    },
+    {
+      "index": 11,
+      "videoId": "3PoviBMwg74",
+      "title": "比特币暴跌机会大！比特币行情关注高位做空机会！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "4 weeks ago",
+      "length": "21:13",
+      "views": "3,051 views",
+      "url": "https://www.youtube.com/watch?v=3PoviBMwg74",
+      "startedAt": "2026-02-26T07:37:20.626920+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/3PoviBMwg74.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 7,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/3PoviBMwg74.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 45.85,
+      "finishedAt": "2026-02-26T09:11:26.417716+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/3PoviBMwg74.json"
+    },
+    {
+      "index": 12,
+      "videoId": "AkqwKzUxaKk",
+      "title": "比特币暴跌风险非常大！比特币行情楔形结构跌破！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "1 month ago",
+      "length": "17:15",
+      "views": "2,630 views",
+      "url": "https://www.youtube.com/watch?v=AkqwKzUxaKk",
+      "startedAt": "2026-02-26T07:38:06.478664+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/AkqwKzUxaKk.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 7,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/AkqwKzUxaKk.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 43.58,
+      "finishedAt": "2026-02-26T09:12:55.114844+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/AkqwKzUxaKk.json"
+    },
+    {
+      "index": 13,
+      "videoId": "uo76K0GlTn8",
+      "title": "比特币暴跌来了！比特币行情看跌楔形结构！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "1 month ago",
+      "length": "21:08",
+      "views": "3,415 views",
+      "url": "https://www.youtube.com/watch?v=uo76K0GlTn8",
+      "startedAt": "2026-02-26T07:38:50.059605+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/uo76K0GlTn8.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 8,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/uo76K0GlTn8.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 55.27,
+      "finishedAt": "2026-02-26T09:14:35.164944+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/uo76K0GlTn8.json"
+    },
+    {
+      "index": 14,
+      "videoId": "WtEHXrj-KOQ",
+      "title": "比特币重要支撑94700美元！比特币行情谨慎看涨阶段！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "1 month ago",
+      "length": "21:49",
+      "views": "2,512 views",
+      "url": "https://www.youtube.com/watch?v=WtEHXrj-KOQ",
+      "startedAt": "2026-02-26T07:39:45.332208+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/WtEHXrj-KOQ.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 7,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/WtEHXrj-KOQ.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 48.54,
+      "finishedAt": "2026-02-26T09:16:05.812576+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/WtEHXrj-KOQ.json"
+    },
+    {
+      "index": 15,
+      "videoId": "2VemXPOWOqI",
+      "title": "比特币谨慎看涨！比特币行情98000美元上涨遇阻！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "1 month ago",
+      "length": "21:40",
+      "views": "3,251 views",
+      "url": "https://www.youtube.com/watch?v=2VemXPOWOqI",
+      "startedAt": "2026-02-26T07:40:33.877532+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/2VemXPOWOqI.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 7,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/2VemXPOWOqI.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 48.82,
+      "finishedAt": "2026-02-26T09:17:37.832065+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/2VemXPOWOqI.json"
+    },
+    {
+      "index": 16,
+      "videoId": "7icrTqgQFVo",
+      "title": "比特币正在反弹暴涨窗口期！比特币行情B浪反弹中！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "1 month ago",
+      "length": "18:05",
+      "views": "3,496 views",
+      "url": "https://www.youtube.com/watch?v=7icrTqgQFVo",
+      "startedAt": "2026-02-26T07:41:22.702105+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/7icrTqgQFVo.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 6,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/7icrTqgQFVo.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 44.64,
+      "finishedAt": "2026-02-26T09:18:58.800226+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/7icrTqgQFVo.json"
+    },
+    {
+      "index": 17,
+      "videoId": "pxZYHuHCgXQ",
+      "title": "比特币暴涨在即！比特币行情完美接多机会！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "1 month ago",
+      "length": "26:01",
+      "views": "4,061 views",
+      "url": "https://www.youtube.com/watch?v=pxZYHuHCgXQ",
+      "startedAt": "2026-02-26T07:42:07.345197+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/pxZYHuHCgXQ.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 8,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/pxZYHuHCgXQ.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 61.32,
+      "finishedAt": "2026-02-26T09:20:56.625999+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/pxZYHuHCgXQ.json"
+    },
+    {
+      "index": 18,
+      "videoId": "liFWIhk7oTQ",
+      "title": "比特币潜在双底形态！比特币行情双底颈线94600美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "1 month ago",
+      "length": "20:58",
+      "views": "3,737 views",
+      "url": "https://www.youtube.com/watch?v=liFWIhk7oTQ",
+      "startedAt": "2026-02-26T07:43:08.664925+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/liFWIhk7oTQ.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 7,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/liFWIhk7oTQ.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 48.29,
+      "finishedAt": "2026-02-26T09:22:24.055883+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/liFWIhk7oTQ.json"
+    },
+    {
+      "index": 19,
+      "videoId": "UZLp1iQ31DA",
+      "title": "比特币成功突破了！？比特币行情空头防守90300美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "1 month ago",
+      "length": "15:52",
+      "views": "3,910 views",
+      "url": "https://www.youtube.com/watch?v=UZLp1iQ31DA",
+      "startedAt": "2026-02-26T07:43:56.957737+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/UZLp1iQ31DA.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 7,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/UZLp1iQ31DA.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 41.67,
+      "finishedAt": "2026-02-26T09:23:45.655385+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/UZLp1iQ31DA.json"
+    },
+    {
+      "index": 20,
+      "videoId": "tqNn62psqlo",
+      "title": "比特币有上涨机会吗？比特币行情下跌趋势线压制中！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "published": "1 month ago",
+      "length": "14:50",
+      "views": "2,760 views",
+      "url": "https://www.youtube.com/watch?v=tqNn62psqlo",
+      "startedAt": "2026-02-26T07:44:38.624942+00:00",
+      "download": {
+        "ok": true,
+        "attempts": 1,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/tqNn62psqlo.m4a",
+        "stderr": ""
+      },
+      "transcription": {
+        "ok": true,
+        "attempts": 6,
+        "method": "openai-whisper-1-chunked",
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/tqNn62psqlo.txt",
+        "stderr": ""
+      },
+      "status": "ok",
+      "error": "",
+      "durationSec": 35.11,
+      "finishedAt": "2026-02-26T09:24:55.115872+00:00",
+      "metaPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/meta/tqNn62psqlo.json"
+    },
+    {
+      "videoId": "eeQ8Bg50diQ",
+      "title": "比特币正在二次下探中！比特币行情下一个目标57800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=eeQ8Bg50diQ",
+      "published": "1 day ago",
+      "length": "22:11",
+      "views": "3,200 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:39:26.405546+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/eeQ8Bg50diQ.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "",
+        "retriedAt": "2026-02-26T11:46:44.103157+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "skipped": true,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/eeQ8Bg50diQ.txt",
+        "reason": "already_exists"
+      },
+      "errors": [
+        "chunk 2 failed Missing OPENAI_API_KEY\n",
+        "transcription failed on retry",
+        "chunk 1 failed Missing OPENAI_API_KEY\n",
+        "chunk_000: Missing OPENAI_API_KEY",
+        "chunk_000: Missing OPENAI_API_KEY\n",
+        "chunk_001: Missing OPENAI_API_KEY",
+        "chunk_001: Missing OPENAI_API_KEY\n"
+      ],
+      "finishedAt": "2026-02-26T12:03:33.560764+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.560732+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "yTu1n_dKl_A",
+      "title": "比特币重点关注65000美元！比特币行情下一个目标57800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=yTu1n_dKl_A",
+      "published": "2 days ago",
+      "length": "16:07",
+      "views": "3,039 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:39:37.613293+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/yTu1n_dKl_A.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "",
+        "retriedAt": "2026-02-26T11:47:32.493798+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "skipped": true,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/yTu1n_dKl_A.txt",
+        "reason": "already_exists"
+      },
+      "errors": [
+        "chunk 2 failed Missing OPENAI_API_KEY\n",
+        "transcription failed on retry",
+        "chunk 1 failed Missing OPENAI_API_KEY\n",
+        "chunk_000: Missing OPENAI_API_KEY",
+        "chunk_000: Missing OPENAI_API_KEY\n",
+        "chunk_001: Missing OPENAI_API_KEY",
+        "chunk_001: Missing OPENAI_API_KEY\n"
+      ],
+      "finishedAt": "2026-02-26T12:03:33.560943+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.560921+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "KqleXdTwIwU",
+      "title": "比特币阻力区间压制中！比特币行情下一个目标57800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=KqleXdTwIwU",
+      "published": "4 days ago",
+      "length": "19:43",
+      "views": "2,466 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:39:49.048673+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/KqleXdTwIwU.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.561199+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 1,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/KqleXdTwIwU.txt",
+        "repairedAt": "2026-02-26T12:22:43.891507+00:00"
+      },
+      "errors": [
+        "transcription failed on retry",
+        "chunk_000: Missing OPENAI_API_KEY",
+        "chunk 2 failed Missing OPENAI_API_KEY\n",
+        "chunk 1 failed Missing OPENAI_API_KEY\n",
+        "chunk_001: Missing OPENAI_API_KEY",
+        "chunk_001: Missing OPENAI_API_KEY\n",
+        "Missing OPENAI_API_KEY",
+        "chunk_000: Missing OPENAI_API_KEY\n"
+      ],
+      "finishedAt": "2026-02-26T12:22:43.891526+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.561020+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "D4pPxbdgi3s",
+      "title": "比特币关键阻力区间！比特币行情下一个目标57800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=D4pPxbdgi3s",
+      "published": "5 days ago",
+      "length": "16:00",
+      "views": "2,658 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:40:04.322602+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/D4pPxbdgi3s.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.561420+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/D4pPxbdgi3s.txt",
+        "repairedAt": "2026-02-26T12:23:44.310256+00:00"
+      },
+      "errors": [
+        "transcription failed on retry",
+        "chunk_000: Missing OPENAI_API_KEY",
+        "chunk 2 failed Missing OPENAI_API_KEY\n",
+        "chunk 1 failed Missing OPENAI_API_KEY\n",
+        "chunk_001: Missing OPENAI_API_KEY",
+        "chunk_001: Missing OPENAI_API_KEY\n",
+        "Missing OPENAI_API_KEY",
+        "chunk_000: Missing OPENAI_API_KEY\n"
+      ],
+      "finishedAt": "2026-02-26T12:23:44.310276+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.561291+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "WB3bdXWZKoc",
+      "title": "比特币合约马年连胜！比特币行情调整窗口期！日内交易好时候！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=WB3bdXWZKoc",
+      "published": "7 days ago",
+      "length": "18:38",
+      "views": "2,289 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:40:15.925978+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/WB3bdXWZKoc.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.561692+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/WB3bdXWZKoc.txt",
+        "repairedAt": "2026-02-26T12:24:48.817788+00:00"
+      },
+      "errors": [
+        "transcription failed on retry",
+        "chunk_000: Missing OPENAI_API_KEY",
+        "chunk 2 failed Missing OPENAI_API_KEY\n",
+        "chunk 1 failed Missing OPENAI_API_KEY\n",
+        "chunk_001: Missing OPENAI_API_KEY",
+        "chunk_001: Missing OPENAI_API_KEY\n",
+        "Missing OPENAI_API_KEY",
+        "chunk_000: Missing OPENAI_API_KEY\n"
+      ],
+      "finishedAt": "2026-02-26T12:24:48.817808+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.561512+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "I-g3y_xkLgI",
+      "title": "比特币合约马年爆赚！比特币行情下一个目标57800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=I-g3y_xkLgI",
+      "published": "8 days ago",
+      "length": "17:37",
+      "views": "2,840 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:40:27.479642+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/I-g3y_xkLgI.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.561919+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/I-g3y_xkLgI.txt",
+        "repairedAt": "2026-02-26T12:25:50.324852+00:00"
+      },
+      "errors": [
+        "transcription failed on retry",
+        "chunk_000: Missing OPENAI_API_KEY",
+        "chunk 2 failed Missing OPENAI_API_KEY\n",
+        "chunk 1 failed Missing OPENAI_API_KEY\n",
+        "chunk_001: Missing OPENAI_API_KEY",
+        "chunk_001: Missing OPENAI_API_KEY\n",
+        "Missing OPENAI_API_KEY",
+        "chunk_000: Missing OPENAI_API_KEY\n"
+      ],
+      "finishedAt": "2026-02-26T12:25:50.324871+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.561797+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "ylPMyoD0tiw",
+      "title": "比特币看跌信号！比特币行情遇阻下跌中！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=ylPMyoD0tiw",
+      "published": "10 days ago",
+      "length": "20:20",
+      "views": "2,944 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:40:39.173009+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/ylPMyoD0tiw.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.562128+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/ylPMyoD0tiw.txt",
+        "repairedAt": "2026-02-26T12:27:00.902810+00:00"
+      },
+      "errors": [
+        "transcription failed on retry",
+        "chunk_000: Missing OPENAI_API_KEY",
+        "chunk 2 failed Missing OPENAI_API_KEY\n",
+        "chunk 1 failed Missing OPENAI_API_KEY\n",
+        "chunk_001: Missing OPENAI_API_KEY",
+        "chunk_001: Missing OPENAI_API_KEY\n",
+        "Missing OPENAI_API_KEY",
+        "chunk_000: Missing OPENAI_API_KEY\n"
+      ],
+      "finishedAt": "2026-02-26T12:27:00.902832+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.562013+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "Mg30mOQx4nw",
+      "title": "比特币再次测试阻力区70800！比特币行情空头防守位70800！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=Mg30mOQx4nw",
+      "published": "11 days ago",
+      "length": "11:38",
+      "views": "3,165 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:40:50.363971+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/Mg30mOQx4nw.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.562323+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 1,
+        "attempts": 1,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/Mg30mOQx4nw.txt",
+        "repairedAt": "2026-02-26T12:27:36.509972+00:00"
+      },
+      "errors": [
+        "transcription failed on retry",
+        "chunk_000: Missing OPENAI_API_KEY",
+        "chunk 1 failed Missing OPENAI_API_KEY\n",
+        "Missing OPENAI_API_KEY",
+        "chunk_000: Missing OPENAI_API_KEY\n"
+      ],
+      "finishedAt": "2026-02-26T12:27:36.509990+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.562214+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "p4AlRVd1lng",
+      "title": "比特币持续下跌��比特币行情下一个目标57800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=p4AlRVd1lng",
+      "published": "13 days ago",
+      "length": "21:11",
+      "views": "3,461 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:41:01.838484+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/p4AlRVd1lng.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.562507+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 1,
+        "attempts": 1,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/p4AlRVd1lng.txt",
+        "repairedAt": "2026-02-26T12:27:40.267386+00:00"
+      },
+      "errors": [
+        "transcription failed on retry",
+        "chunk_000: Missing OPENAI_API_KEY",
+        "chunk 2 failed Missing OPENAI_API_KEY\n",
+        "chunk 1 failed Missing OPENAI_API_KEY\n",
+        "chunk_001: Missing OPENAI_API_KEY",
+        "chunk_001: Missing OPENAI_API_KEY\n",
+        "Missing OPENAI_API_KEY",
+        "chunk_000: Missing OPENAI_API_KEY\n"
+      ],
+      "finishedAt": "2026-02-26T12:27:40.267406+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.562397+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "95dOSupo47s",
+      "title": "比特币先看二次下探！比特币行情下一个目标57800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=95dOSupo47s",
+      "published": "2 weeks ago",
+      "length": "19:59",
+      "views": "3,812 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:41:14.684952+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/95dOSupo47s.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.562714+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/95dOSupo47s.txt",
+        "repairedAt": "2026-02-26T12:28:45.736611+00:00"
+      },
+      "errors": [
+        "transcription failed on retry",
+        "chunk_000: Missing OPENAI_API_KEY",
+        "chunk 2 failed Missing OPENAI_API_KEY\n",
+        "chunk 1 failed Missing OPENAI_API_KEY\n",
+        "chunk_001: Missing OPENAI_API_KEY",
+        "chunk_001: Missing OPENAI_API_KEY\n",
+        "Missing OPENAI_API_KEY",
+        "chunk_000: Missing OPENAI_API_KEY\n"
+      ],
+      "finishedAt": "2026-02-26T12:28:45.736630+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.562598+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "o6n50KVMy_M",
+      "title": "比特币先看二次下探！比特币行情空头防守70800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=o6n50KVMy_M",
+      "published": "2 weeks ago",
+      "length": "25:06",
+      "views": "3,969 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:41:26.888931+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/o6n50KVMy_M.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.564257+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/o6n50KVMy_M.txt",
+        "repairedAt": "2026-02-26T12:29:34.487064+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:29:34.487085+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.564102+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "nGgkXD_ggQk",
+      "title": "比特币周k下跌有量！比特币行情阻力位70800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=nGgkXD_ggQk",
+      "published": "2 weeks ago",
+      "length": "28:15",
+      "views": "4,743 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:41:38.620181+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/nGgkXD_ggQk.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.564469+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 3,
+        "attempts": 3,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/nGgkXD_ggQk.txt",
+        "repairedAt": "2026-02-26T12:31:23.840758+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:31:23.840778+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.564352+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "3aoTSiJT3us",
+      "title": "比特币v形反转概率很小！比特币行情重点关注70800美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=3aoTSiJT3us",
+      "published": "2 weeks ago",
+      "length": "31:15",
+      "views": "4,912 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:41:49.433662+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/3aoTSiJT3us.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.564671+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 3,
+        "attempts": 3,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/3aoTSiJT3us.txt",
+        "repairedAt": "2026-02-26T12:32:55.746110+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:32:55.746131+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.564547+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "LBF2Xj5CPig",
+      "title": "比特币神级大胆预测！比特币行情接下来怎么看？比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=LBF2Xj5CPig",
+      "published": "2 weeks ago",
+      "length": "32:32",
+      "views": "9,618 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:42:00.463691+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/LBF2Xj5CPig.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.564868+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 3,
+        "attempts": 3,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/LBF2Xj5CPig.txt",
+        "repairedAt": "2026-02-26T12:34:42.069338+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:34:42.069357+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.564747+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "gD60D9KOAQg",
+      "title": "比特币74500美元低点测试！比特币行情强势下跌趋势！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=gD60D9KOAQg",
+      "published": "3 weeks ago",
+      "length": "19:55",
+      "views": "3,486 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:42:12.340077+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/gD60D9KOAQg.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.565048+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/gD60D9KOAQg.txt",
+        "repairedAt": "2026-02-26T12:35:49.907311+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:35:49.907331+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.564945+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "ip_jqtiSPy0",
+      "title": "比特币74500美元有效支撑！比特币行情会反弹吗？比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=ip_jqtiSPy0",
+      "published": "3 weeks ago",
+      "length": "25:33",
+      "views": "3,581 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:42:24.612648+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/ip_jqtiSPy0.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.565309+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/ip_jqtiSPy0.txt",
+        "repairedAt": "2026-02-26T12:37:09.528250+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:37:09.528269+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.565182+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "mN4hkz8aUbE",
+      "title": "比特币持续暴跌！比特币行情下一个目标68000美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=mN4hkz8aUbE",
+      "published": "3 weeks ago",
+      "length": "23:21",
+      "views": "5,452 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:42:39.579119+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/mN4hkz8aUbE.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.565564+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/mN4hkz8aUbE.txt",
+        "repairedAt": "2026-02-26T12:38:26.492319+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:38:26.492339+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.565412+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "shZ30NqqKUI",
+      "title": "黄金白银暴跌崩盘！比特币关注80000美元附近表现！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=shZ30NqqKUI",
+      "published": "3 weeks ago",
+      "length": "26:58",
+      "views": "3,621 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:42:50.823791+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/shZ30NqqKUI.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.565785+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/shZ30NqqKUI.txt",
+        "repairedAt": "2026-02-26T12:39:48.657743+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:39:48.657763+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.565658+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "OUZT-oEzlNw",
+      "title": "比特币强势下跌趋势中！比特币行情关注下跌趋势线压制！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=OUZT-oEzlNw",
+      "published": "4 weeks ago",
+      "length": "21:26",
+      "views": "2,343 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:43:02.516927+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/OUZT-oEzlNw.webm",
+        "profileUsed": "existing_file",
+        "stderr": "",
+        "retriedAt": "2026-02-26T12:03:33.565972+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 1,
+        "attempts": 1,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/OUZT-oEzlNw.txt",
+        "repairedAt": "2026-02-26T12:40:20.017781+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:40:20.017800+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.565862+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "RgJT6UxGwj8",
+      "title": "比特币高位做空机会！比特币行情关注下跌趋势线压制！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=RgJT6UxGwj8",
+      "published": "4 weeks ago",
+      "length": "20:59",
+      "views": "3,229 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:43:14.787104+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/RgJT6UxGwj8.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   66.23MiB/s ETA 00:00\n[download]   5.4% of   18.35MiB at   88.98MiB/s ETA 00:00\n[download]  10.9% of   18.35MiB at  118.97MiB/s ETA 00:00\n[download]  21.8% of   18.35MiB at    6.75MiB/s ETA 00:02\n[download]  40.7% of   18.35MiB at    8.94MiB/s ETA 00:01\n[download]  52.7% of   18.35MiB at    8.91MiB/s ETA 00:00\n[download]  52.7% of   18.35MiB at  Unknown B/s ETA Unknown\n[download]  52.7% of   18.35MiB at  Unknown B/s ETA Unknown\n[download]  52.8% of   18.35MiB at  Unknown B/s ETA Unknown\n[download]  52.8% of   18.35MiB at  Unknown B/s ETA Unknown\n[download]  52.9% of   18.35MiB at   27.37MiB/s ETA 00:00  \n[download]  53.1% of   18.35MiB at   29.58MiB/s ETA 00:00\n[download]  53.4% of   18.35MiB at   50.35MiB/s ETA 00:00\n[download]  54.1% of   18.35MiB at   55.16MiB/s ETA 00:00\n[download]  55.4% of   18.35MiB at    1.46MiB/s ETA 00:05\n[download]  58.2% of   18.35MiB at    2.91MiB/s ETA 00:02\n[download]  63.6% of   18.35MiB at    5.77MiB/s ETA 00:01\n[download]  74.5% of   18.35MiB at    6.46MiB/s ETA 00:00\n[download]  96.3% of   18.35MiB at    6.74MiB/s ETA 00:00\n[download] 100.0% of   18.35MiB at    6.35MiB/s ETA 00:00\n[download] 100% of   18.35MiB in 00:00:02 at 6.18MiB/s   \n",
+        "retriedAt": "2026-02-26T12:03:40.394023+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/RgJT6UxGwj8.txt",
+        "repairedAt": "2026-02-26T12:42:07.295770+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:42:07.295790+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:33.566049+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "D5y02uf3J_8",
+      "title": "比特币周线危险！比特币行情暴跌来了！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=D5y02uf3J_8",
+      "published": "1 month ago",
+      "length": "17:23",
+      "views": "2,801 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:43:26.215049+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/D5y02uf3J_8.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   18.56MiB/s ETA 00:00\n[download]   3.1% of   15.86MiB at   15.19MiB/s ETA 00:01\n[download]   6.3% of   15.86MiB at   16.00MiB/s ETA 00:00\n[download]  12.6% of   15.86MiB at   15.48MiB/s ETA 00:00\n[download]  25.2% of   15.86MiB at   27.24MiB/s ETA 00:00\n[download]  50.4% of   15.86MiB at   19.50MiB/s ETA 00:00\n[download]  62.0% of   15.86MiB at    7.15MiB/s ETA 00:00\n[download]  62.0% of   15.86MiB at  Unknown B/s ETA Unknown\n[download]  62.0% of   15.86MiB at  Unknown B/s ETA Unknown\n[download]  62.0% of   15.86MiB at  Unknown B/s ETA Unknown\n[download]  62.1% of   15.86MiB at  Unknown B/s ETA Unknown\n[download]  62.2% of   15.86MiB at   21.78MiB/s ETA 00:00  \n[download]  62.3% of   15.86MiB at   24.04MiB/s ETA 00:00\n[download]  62.7% of   15.86MiB at   32.20MiB/s ETA 00:00\n[download]  63.5% of   15.86MiB at   40.14MiB/s ETA 00:00\n[download]  65.1% of   15.86MiB at   53.34MiB/s ETA 00:00\n[download]  68.3% of   15.86MiB at   63.79MiB/s ETA 00:00\n[download]  74.6% of   15.86MiB at   85.51MiB/s ETA 00:00\n[download]  87.2% of   15.86MiB at   26.73MiB/s ETA 00:00\n[download] 100.0% of   15.86MiB at   31.06MiB/s ETA 00:00\n[download] 100% of   15.86MiB in 00:00:01 at 8.28MiB/s   \n",
+        "retriedAt": "2026-02-26T12:03:44.940153+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/D5y02uf3J_8.txt",
+        "repairedAt": "2026-02-26T12:43:34.073755+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:43:34.073776+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:40.395798+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "Kj3ZQrE_9_0",
+      "title": "比特币下周暴跌概率非常大！比特币行情周K看跌吞没形态！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=Kj3ZQrE_9_0",
+      "published": "1 month ago",
+      "length": "28:16",
+      "views": "4,463 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:43:37.938845+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/Kj3ZQrE_9_0.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   44.52MiB/s ETA 00:00\n[download]  39.9% of   25.73MiB at   47.71MiB/s ETA 00:00\n[download]  41.9% of   25.73MiB at   65.46MiB/s ETA 00:00\n[download]  45.8% of   25.73MiB at   87.15MiB/s ETA 00:00\n[download]  53.5% of   25.73MiB at   16.20MiB/s ETA 00:00\n[download]  69.1% of   25.73MiB at   14.56MiB/s ETA 00:00\n[download]  76.5% of   25.73MiB at   17.37MiB/s ETA 00:00\n[download]  76.5% of   25.73MiB at  Unknown B/s ETA Unknown\n[download]  76.5% of   25.73MiB at  Unknown B/s ETA Unknown\n[download]  76.6% of   25.73MiB at  Unknown B/s ETA Unknown\n[download]  76.6% of   25.73MiB at  Unknown B/s ETA Unknown\n[download]  76.6% of   25.73MiB at   23.62MiB/s ETA 00:00  \n[download]  76.8% of   25.73MiB at   30.28MiB/s ETA 00:00\n[download]  77.0% of   25.73MiB at   53.02MiB/s ETA 00:00\n[download]  77.5% of   25.73MiB at   57.29MiB/s ETA 00:00\n[download]  78.5% of   25.73MiB at    6.67MiB/s ETA 00:00\n[download]  80.4% of   25.73MiB at    9.35MiB/s ETA 00:00\n[download]  84.3% of   25.73MiB at   11.41MiB/s ETA 00:00\n[download]  92.1% of   25.73MiB at   17.91MiB/s ETA 00:00\n[download] 100.0% of   25.73MiB at   15.61MiB/s ETA 00:00\n[download] 100% of   25.73MiB in 00:00:01 at 15.21MiB/s  \n",
+        "retriedAt": "2026-02-26T12:03:49.064364+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 3,
+        "attempts": 3,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/Kj3ZQrE_9_0.txt",
+        "repairedAt": "2026-02-26T12:46:05.413586+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:46:05.413607+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:44.940419+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "0T1JXakc4fo",
+      "title": "比特币看跌楔形结构！比特币行情等距下跌68000美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=0T1JXakc4fo",
+      "published": "1 month ago",
+      "length": "15:27",
+      "views": "2,732 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:43:49.546605+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/0T1JXakc4fo.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   47.48MiB/s ETA 00:00\n[download]   3.6% of   13.91MiB at   60.19MiB/s ETA 00:00\n[download]   7.2% of   13.91MiB at   75.92MiB/s ETA 00:00\n[download]  14.4% of   13.91MiB at   98.27MiB/s ETA 00:00\n[download]  28.8% of   13.91MiB at   11.41MiB/s ETA 00:00\n[download]  57.5% of   13.91MiB at    5.33MiB/s ETA 00:01\n[download]  69.2% of   13.91MiB at    4.90MiB/s ETA 00:00\n[download]  69.2% of   13.91MiB at  Unknown B/s ETA Unknown\n[download]  69.3% of   13.91MiB at  Unknown B/s ETA Unknown\n[download]  69.3% of   13.91MiB at  Unknown B/s ETA Unknown\n[download]  69.3% of   13.91MiB at  Unknown B/s ETA Unknown\n[download]  69.5% of   13.91MiB at   26.52MiB/s ETA 00:00  \n[download]  69.7% of   13.91MiB at   26.25MiB/s ETA 00:00\n[download]  70.1% of   13.91MiB at   39.94MiB/s ETA 00:00\n[download]  71.0% of   13.91MiB at   40.03MiB/s ETA 00:00\n[download]  72.8% of   13.91MiB at    1.76MiB/s ETA 00:02\n[download]  76.4% of   13.91MiB at    3.47MiB/s ETA 00:00\n[download]  83.6% of   13.91MiB at    6.79MiB/s ETA 00:00\n[download]  98.0% of   13.91MiB at    7.32MiB/s ETA 00:00\n[download] 100.0% of   13.91MiB at    7.82MiB/s ETA 00:00\n[download] 100% of   13.91MiB in 00:00:03 at 4.35MiB/s   \n",
+        "retriedAt": "2026-02-26T12:03:54.662974+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/0T1JXakc4fo.txt",
+        "repairedAt": "2026-02-26T12:47:22.588320+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:47:22.588338+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:49.064637+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "mL93qwvKyGw",
+      "title": "比特币即将暴跌！比特币行情看跌楔形结构跌破了！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=mL93qwvKyGw",
+      "published": "1 month ago",
+      "length": "24:19",
+      "views": "3,403 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:44:01.682894+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/mL93qwvKyGw.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   33.89MiB/s ETA 00:00\n[download]  44.7% of   22.21MiB at   39.09MiB/s ETA 00:00\n[download]  45.8% of   22.21MiB at    1.90MiB/s ETA 00:06\n[download]  48.0% of   22.21MiB at    3.74MiB/s ETA 00:03\n[download]  52.5% of   22.21MiB at    7.30MiB/s ETA 00:01\n[download]  61.5% of   22.21MiB at   10.94MiB/s ETA 00:00\n[download]  79.5% of   22.21MiB at   17.41MiB/s ETA 00:00\n[download]  87.8% of   22.21MiB at   15.55MiB/s ETA 00:00\n[download]  87.8% of   22.21MiB at  Unknown B/s ETA Unknown\n[download]  87.8% of   22.21MiB at  Unknown B/s ETA Unknown\n[download]  87.8% of   22.21MiB at  Unknown B/s ETA Unknown\n[download]  87.8% of   22.21MiB at  Unknown B/s ETA Unknown\n[download]  87.9% of   22.21MiB at   23.49MiB/s ETA 00:00  \n[download]  88.0% of   22.21MiB at   24.87MiB/s ETA 00:00\n[download]  88.3% of   22.21MiB at   32.91MiB/s ETA 00:00\n[download]  88.9% of   22.21MiB at   45.29MiB/s ETA 00:00\n[download]  90.0% of   22.21MiB at   56.90MiB/s ETA 00:00\n[download]  92.3% of   22.21MiB at    1.41MiB/s ETA 00:01\n[download]  95.5% of   22.21MiB at    2.40MiB/s ETA 00:00\n[download] 100.0% of   22.21MiB at    2.30MiB/s ETA 00:00\n[download] 100% of   22.21MiB in 00:00:03 at 6.61MiB/s   \n",
+        "retriedAt": "2026-02-26T12:04:00.552158+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/mL93qwvKyGw.txt",
+        "repairedAt": "2026-02-26T12:49:30.877823+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:49:30.877842+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:03:54.663256+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "sy0miwbNV9Y",
+      "title": "比特币危险信号！比特币行情反弹结束了！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=sy0miwbNV9Y",
+      "published": "1 month ago",
+      "length": "15:26",
+      "views": "3,128 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:44:13.539385+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/sy0miwbNV9Y.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   52.87MiB/s ETA 00:00\n[download]   3.6% of   14.00MiB at   73.72MiB/s ETA 00:00\n[download]   7.1% of   14.00MiB at  106.22MiB/s ETA 00:00\n[download]  14.3% of   14.00MiB at  148.77MiB/s ETA 00:00\n[download]  28.6% of   14.00MiB at   56.87MiB/s ETA 00:00\n[download]  57.1% of   14.00MiB at   37.80MiB/s ETA 00:00\n[download]  69.2% of   14.00MiB at   41.64MiB/s ETA 00:00\n[download]  69.3% of   14.00MiB at  Unknown B/s ETA Unknown\n[download]  69.3% of   14.00MiB at  Unknown B/s ETA Unknown\n[download]  69.3% of   14.00MiB at  Unknown B/s ETA Unknown\n[download]  69.4% of   14.00MiB at  Unknown B/s ETA Unknown\n[download]  69.5% of   14.00MiB at   26.70MiB/s ETA 00:00  \n[download]  69.7% of   14.00MiB at   29.33MiB/s ETA 00:00\n[download]  70.1% of   14.00MiB at   42.26MiB/s ETA 00:00\n[download]  71.0% of   14.00MiB at   60.97MiB/s ETA 00:00\n[download]  72.8% of   14.00MiB at    9.44MiB/s ETA 00:00\n[download]  76.4% of   14.00MiB at   17.62MiB/s ETA 00:00\n[download]  83.5% of   14.00MiB at   32.45MiB/s ETA 00:00\n[download]  97.8% of   14.00MiB at   39.26MiB/s ETA 00:00\n[download] 100.0% of   14.00MiB at   29.50MiB/s ETA 00:00\n[download] 100% of   14.00MiB in 00:00:00 at 30.56MiB/s  \n",
+        "retriedAt": "2026-02-26T12:04:04.012507+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/sy0miwbNV9Y.txt",
+        "repairedAt": "2026-02-26T12:51:02.997481+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:51:02.997501+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:04:00.552418+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "LyE-I32bPfQ",
+      "title": "比特币注意跌破风险！比特币行情重要支撑位94700！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=LyE-I32bPfQ",
+      "published": "1 month ago",
+      "length": "14:52",
+      "views": "3,016 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:44:24.987719+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/LyE-I32bPfQ.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "3.28MiB at   33.63MiB/s ETA 00:00\n[download]   1.9% of   13.28MiB at   44.18MiB/s ETA 00:00\n[download]   3.8% of   13.28MiB at   56.51MiB/s ETA 00:00\n[download]   7.5% of   13.28MiB at   84.98MiB/s ETA 00:00\n[download]  15.1% of   13.28MiB at  129.51MiB/s ETA 00:00\n[download]  30.1% of   13.28MiB at    5.20MiB/s ETA 00:01\n[download]  50.1% of   13.28MiB at    5.59MiB/s ETA 00:01\n[download]  75.2% of   13.28MiB at    8.07MiB/s ETA 00:00\n[download]  75.3% of   13.28MiB at  Unknown B/s ETA Unknown\n[download]  75.3% of   13.28MiB at  Unknown B/s ETA Unknown\n[download]  75.3% of   13.28MiB at    2.82MiB/s ETA 00:01  \n[download]  75.4% of   13.28MiB at    4.96MiB/s ETA 00:00\n[download]  75.5% of   13.28MiB at    9.54MiB/s ETA 00:00\n[download]  75.7% of   13.28MiB at   13.36MiB/s ETA 00:00\n[download]  76.2% of   13.28MiB at   18.56MiB/s ETA 00:00\n[download]  77.1% of   13.28MiB at   24.62MiB/s ETA 00:00\n[download]  79.0% of   13.28MiB at   35.11MiB/s ETA 00:00\n[download]  82.8% of   13.28MiB at   46.97MiB/s ETA 00:00\n[download]  90.3% of   13.28MiB at   62.98MiB/s ETA 00:00\n[download] 100.0% of   13.28MiB at   79.83MiB/s ETA 00:00\n[download] 100% of   13.28MiB in 00:00:02 at 6.09MiB/s   \n",
+        "retriedAt": "2026-02-26T12:04:08.872674+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/LyE-I32bPfQ.txt",
+        "repairedAt": "2026-02-26T12:52:24.196421+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:52:24.196439+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:04:04.012796+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "4_JQ9vSDWik",
+      "title": "比特币多空交易思路！比特币行情多空分水岭94700美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=4_JQ9vSDWik",
+      "published": "1 month ago",
+      "length": "12:48",
+      "views": "2,451 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:44:36.564415+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/4_JQ9vSDWik.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   42.34MiB/s ETA 00:00\n[download]   2.1% of   11.68MiB at   52.26MiB/s ETA 00:00\n[download]   4.3% of   11.68MiB at   66.18MiB/s ETA 00:00\n[download]   8.6% of   11.68MiB at   91.88MiB/s ETA 00:00\n[download]  17.1% of   11.68MiB at  124.18MiB/s ETA 00:00\n[download]  34.2% of   11.68MiB at    2.70MiB/s ETA 00:02\n[download]  45.9% of   11.68MiB at    3.60MiB/s ETA 00:01\n[download]  69.2% of   11.68MiB at    2.95MiB/s ETA 00:01\n[download]  85.1% of   11.68MiB at    3.62MiB/s ETA 00:00\n[download]  85.1% of   11.68MiB at  Unknown B/s ETA Unknown\n[download]  85.2% of   11.68MiB at  Unknown B/s ETA Unknown\n[download]  85.2% of   11.68MiB at  Unknown B/s ETA Unknown\n[download]  85.3% of   11.68MiB at  Unknown B/s ETA Unknown\n[download]  85.4% of   11.68MiB at   28.98MiB/s ETA 00:00  \n[download]  85.7% of   11.68MiB at   30.03MiB/s ETA 00:00\n[download]  86.2% of   11.68MiB at   35.31MiB/s ETA 00:00\n[download]  87.3% of   11.68MiB at   50.45MiB/s ETA 00:00\n[download]  89.4% of   11.68MiB at   56.61MiB/s ETA 00:00\n[download]  93.7% of   11.68MiB at   71.06MiB/s ETA 00:00\n[download] 100.0% of   11.68MiB at   90.17MiB/s ETA 00:00\n[download] 100% of   11.68MiB in 00:00:04 at 2.70MiB/s   \n",
+        "retriedAt": "2026-02-26T12:04:16.858111+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 1,
+        "attempts": 1,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/4_JQ9vSDWik.txt",
+        "repairedAt": "2026-02-26T12:53:06.770699+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:53:06.770717+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:04:08.872914+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "ddhmsidjUWM",
+      "title": "比特币多头最后防守！比特币行情重要支撑94700美元！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=ddhmsidjUWM",
+      "published": "1 month ago",
+      "length": "19:02",
+      "views": "3,076 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:44:48.107822+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/ddhmsidjUWM.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   50.14MiB/s ETA 00:00\n[download]   2.9% of   17.00MiB at   64.99MiB/s ETA 00:00\n[download]   5.9% of   17.00MiB at   87.19MiB/s ETA 00:00\n[download]  11.8% of   17.00MiB at  118.20MiB/s ETA 00:00\n[download]  23.5% of   17.00MiB at   20.13MiB/s ETA 00:00\n[download]  47.0% of   17.00MiB at    6.26MiB/s ETA 00:01\n[download]  58.6% of   17.00MiB at    6.61MiB/s ETA 00:01\n[download]  58.6% of   17.00MiB at  Unknown B/s ETA Unknown\n[download]  58.7% of   17.00MiB at  Unknown B/s ETA Unknown\n[download]  58.7% of   17.00MiB at  Unknown B/s ETA Unknown\n[download]  58.7% of   17.00MiB at  Unknown B/s ETA Unknown\n[download]  58.8% of   17.00MiB at   26.68MiB/s ETA 00:00  \n[download]  59.0% of   17.00MiB at   30.01MiB/s ETA 00:00\n[download]  59.4% of   17.00MiB at   37.76MiB/s ETA 00:00\n[download]  60.1% of   17.00MiB at   47.16MiB/s ETA 00:00\n[download]  61.6% of   17.00MiB at   55.78MiB/s ETA 00:00\n[download]  64.5% of   17.00MiB at   69.46MiB/s ETA 00:00\n[download]  70.4% of   17.00MiB at   88.15MiB/s ETA 00:00\n[download]  82.2% of   17.00MiB at    9.90MiB/s ETA 00:00\n[download] 100.0% of   17.00MiB at    6.64MiB/s ETA 00:00\n[download] 100% of   17.00MiB in 00:00:03 at 4.53MiB/s   \n",
+        "retriedAt": "2026-02-26T12:04:23.473279+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/ddhmsidjUWM.txt",
+        "repairedAt": "2026-02-26T12:54:41.795552+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:54:41.795589+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:04:16.858366+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "k413RNvIuMo",
+      "title": "比特币突破颈线位！比特币行情双底形态！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=k413RNvIuMo",
+      "published": "1 month ago",
+      "length": "17:00",
+      "views": "3,813 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:44:59.509134+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/k413RNvIuMo.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at 1004.40KiB/s ETA 00:14\n[download]  20.0% of   15.81MiB at    1.09MiB/s ETA 00:11\n[download]  28.5% of   15.81MiB at    1.26MiB/s ETA 00:08\n[download]  41.1% of   15.81MiB at    1.50MiB/s ETA 00:06\n[download]  57.6% of   15.81MiB at    1.52MiB/s ETA 00:04\n[download]  61.2% of   15.81MiB at    1.54MiB/s ETA 00:03\n[download]  61.2% of   15.81MiB at  Unknown B/s ETA Unknown\n[download]  61.2% of   15.81MiB at  Unknown B/s ETA Unknown\n[download]  61.2% of   15.81MiB at  Unknown B/s ETA Unknown\n[download]  61.3% of   15.81MiB at  Unknown B/s ETA Unknown\n[download]  61.4% of   15.81MiB at  323.87KiB/s ETA 00:19  \n[download]  61.6% of   15.81MiB at  356.41KiB/s ETA 00:17\n[download]  62.0% of   15.81MiB at  593.50KiB/s ETA 00:10\n[download]  62.8% of   15.81MiB at  715.61KiB/s ETA 00:08\n[download]  64.4% of   15.81MiB at  770.34KiB/s ETA 00:07\n[download]  67.5% of   15.81MiB at    1.15MiB/s ETA 00:04\n[download]  73.8% of   15.81MiB at    1.60MiB/s ETA 00:02\n[download]  86.5% of   15.81MiB at    1.49MiB/s ETA 00:01\n[download]  95.3% of   15.81MiB at    1.43MiB/s ETA 00:00\n[download] 100.0% of   15.81MiB at    1.44MiB/s ETA 00:00\n[download] 100% of   15.81MiB in 00:00:11 at 1.34MiB/s   \n",
+        "retriedAt": "2026-02-26T12:04:37.780420+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/k413RNvIuMo.txt",
+        "repairedAt": "2026-02-26T12:56:19.739715+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:56:19.739733+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:04:23.473703+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "A-c9nAe7qHU",
+      "title": "比特币正在反弹上涨窗口期！比特币行情B浪反弹中！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=A-c9nAe7qHU",
+      "published": "1 month ago",
+      "length": "19:28",
+      "views": "2,339 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:45:13.010855+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/A-c9nAe7qHU.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at  103.51MiB/s ETA 00:00\n[download]  11.6% of   17.21MiB at  146.27MiB/s ETA 00:00\n[download]  23.2% of   17.21MiB at   84.20MiB/s ETA 00:00\n[download]  46.5% of   17.21MiB at   45.62MiB/s ETA 00:00\n[download]  55.2% of   17.21MiB at   45.56MiB/s ETA 00:00\n[download]  55.2% of   17.21MiB at  Unknown B/s ETA Unknown\n[download]  55.3% of   17.21MiB at  Unknown B/s ETA Unknown\n[download]  55.3% of   17.21MiB at  Unknown B/s ETA Unknown\n[download]  55.3% of   17.21MiB at  Unknown B/s ETA Unknown\n[download]  55.4% of   17.21MiB at  533.02KiB/s ETA 00:14  \n[download]  55.6% of   17.21MiB at  536.10KiB/s ETA 00:14\n[download]  56.0% of   17.21MiB at  783.15KiB/s ETA 00:09\n[download]  56.7% of   17.21MiB at    1.03MiB/s ETA 00:07\n[download]  58.1% of   17.21MiB at    1.36MiB/s ETA 00:05\n[download]  61.0% of   17.21MiB at    1.74MiB/s ETA 00:03\n[download]  66.9% of   17.21MiB at    1.96MiB/s ETA 00:02\n[download]  78.5% of   17.21MiB at    1.64MiB/s ETA 00:02\n[download]  86.7% of   17.21MiB at    1.56MiB/s ETA 00:01\n[download]  94.7% of   17.21MiB at    1.55MiB/s ETA 00:00\n[download] 100.0% of   17.21MiB at    1.44MiB/s ETA 00:00\n[download] 100% of   17.21MiB in 00:00:05 at 3.02MiB/s   \n",
+        "retriedAt": "2026-02-26T12:04:46.157474+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/A-c9nAe7qHU.txt",
+        "repairedAt": "2026-02-26T12:58:05.234617+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:58:05.234637+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:04:37.780702+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "Y10-V_5ifH4",
+      "title": "比特币等待暴涨！比特币行情完美接多机会！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=Y10-V_5ifH4",
+      "published": "1 month ago",
+      "length": "17:34",
+      "views": "3,375 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:45:25.084145+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/Y10-V_5ifH4.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "of   15.39MiB at    7.34MiB/s ETA 00:02\n[download]   3.2% of   15.39MiB at    9.94MiB/s ETA 00:01\n[download]   6.5% of   15.39MiB at   15.10MiB/s ETA 00:00\n[download]  13.0% of   15.39MiB at   14.71MiB/s ETA 00:00\n[download]  26.0% of   15.39MiB at   24.87MiB/s ETA 00:00\n[download]  52.0% of   15.39MiB at   14.12MiB/s ETA 00:00\n[download]  64.9% of   15.39MiB at   14.17MiB/s ETA 00:00\n[download]  64.9% of   15.39MiB at  697.66KiB/s ETA 00:07\n[download]  64.9% of   15.39MiB at    1.62MiB/s ETA 00:03\n[download]  64.9% of   15.39MiB at    3.36MiB/s ETA 00:01\n[download]  65.0% of   15.39MiB at    6.18MiB/s ETA 00:00\n[download]  65.1% of   15.39MiB at    3.45MiB/s ETA 00:01\n[download]  65.3% of   15.39MiB at    3.89MiB/s ETA 00:01\n[download]  65.7% of   15.39MiB at    5.35MiB/s ETA 00:00\n[download]  66.5% of   15.39MiB at    7.29MiB/s ETA 00:00\n[download]  68.1% of   15.39MiB at    9.63MiB/s ETA 00:00\n[download]  71.3% of   15.39MiB at   13.95MiB/s ETA 00:00\n[download]  77.8% of   15.39MiB at   16.28MiB/s ETA 00:00\n[download]  90.8% of   15.39MiB at   15.38MiB/s ETA 00:00\n[download] 100.0% of   15.39MiB at   16.44MiB/s ETA 00:00\n[download] 100% of   15.39MiB in 00:00:01 at 11.30MiB/s  \n",
+        "retriedAt": "2026-02-26T12:04:50.269944+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/Y10-V_5ifH4.txt",
+        "repairedAt": "2026-02-26T12:59:38.019437+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T12:59:38.019458+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:04:46.159613+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "uMy0_4KItMw",
+      "title": "比特币完美接多机会！比特币行情耐心等待暴涨！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=uMy0_4KItMw",
+      "published": "1 month ago",
+      "length": "17:07",
+      "views": "3,292 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:45:37.959290+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/uMy0_4KItMw.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   83.05MiB/s ETA 00:00\n[download]  14.0% of   14.24MiB at  113.16MiB/s ETA 00:00\n[download]  28.1% of   14.24MiB at    5.77MiB/s ETA 00:01\n[download]  48.9% of   14.24MiB at    3.99MiB/s ETA 00:01\n[download]  68.7% of   14.24MiB at    4.42MiB/s ETA 00:01\n[download]  69.3% of   14.24MiB at    4.47MiB/s ETA 00:00\n[download]  69.3% of   14.24MiB at  Unknown B/s ETA Unknown\n[download]  69.4% of   14.24MiB at  Unknown B/s ETA Unknown\n[download]  69.4% of   14.24MiB at  Unknown B/s ETA Unknown\n[download]  69.4% of   14.24MiB at  Unknown B/s ETA Unknown\n[download]  69.5% of   14.24MiB at   27.16MiB/s ETA 00:00  \n[download]  69.8% of   14.24MiB at   25.56MiB/s ETA 00:00\n[download]  70.2% of   14.24MiB at   44.73MiB/s ETA 00:00\n[download]  71.1% of   14.24MiB at  255.11KiB/s ETA 00:16\n[download]  72.0% of   14.24MiB at  383.09KiB/s ETA 00:10\n[download]  73.7% of   14.24MiB at  637.00KiB/s ETA 00:06\n[download]  77.2% of   14.24MiB at    1.12MiB/s ETA 00:02\n[download]  84.3% of   14.24MiB at    1.22MiB/s ETA 00:01\n[download]  93.8% of   14.24MiB at    1.98MiB/s ETA 00:00\n[download] 100.0% of   14.24MiB at    2.04MiB/s ETA 00:00\n[download] 100% of   14.24MiB in 00:00:05 at 2.69MiB/s   \n",
+        "retriedAt": "2026-02-26T12:04:58.679829+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/uMy0_4KItMw.txt",
+        "repairedAt": "2026-02-26T13:01:12.053691+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:01:12.053711+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:04:50.270198+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "n5cBlynt0BM",
+      "title": "比特币即将暴涨！比特币行情低位接多机会！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=n5cBlynt0BM",
+      "published": "1 month ago",
+      "length": "20:05",
+      "views": "4,402 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:45:49.784963+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/n5cBlynt0BM.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   54.63MiB/s ETA 00:00\n[download]   5.5% of   18.28MiB at   67.26MiB/s ETA 00:00\n[download]  10.9% of   18.28MiB at   86.75MiB/s ETA 00:00\n[download]  21.9% of   18.28MiB at   73.80MiB/s ETA 00:00\n[download]  43.8% of   18.28MiB at   58.85MiB/s ETA 00:00\n[download]  52.4% of   18.28MiB at   53.45MiB/s ETA 00:00\n[download]  52.4% of   18.28MiB at  Unknown B/s ETA Unknown\n[download]  52.4% of   18.28MiB at  Unknown B/s ETA Unknown\n[download]  52.4% of   18.28MiB at  Unknown B/s ETA Unknown\n[download]  52.5% of   18.28MiB at  Unknown B/s ETA Unknown\n[download]  52.6% of   18.28MiB at  Unknown B/s ETA 00:00  \n[download]  52.7% of   18.28MiB at   33.06MiB/s ETA 00:00\n[download]  53.1% of   18.28MiB at   47.11MiB/s ETA 00:00\n[download]  53.8% of   18.28MiB at   56.68MiB/s ETA 00:00\n[download]  55.1% of   18.28MiB at   18.91MiB/s ETA 00:00\n[download]  57.9% of   18.28MiB at   34.32MiB/s ETA 00:00\n[download]  63.3% of   18.28MiB at   58.46MiB/s ETA 00:00\n[download]  74.3% of   18.28MiB at   70.74MiB/s ETA 00:00\n[download]  96.2% of   18.28MiB at   24.47MiB/s ETA 00:00\n[download] 100.0% of   18.28MiB at   24.91MiB/s ETA 00:00\n[download] 100% of   18.28MiB in 00:00:00 at 30.82MiB/s  \n",
+        "retriedAt": "2026-02-26T12:05:01.755002+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/n5cBlynt0BM.txt",
+        "repairedAt": "2026-02-26T13:02:55.330814+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:02:55.330833+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:04:58.680100+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "Vy3yRONXw_E",
+      "title": "比特币关注低多机会！比特币行情潜在双底颈线位遇阻！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=Vy3yRONXw_E",
+      "published": "1 month ago",
+      "length": "28:19",
+      "views": "2,708 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:46:01.720058+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/Vy3yRONXw_E.webm.part",
+        "profileUsed": "bestaudio_best",
+        "stderr": " at  Unknown B/s ETA Unknown\n[download]  39.9% of   24.95MiB at   35.00MiB/s ETA 00:00  \n[download]  40.1% of   24.95MiB at  211.55KiB/s ETA 01:12\n[download]  40.5% of   24.95MiB at  388.66KiB/s ETA 00:39\n[download]  41.4% of   24.95MiB at  741.10KiB/s ETA 00:20\n[download]  43.0% of   24.95MiB at    1.40MiB/s ETA 00:10\n[download]  46.4% of   24.95MiB at    2.72MiB/s ETA 00:04\n[download]  53.1% of   24.95MiB at    4.83MiB/s ETA 00:02\n[download]  66.5% of   24.95MiB at    8.12MiB/s ETA 00:01\n[download]  78.0% of   24.95MiB at   10.26MiB/s ETA 00:00\n[download]  78.0% of   24.95MiB at  Unknown B/s ETA Unknown\n[download]  78.0% of   24.95MiB at  Unknown B/s ETA Unknown\n[download]  78.0% of   24.95MiB at  Unknown B/s ETA Unknown\n[download]  78.1% of   24.95MiB at  Unknown B/s ETA Unknown\n[download]  78.1% of   24.95MiB at  243.03KiB/s ETA 00:23  \n[download]  78.2% of   24.95MiB at  240.05KiB/s ETA 00:23\n[download]  78.5% of   24.95MiB at  398.74KiB/s ETA 00:13\n[download]  79.0% of   24.95MiB at  325.53KiB/s ETA 00:16\n[download]  80.0% of   24.95MiB at  573.35KiB/s ETA 00:08\n[download]  82.0% of   24.95MiB at  859.66KiB/s ETA 00:05\n[download]  86.0% of   24.95MiB at    1.07MiB/s ETA 00:03",
+        "retriedAt": "2026-02-26T12:05:21.792230+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/Vy3yRONXw_E.txt",
+        "repairedAt": "2026-02-26T13:04:27.109206+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:04:27.109227+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:05:01.755265+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "QTHTiBsZJfo",
+      "title": "比特币出现反弹信号！比特币行情关注低多机会！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=QTHTiBsZJfo",
+      "published": "1 month ago",
+      "length": "24:43",
+      "views": "3,040 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:46:16.238985+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/QTHTiBsZJfo.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   51.51MiB/s ETA 00:00\n[download]  46.7% of   22.46MiB at   78.83MiB/s ETA 00:00\n[download]  48.9% of   22.46MiB at  130.51MiB/s ETA 00:00\n[download]  53.4% of   22.46MiB at  212.18MiB/s ETA 00:00\n[download]  62.3% of   22.46MiB at    6.22MiB/s ETA 00:01\n[download]  76.3% of   22.46MiB at    4.06MiB/s ETA 00:01\n[download]  88.0% of   22.46MiB at    4.36MiB/s ETA 00:00\n[download]  88.0% of   22.46MiB at  Unknown B/s ETA Unknown\n[download]  88.0% of   22.46MiB at  Unknown B/s ETA Unknown\n[download]  88.1% of   22.46MiB at  Unknown B/s ETA Unknown\n[download]  88.1% of   22.46MiB at  Unknown B/s ETA Unknown\n[download]  88.2% of   22.46MiB at    8.61MiB/s ETA 00:00  \n[download]  88.3% of   22.46MiB at   15.78MiB/s ETA 00:00\n[download]  88.6% of   22.46MiB at   23.57MiB/s ETA 00:00\n[download]  89.1% of   22.46MiB at  319.02KiB/s ETA 00:07\n[download]  89.8% of   22.46MiB at  518.26KiB/s ETA 00:04\n[download]  91.2% of   22.46MiB at  912.86KiB/s ETA 00:02\n[download]  94.0% of   22.46MiB at    1.65MiB/s ETA 00:00\n[download]  99.7% of   22.46MiB at    1.68MiB/s ETA 00:00\n[download] 100.0% of   22.46MiB at    1.73MiB/s ETA 00:00\n[download] 100% of   22.46MiB in 00:00:08 at 2.59MiB/s   \n",
+        "retriedAt": "2026-02-26T12:05:32.918913+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/QTHTiBsZJfo.txt",
+        "repairedAt": "2026-02-26T13:06:41.952096+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:06:41.952113+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:05:21.793994+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "tmigFoA3foQ",
+      "title": "比特币开始反弹了！比特币行情反弹关注山寨币机会！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=tmigFoA3foQ",
+      "published": "1 month ago",
+      "length": "18:30",
+      "views": "4,243 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:46:28.578633+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/tmigFoA3foQ.webm.part",
+        "profileUsed": "bestaudio_best",
+        "stderr": " of   16.95MiB at  663.01KiB/s ETA 00:23\n[download]  15.4% of   16.95MiB at  711.14KiB/s ETA 00:20\n[download]  20.6% of   16.95MiB at  670.34KiB/s ETA 00:20\n[download]  23.9% of   16.95MiB at  648.62KiB/s ETA 00:20\n[download]  27.1% of   16.95MiB at  639.06KiB/s ETA 00:19\n[download]  30.4% of   16.95MiB at  646.25KiB/s ETA 00:18\n[download]  34.5% of   16.95MiB at  649.45KiB/s ETA 00:17\n[download]  38.3% of   16.95MiB at  669.49KiB/s ETA 00:15\n[download]  43.7% of   16.95MiB at  708.88KiB/s ETA 00:13\n[download]  50.8% of   16.95MiB at  781.44KiB/s ETA 00:10\n[download]  58.1% of   16.95MiB at  858.81KiB/s ETA 00:08\n[download]  58.1% of   16.95MiB at    5.27KiB/s ETA 23:01\n[download]  58.1% of   16.95MiB at   15.76KiB/s ETA 07:41\n[download]  58.1% of   16.95MiB at   36.74KiB/s ETA 03:17\n[download]  58.2% of   16.95MiB at   78.65KiB/s ETA 01:32\n[download]  58.3% of   16.95MiB at  162.38KiB/s ETA 00:44\n[download]  58.4% of   16.95MiB at  168.41KiB/s ETA 00:42\n[download]  58.8% of   16.95MiB at  224.31KiB/s ETA 00:31\n[download]  59.5% of   16.95MiB at  328.07KiB/s ETA 00:21\n[download]  61.0% of   16.95MiB at  433.01KiB/s ETA 00:15\n[download]  64.0% of   16.95MiB at  576.31KiB/s ETA 00:10",
+        "retriedAt": "2026-02-26T12:05:52.939433+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 1,
+        "attempts": 1,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/tmigFoA3foQ.txt",
+        "repairedAt": "2026-02-26T13:06:53.262726+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:06:53.262745+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:05:32.919180+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "wigs8MK5eZ4",
+      "title": "比特币有大行情！比特币行情收敛三角调整末尾阶段！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=wigs8MK5eZ4",
+      "published": "1 month ago",
+      "length": "16:41",
+      "views": "4,105 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:46:40.286276+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/wigs8MK5eZ4.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at    4.95MiB/s ETA 00:03\n[download]   3.1% of   16.07MiB at    6.54MiB/s ETA 00:02\n[download]   6.2% of   16.07MiB at    8.21MiB/s ETA 00:01\n[download]  12.4% of   16.07MiB at    8.81MiB/s ETA 00:01\n[download]  24.9% of   16.07MiB at    5.82MiB/s ETA 00:02\n[download]  49.8% of   16.07MiB at    7.03MiB/s ETA 00:01\n[download]  61.8% of   16.07MiB at    5.67MiB/s ETA 00:01\n[download]  61.8% of   16.07MiB at  Unknown B/s ETA Unknown\n[download]  61.8% of   16.07MiB at  Unknown B/s ETA Unknown\n[download]  61.8% of   16.07MiB at  Unknown B/s ETA Unknown\n[download]  61.8% of   16.07MiB at  Unknown B/s ETA Unknown\n[download]  61.9% of   16.07MiB at  233.19KiB/s ETA 00:26  \n[download]  62.1% of   16.07MiB at  241.34KiB/s ETA 00:25\n[download]  62.5% of   16.07MiB at  275.62KiB/s ETA 00:22\n[download]  63.3% of   16.07MiB at  324.95KiB/s ETA 00:18\n[download]  64.9% of   16.07MiB at  464.73KiB/s ETA 00:12\n[download]  68.0% of   16.07MiB at  708.04KiB/s ETA 00:07\n[download]  74.2% of   16.07MiB at    1.07MiB/s ETA 00:03\n[download]  86.6% of   16.07MiB at    1.73MiB/s ETA 00:01\n[download] 100.0% of   16.07MiB at    1.85MiB/s ETA 00:00\n[download] 100% of   16.07MiB in 00:00:05 at 2.76MiB/s   \n",
+        "retriedAt": "2026-02-26T12:06:01.522716+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/wigs8MK5eZ4.txt",
+        "repairedAt": "2026-02-26T13:08:22.995492+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:08:22.995510+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:05:52.939675+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "P4SNKGqkJA8",
+      "title": "比特币大周期危险信号！比特币行情2026年是大熊市吗？比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=P4SNKGqkJA8",
+      "published": "1 month ago",
+      "length": "11:52",
+      "views": "2,570 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:46:52.122844+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/P4SNKGqkJA8.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at  723.59KiB/s ETA 00:14\n[download]   4.7% of   10.72MiB at  924.48KiB/s ETA 00:11\n[download]   9.3% of   10.72MiB at    1.11MiB/s ETA 00:08\n[download]  18.6% of   10.72MiB at    1.29MiB/s ETA 00:06\n[download]  33.2% of   10.72MiB at    1.32MiB/s ETA 00:05\n[download]  45.9% of   10.72MiB at    1.35MiB/s ETA 00:04\n[download]  59.1% of   10.72MiB at    1.28MiB/s ETA 00:03\n[download]  69.2% of   10.72MiB at    1.28MiB/s ETA 00:02\n[download]  81.2% of   10.72MiB at    1.29MiB/s ETA 00:01\n[download]  92.0% of   10.72MiB at    1.30MiB/s ETA 00:00\n[download]  92.0% of   10.72MiB at  Unknown B/s ETA Unknown\n[download]  92.0% of   10.72MiB at  Unknown B/s ETA Unknown\n[download]  92.0% of   10.72MiB at  Unknown B/s ETA Unknown\n[download]  92.1% of   10.72MiB at  Unknown B/s ETA Unknown\n[download]  92.2% of   10.72MiB at  599.01KiB/s ETA 00:01  \n[download]  92.5% of   10.72MiB at  597.33KiB/s ETA 00:01\n[download]  93.1% of   10.72MiB at  833.35KiB/s ETA 00:00\n[download]  94.3% of   10.72MiB at  447.61KiB/s ETA 00:01\n[download]  96.6% of   10.72MiB at  758.41KiB/s ETA 00:00\n[download] 100.0% of   10.72MiB at    1.17MiB/s ETA 00:00\n[download] 100% of   10.72MiB in 00:00:09 at 1.15MiB/s   \n",
+        "retriedAt": "2026-02-26T12:06:13.486517+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 1,
+        "attempts": 1,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/P4SNKGqkJA8.txt",
+        "repairedAt": "2026-02-26T13:09:14.403497+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:09:14.403516+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:06:01.522977+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "ju6xIJ4vmlQ",
+      "title": "比特币继续暴跌概率大！比特币行情下跌趋势线压制中！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=ju6xIJ4vmlQ",
+      "published": "1 month ago",
+      "length": "18:01",
+      "views": "2,397 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:47:03.560749+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/ju6xIJ4vmlQ.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   48.59MiB/s ETA 00:00\n[download]   3.0% of   16.45MiB at   70.70MiB/s ETA 00:00\n[download]   6.1% of   16.45MiB at  103.58MiB/s ETA 00:00\n[download]  12.2% of   16.45MiB at  156.05MiB/s ETA 00:00\n[download]  24.3% of   16.45MiB at   17.42MiB/s ETA 00:00\n[download]  48.6% of   16.45MiB at    7.49MiB/s ETA 00:01\n[download]  60.0% of   16.45MiB at    9.19MiB/s ETA 00:00\n[download]  60.0% of   16.45MiB at  Unknown B/s ETA Unknown\n[download]  60.0% of   16.45MiB at  Unknown B/s ETA Unknown\n[download]  60.0% of   16.45MiB at  Unknown B/s ETA Unknown\n[download]  60.1% of   16.45MiB at  Unknown B/s ETA Unknown\n[download]  60.1% of   16.45MiB at   26.16MiB/s ETA 00:00  \n[download]  60.3% of   16.45MiB at   30.87MiB/s ETA 00:00\n[download]  60.7% of   16.45MiB at  959.53KiB/s ETA 00:06\n[download]  61.5% of   16.45MiB at    1.84MiB/s ETA 00:03\n[download]  63.0% of   16.45MiB at    3.62MiB/s ETA 00:01\n[download]  66.0% of   16.45MiB at    7.09MiB/s ETA 00:00\n[download]  72.1% of   16.45MiB at   13.82MiB/s ETA 00:00\n[download]  84.3% of   16.45MiB at   18.40MiB/s ETA 00:00\n[download] 100.0% of   16.45MiB at   18.03MiB/s ETA 00:00\n[download] 100% of   16.45MiB in 00:00:01 at 9.07MiB/s   \n",
+        "retriedAt": "2026-02-26T12:06:17.930208+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/ju6xIJ4vmlQ.txt",
+        "repairedAt": "2026-02-26T13:10:58.327205+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:10:58.327224+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:06:13.486804+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "rsP-s5FLFfs",
+      "title": "比特币最后3天收月线！比特币行情下跌趋势线压制中！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=rsP-s5FLFfs",
+      "published": "1 month ago",
+      "length": "21:27",
+      "views": "2,545 views",
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:47:14.942094+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/rsP-s5FLFfs.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "15MiB at    1.60MiB/s ETA 00:09\n[download]  28.5% of   19.15MiB at    1.54MiB/s ETA 00:08\n[download]  35.8% of   19.15MiB at    1.58MiB/s ETA 00:07\n[download]  44.9% of   19.15MiB at    1.48MiB/s ETA 00:07\n[download]  50.6% of   19.15MiB at    1.52MiB/s ETA 00:06\n[download]  50.6% of   19.15MiB at  Unknown B/s ETA Unknown\n[download]  50.7% of   19.15MiB at  Unknown B/s ETA Unknown\n[download]  50.7% of   19.15MiB at  Unknown B/s ETA Unknown\n[download]  50.7% of   19.15MiB at   14.17MiB/s ETA 00:00  \n[download]  50.8% of   19.15MiB at  660.68KiB/s ETA 00:14\n[download]  51.0% of   19.15MiB at  668.94KiB/s ETA 00:14\n[download]  51.3% of   19.15MiB at  901.49KiB/s ETA 00:10\n[download]  51.9% of   19.15MiB at    1.27MiB/s ETA 00:07\n[download]  53.2% of   19.15MiB at    1.46MiB/s ETA 00:06\n[download]  55.9% of   19.15MiB at    2.05MiB/s ETA 00:04\n[download]  61.1% of   19.15MiB at    2.64MiB/s ETA 00:02\n[download]  71.5% of   19.15MiB at    2.59MiB/s ETA 00:02\n[download]  84.7% of   19.15MiB at    2.35MiB/s ETA 00:01\n[download]  95.5% of   19.15MiB at    2.14MiB/s ETA 00:00\n[download] 100.0% of   19.15MiB at    2.10MiB/s ETA 00:00\n[download] 100% of   19.15MiB in 00:00:11 at 1.72MiB/s   \n",
+        "retriedAt": "2026-02-26T12:06:32.070612+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/rsP-s5FLFfs.txt",
+        "repairedAt": "2026-02-26T13:12:39.237336+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:12:39.237357+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:06:17.930480+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "OAl4kfOAGIY",
+      "title": "比特币下周暴跌概率很大！比特币行情下周非常重要！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=OAl4kfOAGIY",
+      "published": null,
+      "length": 692.0,
+      "views": null,
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:47:32.681478+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/OAl4kfOAGIY.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "B at   11.87MiB/s ETA 00:00  \n[download]   0.3% of   10.16MiB at   20.26MiB/s ETA 00:00\n[download]   0.6% of   10.16MiB at   24.34MiB/s ETA 00:00\n[download]   1.2% of   10.16MiB at   28.96MiB/s ETA 00:00\n[download]   2.5% of   10.16MiB at   17.81MiB/s ETA 00:00\n[download]   4.9% of   10.16MiB at   17.58MiB/s ETA 00:00\n[download]   9.8% of   10.16MiB at   15.80MiB/s ETA 00:00\n[download]  19.7% of   10.16MiB at   15.44MiB/s ETA 00:00\n[download]  39.3% of   10.16MiB at   28.28MiB/s ETA 00:00\n[download]  78.7% of   10.16MiB at   18.36MiB/s ETA 00:00\n[download]  96.2% of   10.16MiB at   17.26MiB/s ETA 00:00\n[download]  96.2% of   10.16MiB at  Unknown B/s ETA Unknown\n[download]  96.2% of   10.16MiB at  Unknown B/s ETA Unknown\n[download]  96.2% of   10.16MiB at  Unknown B/s ETA Unknown\n[download]  96.3% of   10.16MiB at  Unknown B/s ETA Unknown\n[download]  96.5% of   10.16MiB at   25.55MiB/s ETA 00:00  \n[download]  96.8% of   10.16MiB at   29.60MiB/s ETA 00:00\n[download]  97.4% of   10.16MiB at   50.40MiB/s ETA 00:00\n[download]  98.6% of   10.16MiB at   55.56MiB/s ETA 00:00\n[download] 100.0% of   10.16MiB at   72.41MiB/s ETA 00:00\n[download] 100% of   10.16MiB in 00:00:00 at 12.24MiB/s  \n",
+        "retriedAt": "2026-02-26T12:06:35.304615+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 1,
+        "attempts": 1,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/OAl4kfOAGIY.txt",
+        "repairedAt": "2026-02-26T13:13:20.056518+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:13:20.056538+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:06:32.072649+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "8UwG24L3Rtk",
+      "title": "比特币极端收敛调整中！比特币行情重点关注收敛三角！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=8UwG24L3Rtk",
+      "published": null,
+      "length": 880.0,
+      "views": null,
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:47:45.041986+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/8UwG24L3Rtk.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   17.39MiB/s ETA 00:00\n[download]   1.9% of   13.16MiB at   12.43MiB/s ETA 00:01\n[download]   3.8% of   13.16MiB at   10.74MiB/s ETA 00:01\n[download]   7.6% of   13.16MiB at   10.18MiB/s ETA 00:01\n[download]  15.2% of   13.16MiB at    9.86MiB/s ETA 00:01\n[download]  30.4% of   13.16MiB at   18.84MiB/s ETA 00:00\n[download]  60.8% of   13.16MiB at    4.83MiB/s ETA 00:01\n[download]  74.9% of   13.16MiB at    5.53MiB/s ETA 00:00\n[download]  75.0% of   13.16MiB at  Unknown B/s ETA Unknown\n[download]  75.0% of   13.16MiB at  Unknown B/s ETA Unknown\n[download]  75.0% of   13.16MiB at  Unknown B/s ETA Unknown\n[download]  75.1% of   13.16MiB at  Unknown B/s ETA Unknown\n[download]  75.2% of   13.16MiB at   27.77MiB/s ETA 00:00  \n[download]  75.4% of   13.16MiB at   32.42MiB/s ETA 00:00\n[download]  75.9% of   13.16MiB at   44.82MiB/s ETA 00:00\n[download]  76.8% of   13.16MiB at   55.67MiB/s ETA 00:00\n[download]  78.7% of   13.16MiB at   84.02MiB/s ETA 00:00\n[download]  82.5% of   13.16MiB at  127.02MiB/s ETA 00:00\n[download]  90.1% of   13.16MiB at  199.85MiB/s ETA 00:00\n[download] 100.0% of   13.16MiB at    7.65MiB/s ETA 00:00\n[download] 100% of   13.16MiB in 00:00:02 at 4.61MiB/s   \n",
+        "retriedAt": "2026-02-26T12:06:40.841962+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/8UwG24L3Rtk.txt",
+        "repairedAt": "2026-02-26T13:14:30.122767+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:14:30.122785+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:06:35.304881+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "xMD_SWVPvAA",
+      "title": "比特币重要交易信号！比特币行情下跌趋势线压制中！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=xMD_SWVPvAA",
+      "published": null,
+      "length": 1126.0,
+      "views": null,
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:48:03.332682+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/xMD_SWVPvAA.webm.part",
+        "profileUsed": "bestaudio_best",
+        "stderr": "  16.51MiB at  Unknown B/s ETA Unknown\n[download]   0.1% of   16.51MiB at   13.92MiB/s ETA 00:01  \n[download]   0.2% of   16.51MiB at  193.70KiB/s ETA 01:27\n[download]   0.4% of   16.51MiB at  204.97KiB/s ETA 01:22\n[download]   0.8% of   16.51MiB at  366.65KiB/s ETA 00:45\n[download]   1.5% of   16.51MiB at  398.78KiB/s ETA 00:41\n[download]   3.0% of   16.51MiB at  548.27KiB/s ETA 00:29\n[download]   6.1% of   16.51MiB at  731.01KiB/s ETA 00:21\n[download]  12.1% of   16.51MiB at  700.01KiB/s ETA 00:21\n[download]  16.1% of   16.51MiB at  639.41KiB/s ETA 00:22\n[download]  19.1% of   16.51MiB at  597.67KiB/s ETA 00:22\n[download]  21.7% of   16.51MiB at  611.04KiB/s ETA 00:21\n[download]  26.0% of   16.51MiB at  621.21KiB/s ETA 00:20\n[download]  30.0% of   16.51MiB at  609.52KiB/s ETA 00:19\n[download]  33.2% of   16.51MiB at  583.46KiB/s ETA 00:19\n[download]  35.7% of   16.51MiB at  560.17KiB/s ETA 00:19\n[download]  37.8% of   16.51MiB at  543.98KiB/s ETA 00:19\n[download]  40.0% of   16.51MiB at  537.74KiB/s ETA 00:18\n[download]  42.7% of   16.51MiB at  525.87KiB/s ETA 00:18\n[download]  45.0% of   16.51MiB at  518.16KiB/s ETA 00:17\n[download]  47.4% of   16.51MiB at  514.07KiB/s ETA 00:17",
+        "retriedAt": "2026-02-26T12:07:00.860042+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 1,
+        "attempts": 1,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/xMD_SWVPvAA.txt",
+        "repairedAt": "2026-02-26T13:14:37.239591+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:14:37.239611+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:06:40.842214+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "taSa1oW2R8M",
+      "title": "比特币没有止跌迹象！比特币行情仍在大周期A浪下跌中！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=taSa1oW2R8M",
+      "published": null,
+      "length": 519.0,
+      "views": null,
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:48:14.613034+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/taSa1oW2R8M.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": " JSON\n[youtube] taSa1oW2R8M: Downloading player 4e67f8a0-tv\n[youtube] [jsc:node] Solving JS challenges using node\n[youtube] taSa1oW2R8M: Downloading m3u8 information\n[info] taSa1oW2R8M: Downloading 1 format(s): 251\n[download] Destination: /home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/taSa1oW2R8M.webm\n\n[download]   0.0% of    7.84MiB at  Unknown B/s ETA Unknown\n[download]   0.0% of    7.84MiB at  Unknown B/s ETA Unknown\n[download]   0.1% of    7.84MiB at  Unknown B/s ETA Unknown\n[download]   0.2% of    7.84MiB at   10.87MiB/s ETA 00:00  \n[download]   0.4% of    7.84MiB at 1017.53KiB/s ETA 00:07\n[download]   0.8% of    7.84MiB at 1019.78KiB/s ETA 00:07\n[download]   1.6% of    7.84MiB at    1.86MiB/s ETA 00:04\n[download]   3.2% of    7.84MiB at    1.68MiB/s ETA 00:04\n[download]   6.4% of    7.84MiB at    2.20MiB/s ETA 00:03\n[download]  12.7% of    7.84MiB at    2.92MiB/s ETA 00:02\n[download]  25.5% of    7.84MiB at    3.46MiB/s ETA 00:01\n[download]  51.0% of    7.84MiB at    2.96MiB/s ETA 00:01\n[download]  84.1% of    7.84MiB at    2.05MiB/s ETA 00:00\n[download] 100.0% of    7.84MiB at    1.65MiB/s ETA 00:00\n[download] 100% of    7.84MiB in 00:00:04 at 1.62MiB/s   \n",
+        "retriedAt": "2026-02-26T12:07:08.690083+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 1,
+        "attempts": 1,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/taSa1oW2R8M.txt",
+        "repairedAt": "2026-02-26T13:15:07.993696+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:15:07.993716+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:07:00.860265+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "3bIZalLJLdE",
+      "title": "比特币暴跌概率非常大！比特币行情下跌趋势线压制中！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=3bIZalLJLdE",
+      "published": null,
+      "length": 770.0,
+      "views": null,
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:48:26.255285+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/3bIZalLJLdE.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at    1.54MiB/s ETA 00:04\n[download]  45.5% of   11.68MiB at    1.40MiB/s ETA 00:04\n[download]  54.9% of   11.68MiB at    1.14MiB/s ETA 00:04\n[download]  60.0% of   11.68MiB at    1.02MiB/s ETA 00:04\n[download]  64.1% of   11.68MiB at  963.80KiB/s ETA 00:04\n[download]  67.9% of   11.68MiB at  932.73KiB/s ETA 00:04\n[download]  73.0% of   11.68MiB at  931.53KiB/s ETA 00:03\n[download]  80.6% of   11.68MiB at  921.95KiB/s ETA 00:02\n[download]  83.4% of   11.68MiB at  931.93KiB/s ETA 00:02\n[download]  83.4% of   11.68MiB at  Unknown B/s ETA Unknown\n[download]  83.4% of   11.68MiB at  Unknown B/s ETA Unknown\n[download]  83.5% of   11.68MiB at  Unknown B/s ETA Unknown\n[download]  83.5% of   11.68MiB at  Unknown B/s ETA Unknown\n[download]  83.7% of   11.68MiB at   28.45MiB/s ETA 00:00  \n[download]  83.9% of   11.68MiB at   31.00MiB/s ETA 00:00\n[download]  84.5% of   11.68MiB at   39.23MiB/s ETA 00:00\n[download]  85.5% of   11.68MiB at   54.76MiB/s ETA 00:00\n[download]  87.7% of   11.68MiB at   15.71MiB/s ETA 00:00\n[download]  92.0% of   11.68MiB at   27.77MiB/s ETA 00:00\n[download] 100.0% of   11.68MiB at   47.77MiB/s ETA 00:00\n[download] 100% of   11.68MiB in 00:00:10 at 1.07MiB/s   \n",
+        "retriedAt": "2026-02-26T12:07:22.044319+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 1,
+        "attempts": 1,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/3bIZalLJLdE.txt",
+        "repairedAt": "2026-02-26T13:15:56.633734+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:15:56.633754+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:07:08.690339+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "A43YBAmSr68",
+      "title": "比特币下跌趋势线压制中！比特币行情重点关注下跌趋势线！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=A43YBAmSr68",
+      "published": null,
+      "length": 827.0,
+      "views": null,
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:48:38.543215+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/A43YBAmSr68.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   54.46MiB/s ETA 00:00\n[download]   4.0% of   12.54MiB at   68.55MiB/s ETA 00:00\n[download]   8.0% of   12.54MiB at  101.70MiB/s ETA 00:00\n[download]  15.9% of   12.54MiB at  144.22MiB/s ETA 00:00\n[download]  31.9% of   12.54MiB at    6.48MiB/s ETA 00:01\n[download]  58.3% of   12.54MiB at    4.03MiB/s ETA 00:01\n[download]  79.0% of   12.54MiB at    4.08MiB/s ETA 00:00\n[download]  79.0% of   12.54MiB at  Unknown B/s ETA Unknown\n[download]  79.0% of   12.54MiB at  Unknown B/s ETA Unknown\n[download]  79.0% of   12.54MiB at  Unknown B/s ETA Unknown\n[download]  79.1% of   12.54MiB at  Unknown B/s ETA Unknown\n[download]  79.2% of   12.54MiB at   25.67MiB/s ETA 00:00  \n[download]  79.5% of   12.54MiB at   27.02MiB/s ETA 00:00\n[download]  80.0% of   12.54MiB at   90.56KiB/s ETA 00:28\n[download]  80.3% of   12.54MiB at  123.11KiB/s ETA 00:20\n[download]  81.0% of   12.54MiB at  187.94KiB/s ETA 00:12\n[download]  82.4% of   12.54MiB at  317.43KiB/s ETA 00:07\n[download]  85.3% of   12.54MiB at  574.41KiB/s ETA 00:03\n[download]  91.0% of   12.54MiB at    1.06MiB/s ETA 00:01\n[download] 100.0% of   12.54MiB at    1.33MiB/s ETA 00:00\n[download] 100% of   12.54MiB in 00:00:05 at 2.26MiB/s   \n",
+        "retriedAt": "2026-02-26T12:07:30.039227+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/A43YBAmSr68.txt",
+        "repairedAt": "2026-02-26T13:17:10.883807+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:17:10.883826+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:07:22.044609+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "Q53xsBwHusY",
+      "title": "比特币是不是要突破了？比特币行情有向上突破迹象！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump @TraderChenge",
+      "url": "https://www.youtube.com/watch?v=Q53xsBwHusY",
+      "published": null,
+      "length": 1119.0,
+      "views": null,
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:48:50.882590+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/Q53xsBwHusY.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   10.81MiB/s ETA 00:01\n[download]  11.5% of   17.33MiB at   11.55MiB/s ETA 00:01\n[download]  23.1% of   17.33MiB at    3.68MiB/s ETA 00:03\n[download]  35.7% of   17.33MiB at    2.54MiB/s ETA 00:04\n[download]  45.1% of   17.33MiB at    2.91MiB/s ETA 00:03\n[download]  54.9% of   17.33MiB at    2.91MiB/s ETA 00:02\n[download]  54.9% of   17.33MiB at  Unknown B/s ETA Unknown\n[download]  54.9% of   17.33MiB at  Unknown B/s ETA Unknown\n[download]  55.0% of   17.33MiB at  Unknown B/s ETA Unknown\n[download]  55.0% of   17.33MiB at  Unknown B/s ETA Unknown\n[download]  55.1% of   17.33MiB at   26.39MiB/s ETA 00:00  \n[download]  55.3% of   17.33MiB at   28.36MiB/s ETA 00:00\n[download]  55.6% of   17.33MiB at   39.18MiB/s ETA 00:00\n[download]  56.4% of   17.33MiB at   55.77MiB/s ETA 00:00\n[download]  57.8% of   17.33MiB at  728.81KiB/s ETA 00:10\n[download]  59.9% of   17.33MiB at    1.22MiB/s ETA 00:05\n[download]  64.0% of   17.33MiB at    2.23MiB/s ETA 00:02\n[download]  72.3% of   17.33MiB at    2.69MiB/s ETA 00:01\n[download]  88.9% of   17.33MiB at    3.53MiB/s ETA 00:00\n[download] 100.0% of   17.33MiB at    3.63MiB/s ETA 00:00\n[download] 100% of   17.33MiB in 00:00:07 at 2.29MiB/s   \n",
+        "retriedAt": "2026-02-26T12:07:42.593758+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/Q53xsBwHusY.txt",
+        "repairedAt": "2026-02-26T13:18:50.259361+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:18:50.259382+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:07:30.039470+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "DbgckoDMzxo",
+      "title": "比特币没有止跌信号！比特币行情重点关注下跌趋势线！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=DbgckoDMzxo",
+      "published": null,
+      "length": 1227.0,
+      "views": null,
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:49:02.473973+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/DbgckoDMzxo.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "28MiB at    2.43MiB/s ETA 00:07\n[download]  10.9% of   18.28MiB at    2.95MiB/s ETA 00:05\n[download]  21.9% of   18.28MiB at    2.81MiB/s ETA 00:05\n[download]  36.5% of   18.28MiB at    2.43MiB/s ETA 00:04\n[download]  47.6% of   18.28MiB at    2.42MiB/s ETA 00:03\n[download]  52.0% of   18.28MiB at    2.41MiB/s ETA 00:03\n[download]  52.0% of   18.28MiB at  Unknown B/s ETA Unknown\n[download]  52.0% of   18.28MiB at  Unknown B/s ETA Unknown\n[download]  52.1% of   18.28MiB at  Unknown B/s ETA Unknown\n[download]  52.1% of   18.28MiB at   14.63MiB/s ETA 00:00  \n[download]  52.2% of   18.28MiB at   24.45MiB/s ETA 00:00\n[download]  52.4% of   18.28MiB at   30.46MiB/s ETA 00:00\n[download]  52.7% of   18.28MiB at   50.19MiB/s ETA 00:00\n[download]  53.4% of   18.28MiB at   56.02MiB/s ETA 00:00\n[download]  54.8% of   18.28MiB at   11.55MiB/s ETA 00:00\n[download]  57.5% of   18.28MiB at   21.65MiB/s ETA 00:00\n[download]  63.0% of   18.28MiB at   38.87MiB/s ETA 00:00\n[download]  73.9% of   18.28MiB at   24.32MiB/s ETA 00:00\n[download]  95.8% of   18.28MiB at   30.08MiB/s ETA 00:00\n[download] 100.0% of   18.28MiB at   21.09MiB/s ETA 00:00\n[download] 100% of   18.28MiB in 00:00:04 at 4.05MiB/s   \n",
+        "retriedAt": "2026-02-26T12:07:50.048882+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/DbgckoDMzxo.txt",
+        "repairedAt": "2026-02-26T13:20:49.351530+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:20:49.351549+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:07:42.594016+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "nqy9lvUwagw",
+      "title": "比特币能上涨吗？比特币行情重点关注下跌趋势线！比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump @TraderChenge",
+      "url": "https://www.youtube.com/watch?v=nqy9lvUwagw",
+      "published": null,
+      "length": 1143.0,
+      "views": null,
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:49:13.899399+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/nqy9lvUwagw.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   81.04MiB/s ETA 00:00\n[download]   5.9% of   16.92MiB at  116.20MiB/s ETA 00:00\n[download]  11.8% of   16.92MiB at  175.35MiB/s ETA 00:00\n[download]  23.6% of   16.92MiB at  101.50MiB/s ETA 00:00\n[download]  47.3% of   16.92MiB at   30.18MiB/s ETA 00:00\n[download]  58.3% of   16.92MiB at   29.61MiB/s ETA 00:00\n[download]  58.3% of   16.92MiB at  Unknown B/s ETA Unknown\n[download]  58.3% of   16.92MiB at  Unknown B/s ETA Unknown\n[download]  58.3% of   16.92MiB at  Unknown B/s ETA Unknown\n[download]  58.4% of   16.92MiB at  Unknown B/s ETA Unknown\n[download]  58.5% of   16.92MiB at   28.08MiB/s ETA 00:00  \n[download]  58.6% of   16.92MiB at   25.24MiB/s ETA 00:00\n[download]  59.0% of   16.92MiB at   29.96MiB/s ETA 00:00\n[download]  59.7% of   16.92MiB at  407.61KiB/s ETA 00:17\n[download]  60.9% of   16.92MiB at  733.00KiB/s ETA 00:09\n[download]  63.3% of   16.92MiB at    1.35MiB/s ETA 00:04\n[download]  68.1% of   16.92MiB at    2.59MiB/s ETA 00:02\n[download]  77.6% of   16.92MiB at    3.93MiB/s ETA 00:00\n[download]  96.6% of   16.92MiB at    5.00MiB/s ETA 00:00\n[download] 100.0% of   16.92MiB at    5.43MiB/s ETA 00:00\n[download] 100% of   16.92MiB in 00:00:02 at 6.67MiB/s   \n",
+        "retriedAt": "2026-02-26T12:07:55.477704+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/nqy9lvUwagw.txt",
+        "repairedAt": "2026-02-26T13:22:40.868294+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:22:40.868314+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:07:50.049152+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    },
+    {
+      "videoId": "xPOugWrInzk",
+      "title": "比特币快跌爆炸了！比特币行情有机会上涨吗？比特币行情技术分析！#crypto #btc #eth #dogecoin #xrp #sol #trx #trump #TraderChenge",
+      "url": "https://www.youtube.com/watch?v=xPOugWrInzk",
+      "published": null,
+      "length": 1253.0,
+      "views": null,
+      "channel": "@TraderChenge",
+      "startedAt": "2026-02-26T09:49:25.979237+00:00",
+      "status": "ok",
+      "download": {
+        "ok": true,
+        "audioPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/audio/xPOugWrInzk.webm",
+        "profileUsed": "bestaudio_best",
+        "stderr": "MiB at   63.30MiB/s ETA 00:00\n[download]   5.3% of   18.88MiB at   91.90MiB/s ETA 00:00\n[download]  10.6% of   18.88MiB at  124.48MiB/s ETA 00:00\n[download]  21.2% of   18.88MiB at   50.19MiB/s ETA 00:00\n[download]  42.4% of   18.88MiB at   46.74MiB/s ETA 00:00\n[download]  51.3% of   18.88MiB at   46.27MiB/s ETA 00:00\n[download]  51.3% of   18.88MiB at  Unknown B/s ETA Unknown\n[download]  51.3% of   18.88MiB at  Unknown B/s ETA Unknown\n[download]  51.3% of   18.88MiB at  Unknown B/s ETA Unknown\n[download]  51.4% of   18.88MiB at  Unknown B/s ETA Unknown\n[download]  51.5% of   18.88MiB at   28.50MiB/s ETA 00:00  \n[download]  51.6% of   18.88MiB at   32.46MiB/s ETA 00:00\n[download]  52.0% of   18.88MiB at   50.73MiB/s ETA 00:00\n[download]  52.6% of   18.88MiB at   58.10MiB/s ETA 00:00\n[download]  53.9% of   18.88MiB at    8.71MiB/s ETA 00:00\n[download]  56.6% of   18.88MiB at   16.67MiB/s ETA 00:00\n[download]  61.9% of   18.88MiB at   31.91MiB/s ETA 00:00\n[download]  72.5% of   18.88MiB at   22.05MiB/s ETA 00:00\n[download]  93.7% of   18.88MiB at   23.33MiB/s ETA 00:00\n[download] 100.0% of   18.88MiB at   23.44MiB/s ETA 00:00\n[download] 100% of   18.88MiB in 00:00:00 at 24.30MiB/s  \n",
+        "retriedAt": "2026-02-26T12:07:58.735617+00:00"
+      },
+      "transcription": {
+        "ok": true,
+        "method": "openai-whisper-1-chunked",
+        "chunkCount": 2,
+        "attempts": 2,
+        "transcriptPath": "/home/ubuntu/.openclaw/workspace/data/youtube/traderchenge/transcripts/xPOugWrInzk.txt",
+        "repairedAt": "2026-02-26T13:24:44.155406+00:00"
+      },
+      "errors": [
+        "audio download failed",
+        "Missing OPENAI_API_KEY",
+        "transcription failed on retry"
+      ],
+      "finishedAt": "2026-02-26T13:24:44.155425+00:00",
+      "retry": {
+        "lastRetryAt": "2026-02-26T12:07:55.477966+00:00",
+        "run": "expand_50_recovery_fast"
+      }
+    }
+  ],
+  "expansion": {
+    "targetNew": 50,
+    "discoveredOnChannel": 300,
+    "eligibleNewFound": 280,
+    "selectedForThisRun": 50,
+    "runDownloaded": 0,
+    "runTranscribed": 0,
+    "runFailed": 50
+  },
+  "recoveryRetry": {
+    "updatedAt": "2026-02-26T12:07:58.735903+00:00",
+    "sourceFailedIds": 50,
+    "processedSoFar": 50,
+    "batchesDone": 5
+  }
+}
