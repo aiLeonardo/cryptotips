@@ -4,7 +4,26 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 项目概述
 
-这是一个基于Go语言的加密货币自动交易系统（CryptoTips v1.4.0），支持市场状态驱动的交易策略（BULL/BEAR/NEUTRAL），集成MySQL和Redis，提供REST API服务。
+这是一个基于 Go 的加密项目（CryptoTips v1.4.0），当前核心定位是：
+- 比特币价格测量
+- 比特币价格预测
+- 实时给出买卖点提示
+
+系统以数据采集与指标分析为基础，前端提供可视化，后端提供 API。
+
+## 关键事实（必须优先遵循）
+
+1. **前端核心页面只有两个：**
+   - K线页（K线 + 成交量 + 成交额）
+   - 贪婪指数页（当前指数 + 历史数据）
+
+2. **生产运维核心 systemd 服务：**
+   - `goapi.service`
+   - `fetchklines.service`
+   - `feargreed.service`
+
+3. **当用户说“重启 goapi 服务”等运维指令时：**
+   - 直接执行对应 systemctl 命令（如 `sudo systemctl restart goapi.service`）
 
 ## 常用命令
 
@@ -18,13 +37,13 @@ go mod tidy
 # 前台运行（开发调试）
 ./cryptotips goapi --daemon=false
 
-# 后台运行（默认daemon模式）
+# 后台运行（默认 daemon 模式）
 ./cryptotips goapi
 
 # 启动依赖服务（MySQL + Redis）
-docker-compose -f demands/docker-compose.yml up -d
+docker-compose -f dockers/docker-compose.yml up -d
 
-# 运行单个测试
+# 运行测试
 go test ./indicator/... -run TestSMA -v
 go test ./... -v
 ```
@@ -32,147 +51,122 @@ go test ./... -v
 ## 配置
 
 **加载顺序：**
-1. `.env` 文件（需从 `env.template` 复制，设置 `APP_ENV=dev` 或 `APP_ENV=pro`）
+1. `.env`（从 `env.template` 复制，设置 `APP_ENV=dev` 或 `APP_ENV=pro`）
 2. `./config/config.{dev|pro}.yaml`（从 `config.template.yaml` 复制）
 
 `config/config.*.yaml` 和 `.env` 已被 `.gitignore` 排除，不提交到版本库。
 
+### 端口差异（重要）
+
+- 模板配置（常用于开发）里 `apiservice.port` 常见为 `1024`
+- 当前生产配置 `config/config.pro.yaml` 中 `apiservice.port` 为 `90`
+
+联调/排障时请先确认当前 `APP_ENV` 和实际端口。
+
 ## 架构
 
-### 分层结构
+### 主启动链路
 
-```
-main.go → lib.LoadConfig() → cmd.Execute()
-                                    ↓
-                             cmd/goapi.go（CLI入口）
-                                    ↓
-                          app/goapi.go（Gin REST API）
-```
-
-- **`cmd/`** - Cobra CLI命令定义，处理daemon启动/信号
-- **`app/`** - Gin框架的HTTP服务实现，路由在 `app/goapi.go`
-- **`lib/`** - 通用工具库：配置加载、DB/Redis初始化、日志、HTTP客户端、daemon管理等
-- **`models/`** - GORM数据模型，4个核心表：`crypto_kline`、`indicators`、`strategy_log`、`trades`
-- **`indicator/`** - 纯函数技术指标计算（SMA/EMA/MACD/RSI/ATR/Bollinger/Sharpe180）
-
-### 关键设计
-
-**MySQL表：**
-- `crypto_kline`：K线数据，唯一索引 `(symbol, interval, open_time)`，使用MD5去重+BatchUpsert
-- `indicators`：技术指标，包含MA200/EMA/RSI/MACD/ATR/布林带/Sharpe180
-- `strategy_log`：策略决策日志（BULL/BEAR/NEUTRAL状态判断）
-- `trades`：交易记录，含止损/止盈/P&L
-
-**Redis key结构：**
-```
-market_state:{symbol}         # 市场状态
-order_lock:{symbol}:{side}    # 下单防重复锁
-drawdown_pause                # 回撤暂停标记
-consecutive_loss:{symbol}     # 连续亏损计数
+```text
+main.go -> lib.LoadConfig() -> cmd.Execute()
+                                  ↓
+                           cmd/goapi.go（CLI入口）
+                                  ↓
+                        app/goapi.go（Gin REST API）
 ```
 
-**indicator包约定：** 每个指标提供两个版本，如 `SMA()` 返回完整数组，`SMALast()` 仅返回最新值。
+- `cmd/`：Cobra CLI 命令，处理 daemon 启停与信号
+- `app/`：HTTP 服务实现与业务逻辑（Gin）
+- `lib/`：配置、DB/Redis、日志、daemon、HTTP 工具等
+- `models/`：GORM 模型
+- `indicator/`：技术指标计算（SMA/EMA/MACD/RSI/ATR/Bollinger/Sharpe180 等）
+- `frontend/`：React + TS + lightweight-charts
 
-### 日志输出
+### 数据主链路（快速理解系统）
 
-- 文件：`./logs/goapi.log`（JSON格式）
-- PID：`./logs/app.goapi.pid`
-- 错误：`./logs/app.goapi.error`
+```text
+Binance/外部数据源
+   -> fetchklines / feargreed 采集
+   -> MySQL(crypto_kline, fear_greed_index, indicators...)
+   -> goapi 提供 /api/*
+   -> frontend 展示（K线页 / 贪婪指数页）
+```
 
-## 技术栈
+## 关键设计
 
-### 后端（Go）
+### MySQL 关键表
+- `crypto_kline`：K线数据，唯一索引 `(symbol, interval, open_time)`
+- `indicators`：技术指标结果
+- `strategy_log`：策略决策日志
+- `trades`：交易记录（含止损/止盈/P&L）
+- `fear_greed_index`：贪婪恐慌指数历史数据
 
-| 用途 | 库 |
-|------|----|
-| CLI框架 | `spf13/cobra` |
-| HTTP框架 | `gin-gonic/gin` |
-| ORM | `gorm.io/gorm` + MySQL驱动 |
-| Redis | `redis/go-redis/v9` |
-| 日志 | `sirupsen/logrus` |
-| 配置 | `spf13/viper` + `joho/godotenv` |
-| Daemon | `sevlyar/go-daemon` |
-| TLS客户端 | `bogdanfinn/tls-client` |
-| 系统监控 | `shirou/gopsutil/v3` |
-| 定时任务 | `go-co-op/gocron v1.37.0` |
+### Redis 常见 key
+```text
+market_state:{symbol}
+order_lock:{symbol}:{side}
+drawdown_pause
+consecutive_loss:{symbol}
+```
 
-### 前端（TypeScript/React）
+### 指标包约定
+每个指标通常提供两类函数：
+- 返回完整序列（如 `SMA()`）
+- 返回最新值（如 `SMALast()`）
 
-| 用途 | 库/工具 |
-|------|---------|
-| UI框架 | `react` 18.3 + `react-dom` |
-| 构建工具 | `vite` 5.4 + `@vitejs/plugin-react` |
-| 类型系统 | `typescript` 5.5 |
-| 图表库 | `lightweight-charts` 4.2（TradingView风格） |
-| 样式方案 | CSS Modules（组件级隔离） |
+## 日志输出
+
+- `./logs/goapi.log`
+- `./logs/fetchklines.log`
+- `./logs/feargreed.log`
+
+常见 PID / error 文件位于 `./logs/`。
 
 ## Frontend
 
-### 目录结构
+### 技术栈
+- React 18 + TypeScript 5.5
+- Vite 5.4
+- lightweight-charts 4.2
+- CSS Modules
 
-```
-frontend/
-├── src/
-│   ├── api/            # HTTP 请求封装
-│   │   ├── klines.ts       # K线数据接口（/api/klines, /api/klines/meta）
-│   │   └── feargreed.ts    # 恐慌贪婪指数接口（/api/feargreed/history）
-│   ├── components/     # React 组件
-│   │   ├── Toolbar.tsx         # 顶部工具栏：品牌 + 页面专属控件（Symbol/Interval等）
-│   │   ├── Sidebar.tsx         # 左侧纵向菜单：页面导航（新增页面在此扩展）
-│   │   ├── KLineChart.tsx      # K线图表：蜡烛图+成交量+成交额三层图
-│   │   └── FearGreedPage.tsx   # 恐慌指数页：仪表盘+历史折线图
-│   ├── types/          # TypeScript 类型定义
-│   │   ├── kline.ts        # KLineItem, KLinesData, ApiResponse<T>
-│   │   └── feargreed.ts    # FearGreedItem, FearGreedHistoryData
-│   ├── App.tsx         # 主应用：页面切换、数据加载、状态管理
-│   └── main.tsx        # React 入口
-├── index.html
-├── vite.config.ts      # 开发代理：/api → http://localhost:1024
-└── package.json
-```
+### 页面与目录重点
+- `frontend/src/components/KLineChart.tsx`：K线 + 成交量 + 成交额
+- `frontend/src/components/FearGreedPage.tsx`：贪婪指数仪表盘 + 历史图
+- `frontend/src/api/klines.ts`：`/api/klines` 等接口
+- `frontend/src/api/feargreed.ts`：`/api/feargreed/history`
 
-### 常用命令
+### 开发代理
+- Vite 开发时将 `/api/*` 代理到后端（见 `frontend/vite.config.ts`）
+- 生产建议通过 Nginx 反代 `/api` 到后端服务端口
+
+## systemd 运维速查（生产）
 
 ```bash
-cd frontend
+# 查看状态
+sudo systemctl status goapi.service
+sudo systemctl status fetchklines.service
+sudo systemctl status feargreed.service
 
-# 安装依赖
-npm install
+# 重启服务
+sudo systemctl restart goapi.service
+sudo systemctl restart fetchklines.service
+sudo systemctl restart feargreed.service
 
-# 开发服务器（端口 5173，自动代理 /api 到后端）
-npm run dev
-
-# 类型检查 + 生产构建（输出到 dist/）
-npm run build
-
-# 预览构建产物
-npm run preview
+# 查看日志
+sudo journalctl -u goapi.service -n 200 --no-pager
+sudo journalctl -u fetchklines.service -n 200 --no-pager
+sudo journalctl -u feargreed.service -n 200 --no-pager
 ```
 
-### 页面布局结构
+## 定时采集口径说明
 
-```
-┌──────────────────────────────────────┐
-│  📈 Crypto Viewer  │ 页面专属控件区   │  ← Toolbar（顶部全宽，品牌 + 控件）
-├───────────┬──────────────────────────┤
-│ Sidebar   │                          │
-│ 📈 K 线图 │    内容区域（Main）       │  ← Sidebar（左，152px）+ Main（右，flex:1）
-│ 😨 贪婪指数│                          │
-└───────────┴──────────────────────────┘
-```
+- `fetchklines` 的增量周期由 `kline_sync.interval_minutes` 控制（或命令行参数覆盖）。
+- `feargreed` 的采集周期以配置 `feargreed.interval_hours` 为准。
+- 若代码注释/文档与配置不一致，**以当前生效配置为准**。
 
-- `Toolbar`：仅包含品牌 + 当前页面的专属控件（如 K线图页显示 Symbol/Interval/刷新）
-- `Sidebar`：左侧纵向导航菜单，新增页面只需在 `NAV_ITEMS` 数组追加一项
+## 安全与协作注意
 
-### 页面功能
-
-- **K线图页面**：三层堆叠图表（蜡烛图 OHLC / 成交量 / 成交额 USDT），支持 Symbol 和 Interval 选择
-- **恐慌贪婪指数页面**：指针仪表盘（5级分类：Extreme Fear→Extreme Greed）+ 历史折线图
-
-### 开发代理配置
-
-开发环境下 Vite 将 `/api/*` 请求代理到 `http://localhost:1024`，生产环境通过 `VITE_API_BASE_URL` 环境变量配置后端地址（可选，默认使用相对路径由 Nginx 等反向代理处理）。
-
-### 生产环境配置
-生产环境使用nginx来作为前端代理,nginx 配置文件路径: /etc/nginx/sites-available/default
-所有/api前缀的request都反向代理至90端口,也就是执行 cryptotips goapi 后监听的端口,是后端服务的端口
+- 配置文件中可能包含敏感信息（API Key、TG Token、2captcha Key），禁止外传。
+- 变更生产配置前先备份，改后必须做可用性验证（服务状态 + API + 页面）。
+- 优先最小权限原则，避免不必要的高权限运行。
