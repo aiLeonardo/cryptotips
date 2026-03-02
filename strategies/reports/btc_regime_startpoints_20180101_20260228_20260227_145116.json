@@ -1,0 +1,64 @@
+{
+  "window": [
+    "2018-01-01",
+    "2026-02-28"
+  ],
+  "symbol": "BTCUSDT",
+  "method": {
+    "A": "Trend structure (1d EMA200/slope20/ret180/dd365 + 5d confirm)",
+    "B": "Change-point/HMM-like scoring (1w EMA52/slope8/ret26/dd52/vol8 + 2w persistence)",
+    "fusion": "Cross-confirmation with conflict-to-range and 7d persistence",
+    "params": {
+      "A": {
+        "slope_bull": 0.004,
+        "slope_bear": -0.004,
+        "ret180": 0.18,
+        "dd_bear": 0.35
+      },
+      "B": {
+        "slope8_bull": 0.02,
+        "slope8_bear": -0.02,
+        "ret26": 0.15,
+        "dd52_bear": 0.3,
+        "vol_range": 0.035
+      }
+    }
+  },
+  "segments": [
+    {
+      "start": "2018-01-01",
+      "end": "2026-02-27",
+      "state": "RANGE",
+      "confidence": 0.638,
+      "evidence": {
+        "close": 13380.0,
+        "ema200": 13380.0,
+        "slope20": 0.0,
+        "ret180": 0.0,
+        "dd365": 0.0,
+        "w_close": 16150.03,
+        "w_ema52": 16150.03,
+        "w_slope8": 0.0,
+        "w_ret26": 0.0,
+        "w_dd52": 0.0,
+        "w_vol8": 0.0,
+        "methodA": "RANGE",
+        "methodB": "RANGE",
+        "scoreA": -0.2,
+        "scoreB": 0.0
+      }
+    }
+  ],
+  "startpoints": [
+    {
+      "date": "2018-01-01",
+      "state": "RANGE",
+      "confidence": 0.638,
+      "basis": {
+        "methodA": "RANGE score=-0.20, close=13380, ema200=13380, slope20=0.000%, ret180=0.0%, dd365=0.0%",
+        "methodB": "RANGE score=0.00, w_close=16150, ema52=16150, slope8=0.00%, ret26=0.0%, dd52=0.0%, vol8=0.000"
+      }
+    }
+  ],
+  "uncertain_segments": []
+}

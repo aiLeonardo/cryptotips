@@ -31,14 +31,21 @@ type ReversalSignalItem struct {
 	Score float64 `json:"score"`
 }
 
+type RegimeStartpointItem struct {
+	Time       int64   `json:"time"`
+	State      string  `json:"state"` // BULL / BEAR / RANGE
+	Confidence float64 `json:"confidence"`
+}
+
 type KLinesResp struct {
-	Symbol          string               `json:"symbol"`
-	Interval        string               `json:"interval"`
-	KLines          []KLineItem          `json:"klines"`
-	QuoteVolumeLog  []float64            `json:"quoteVolumeLog,omitempty"`
-	QuoteVolumeEma  []float64            `json:"quoteVolumeLogEma,omitempty"`
-	QuoteVolumeZ    []float64            `json:"quoteVolumeZ,omitempty"`
-	ReversalSignals []ReversalSignalItem `json:"reversalSignals,omitempty"`
+	Symbol            string                 `json:"symbol"`
+	Interval          string                 `json:"interval"`
+	KLines            []KLineItem            `json:"klines"`
+	QuoteVolumeLog    []float64              `json:"quoteVolumeLog,omitempty"`
+	QuoteVolumeEma    []float64              `json:"quoteVolumeLogEma,omitempty"`
+	QuoteVolumeZ      []float64              `json:"quoteVolumeZ,omitempty"`
+	ReversalSignals   []ReversalSignalItem   `json:"reversalSignals,omitempty"`
+	RegimeStartpoints []RegimeStartpointItem `json:"regimeStartpoints,omitempty"`
 }
 
 // KLinesMeta 可用的 symbol/interval 组合（用于前端下拉框）
@@ -122,14 +129,40 @@ func (a *goapi) getKLines(c *gin.Context) {
 	logQ, emaLogQ, z := indicator.QuoteVolumeZScore(quoteVolumes, 20)
 	signals := detectReversalSignals(items, closes, z, 60, 2.0)
 
+	regimeMarkers := make([]RegimeStartpointItem, 0)
+	if len(records) > 0 {
+		rangeStart := records[0].OpenTime
+		rangeEnd := records[len(records)-1].OpenTime
+		realtimeMarkers, rerr := a.getRealtimeRegimeStartpoints(symbol, rangeStart, rangeEnd)
+		if rerr != nil {
+			a.logger.Warnf("实时计算 regime 起点失败，回退 DB 结果: %v", rerr)
+			rm := &models.RegimeStartpointRecord{}
+			regimes, derr := rm.ListBySymbolAndRange(a.db, symbol, rangeStart, rangeEnd)
+			if derr != nil {
+				a.logger.Warnf("回退查询 regime 起点失败: %v", derr)
+			} else {
+				for _, r := range regimes {
+					regimeMarkers = append(regimeMarkers, RegimeStartpointItem{
+						Time:       r.StartTime.Unix(),
+						State:      r.State,
+						Confidence: r.Confidence,
+					})
+				}
+			}
+		} else {
+			regimeMarkers = realtimeMarkers
+		}
+	}
+
 	lib.JsonResponse(c, KLinesResp{
-		Symbol:          symbol,
-		Interval:        interval,
-		KLines:          items,
-		QuoteVolumeLog:  logQ,
-		QuoteVolumeEma:  emaLogQ,
-		QuoteVolumeZ:    z,
-		ReversalSignals: signals,
+		Symbol:            symbol,
+		Interval:          interval,
+		KLines:            items,
+		QuoteVolumeLog:    logQ,
+		QuoteVolumeEma:    emaLogQ,
+		QuoteVolumeZ:      z,
+		ReversalSignals:   signals,
+		RegimeStartpoints: regimeMarkers,
 	})
 }
 

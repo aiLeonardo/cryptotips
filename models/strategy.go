@@ -11,8 +11,9 @@ import (
 type StrategyLogRecord struct {
 	ID          uint      `gorm:"primaryKey;autoIncrement"`
 	Md5         string    `gorm:"type:varchar(65);not null;"`
-	Symbol      string    `gorm:"type:varchar(20);not null"`
-	Date        time.Time `gorm:"not null"`
+	StrategyID  string    `gorm:"type:varchar(100);not null;default:'';index:idx_strategy_symbol_date,priority:1"`
+	Symbol      string    `gorm:"type:varchar(20);not null;index:idx_strategy_symbol_date,priority:2"`
+	Date        time.Time `gorm:"not null;index:idx_strategy_symbol_date,priority:3"`
 	MarketState string    `gorm:"type:varchar(10)"` // BULL / BEAR / NEUTRAL
 	Decision    string    `gorm:"type:varchar(50)"`
 	Reason      string    `gorm:"type:text"`

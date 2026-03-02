@@ -1,0 +1,525 @@
+{
+  "window": [
+    "2018-01-01",
+    "2026-02-28"
+  ],
+  "symbol": "BTCUSDT",
+  "method": {
+    "A": "Trend structure (1d EMA200/slope20/ret180/dd365 + 5d confirm)",
+    "B": "Change-point/HMM-like scoring (1w EMA52/slope8/ret26/dd52/vol8 + 2w persistence)",
+    "fusion": "Cross-confirmation with conflict-to-range and 7d persistence",
+    "params": {
+      "A": {
+        "slope_bull": 0.004,
+        "slope_bear": -0.004,
+        "ret180": 0.18,
+        "dd_bear": 0.35
+      },
+      "B": {
+        "slope8_bull": 0.02,
+        "slope8_bear": -0.02,
+        "ret26": 0.15,
+        "dd52_bear": 0.3,
+        "vol_range": 0.035
+      }
+    }
+  },
+  "segments": [
+    {
+      "start": "2018-01-01",
+      "end": "2018-01-26",
+      "state": "RANGE",
+      "confidence": 0.8,
+      "days": 26,
+      "evidence": {
+        "close": 13380.0,
+        "ema200": 13380.0,
+        "slope20": 0.0,
+        "ret180": 0.0,
+        "dd365": 0.0,
+        "w_close": 16150.03,
+        "w_ema52": 16150.03,
+        "w_slope8": 0.0,
+        "w_ret26": 0.0,
+        "w_dd52": 0.0,
+        "w_vol8": 0.0,
+        "methodA": "RANGE",
+        "methodB": "RANGE",
+        "scoreA": -0.2,
+        "scoreB": 0.0,
+        "combined": 0.0
+      }
+    },
+    {
+      "start": "2018-01-27",
+      "end": "2019-05-05",
+      "state": "BEAR",
+      "confidence": 0.691,
+      "days": 464,
+      "evidence": {
+        "close": 11491.0,
+        "ema200": 13303.631579412748,
+        "slope20": -0.01615099727197089,
+        "ret180": 0.0,
+        "dd365": 0.3268224155071621,
+        "w_close": 11879.95,
+        "w_ema52": 15727.66288016282,
+        "w_slope8": 0.0,
+        "w_ret26": 0.0,
+        "w_dd52": 0.26440074724319396,
+        "w_vol8": 0.0,
+        "methodA": "BEAR",
+        "methodB": "RANGE",
+        "scoreA": -0.55,
+        "scoreB": 0.0,
+        "combined": -0.45100000000000007
+      }
+    },
+    {
+      "start": "2019-05-06",
+      "end": "2019-11-17",
+      "state": "BULL",
+      "confidence": 0.756,
+      "days": 196,
+      "evidence": {
+        "close": 5747.79,
+        "ema200": 4867.5898496087675,
+        "slope20": 0.025793440452497096,
+        "ret180": -0.12627119417006416,
+        "dd365": 0.3862477309129738,
+        "w_close": 6967.31,
+        "w_ema52": 6083.888484618504,
+        "w_slope8": -0.045195146249609186,
+        "w_ret26": 0.0802349216488547,
+        "w_dd52": 0.18291001034363857,
+        "w_vol8": 0.08516755073635685,
+        "methodA": "BULL",
+        "methodB": "BULL",
+        "scoreA": 0.6499999999999999,
+        "scoreB": 0.35,
+        "combined": 0.806
+      }
+    },
+    {
+      "start": "2019-11-18",
+      "end": "2020-01-25",
+      "state": "BEAR",
+      "confidence": 0.77,
+      "days": 69,
+      "evidence": {
+        "close": 8187.17,
+        "ema200": 8692.170949063007,
+        "slope20": 0.005543934640262149,
+        "ret180": 0.07324442906338513,
+        "dd365": 0.3747292611770456,
+        "w_close": 6903.28,
+        "w_ema52": 8213.934203422396,
+        "w_slope8": 0.00955863838898674,
+        "w_ret26": -0.19863763475935148,
+        "w_dd52": 0.40231186747671205,
+        "w_vol8": 0.09413263587363233,
+        "methodA": "BEAR",
+        "methodB": "BEAR",
+        "scoreA": -0.4,
+        "scoreB": -0.7,
+        "combined": -0.8140000000000001
+      }
+    },
+    {
+      "start": "2020-01-26",
+      "end": "2020-03-10",
+      "state": "BULL",
+      "confidence": 0.651,
+      "days": 45,
+      "evidence": {
+        "close": 8615.0,
+        "ema200": 8212.660615238272,
+        "slope20": 0.007090538021055082,
+        "ret180": -0.10018685614792233,
+        "dd365": 0.3420550184056576,
+        "w_close": 8615.0,
+        "w_ema52": 8092.181747882876,
+        "w_slope8": -0.0110834118066091,
+        "w_ret26": -0.09710591791262213,
+        "w_dd52": 0.2541106167375326,
+        "w_vol8": 0.04789208960248774,
+        "methodA": "BULL",
+        "methodB": "RANGE",
+        "scoreA": 0.6499999999999999,
+        "scoreB": 0.0,
+        "combined": 0.473
+      }
+    },
+    {
+      "start": "2020-03-11",
+      "end": "2020-05-01",
+      "state": "BEAR",
+      "confidence": 0.712,
+      "days": 52,
+      "evidence": {
+        "close": 7934.52,
+        "ema200": 8596.590518188013,
+        "slope20": 0.005685507773295351,
+        "ret180": -0.23279114605794193,
+        "dd365": 0.39402465288915356,
+        "w_close": 5361.3,
+        "w_ema52": 8224.66285756421,
+        "w_slope8": 0.01895315520885199,
+        "w_ret26": -0.4795869932178284,
+        "w_dd52": 0.53581697614799,
+        "w_vol8": 0.14798321236905176,
+        "methodA": "BEAR",
+        "methodB": "BEAR",
+        "scoreA": -0.6,
+        "scoreB": -0.7,
+        "combined": -0.858
+      }
+    },
+    {
+      "start": "2020-05-02",
+      "end": "2021-06-01",
+      "state": "BULL",
+      "confidence": 0.985,
+      "days": 396,
+      "evidence": {
+        "close": 8972.05,
+        "ema200": 7913.696466797808,
+        "slope20": -0.009664929068845085,
+        "ret180": -0.04485087854705738,
+        "dd365": 0.31478638745054915,
+        "w_close": 8894.16,
+        "w_ema52": 7955.558505594496,
+        "w_slope8": -0.045747307878790666,
+        "w_ret26": -0.032687273443099296,
+        "w_dd52": 0.2299408569892389,
+        "w_vol8": 0.16479264344468753,
+        "methodA": "BULL",
+        "methodB": "BULL",
+        "scoreA": 0.35,
+        "scoreB": 0.35,
+        "combined": 0.74
+      }
+    },
+    {
+      "start": "2021-06-02",
+      "end": "2021-08-12",
+      "state": "RANGE",
+      "confidence": 0.431,
+      "days": 72,
+      "evidence": {
+        "close": 37568.68,
+        "ema200": 41457.82814815752,
+        "slope20": -0.01173988741612808,
+        "ret180": 1.0143502701265166,
+        "dd365": 0.4090651985843492,
+        "w_close": 35796.31,
+        "w_ema52": 32888.293315775125,
+        "w_slope8": 0.1658836169374973,
+        "w_ret26": 0.8490402595121747,
+        "w_dd52": 0.40341899486404137,
+        "w_vol8": 0.13605786392744773,
+        "methodA": "BEAR",
+        "methodB": "BULL",
+        "scoreA": -0.7000000000000001,
+        "scoreB": 0.8,
+        "combined": -0.07
+      }
+    },
+    {
+      "start": "2021-08-13",
+      "end": "2022-01-02",
+      "state": "BULL",
+      "confidence": 0.69,
+      "days": 143,
+      "evidence": {
+        "close": 47800.0,
+        "ema200": 39132.351383444795,
+        "slope20": 0.01578008079750881,
+        "ret180": -0.01601122652965481,
+        "dd365": 0.24813212740857254,
+        "w_close": 46973.82,
+        "w_ema52": 34512.52223247911,
+        "w_slope8": 0.03911745886901863,
+        "w_ret26": -0.033018587300904456,
+        "w_dd52": 0.2171347060444052,
+        "w_vol8": 0.06832294783305717,
+        "methodA": "BULL",
+        "methodB": "BULL",
+        "scoreA": 0.6499999999999999,
+        "scoreB": 0.6,
+        "combined": 0.851
+      }
+    },
+    {
+      "start": "2022-01-03",
+      "end": "2023-01-31",
+      "state": "BEAR",
+      "confidence": 0.784,
+      "days": 394,
+      "evidence": {
+        "close": 46446.1,
+        "ema200": 49645.32759429088,
+        "slope20": -0.006696838437398878,
+        "ret180": 0.3716241038659125,
+        "dd365": 0.31217283815689495,
+        "w_close": 41864.62,
+        "w_ema52": 44457.24454290252,
+        "w_slope8": 0.04567873441953263,
+        "w_ret26": 0.22200391780376494,
+        "w_dd52": 0.3610318212551759,
+        "w_vol8": 0.07223526313656296,
+        "methodA": "BEAR",
+        "methodB": "BEAR",
+        "scoreA": -0.55,
+        "scoreB": -0.5,
+        "combined": -0.8110000000000002
+      }
+    },
+    {
+      "start": "2023-02-01",
+      "end": "2023-03-14",
+      "state": "RANGE",
+      "confidence": 0.569,
+      "days": 42,
+      "evidence": {
+        "close": 23732.66,
+        "ema200": 21238.736799462826,
+        "slope20": 0.011328502229047688,
+        "ret180": 0.018026442557229183,
+        "dd365": 0.4996782952600201,
+        "w_close": 22932.91,
+        "w_ema52": 25197.245191999715,
+        "w_slope8": -0.06996248143360251,
+        "w_ret26": -0.010420123248120028,
+        "w_dd52": 0.5102710443548869,
+        "w_vol8": 0.07078110663283614,
+        "methodA": "BULL",
+        "methodB": "BEAR",
+        "scoreA": 0.6499999999999999,
+        "scoreB": -0.75,
+        "combined": 0.06799999999999995
+      }
+    },
+    {
+      "start": "2023-03-15",
+      "end": "2025-11-09",
+      "state": "BULL",
+      "confidence": 0.799,
+      "days": 971,
+      "evidence": {
+        "close": 24285.66,
+        "ema200": 21827.241771108653,
+        "slope20": 0.008350058357148082,
+        "ret180": 0.2263440941661239,
+        "dd365": 0.4880201877102887,
+        "w_close": 27972.87,
+        "w_ema52": 24897.653589791225,
+        "w_slope8": -0.01771157924424971,
+        "w_ret26": 0.44069894284045574,
+        "w_dd52": 0.40264343201553954,
+        "w_vol8": 0.09586610829650466,
+        "methodA": "BULL",
+        "methodB": "BULL",
+        "scoreA": 0.8499999999999999,
+        "scoreB": 0.55,
+        "combined": 0.8860000000000001
+      }
+    },
+    {
+      "start": "2025-11-10",
+      "end": "2026-02-28",
+      "state": "BEAR",
+      "confidence": 0.842,
+      "days": 110,
+      "evidence": {
+        "close": 106011.13,
+        "ema200": 108026.5026682312,
+        "slope20": -0.00039239477930763655,
+        "ret180": 0.02418474275663418,
+        "dd365": 0.14958790629185925,
+        "w_close": 94261.44,
+        "w_ema52": 100088.69838865177,
+        "w_slope8": 0.036468248049619456,
+        "w_ret26": -0.11453576399854726,
+        "w_dd52": 0.23664013088190525,
+        "w_vol8": 0.06257243202866059,
+        "methodA": "RANGE",
+        "methodB": "BEAR",
+        "scoreA": -0.2,
+        "scoreB": -0.3,
+        "combined": -0.324
+      }
+    }
+  ],
+  "startpoints": [
+    {
+      "date": "2018-01-01",
+      "state": "RANGE",
+      "confidence": 0.8,
+      "basis": {
+        "methodA": "RANGE score=-0.20, close=13380, ema200=13380, slope20=0.000%, ret180=0.0%, dd365=0.0%",
+        "methodB": "RANGE score=0.00, w_close=16150, ema52=16150, slope8=0.00%, ret26=0.0%, dd52=0.0%, vol8=0.000"
+      }
+    },
+    {
+      "date": "2018-01-27",
+      "state": "BEAR",
+      "confidence": 0.691,
+      "basis": {
+        "methodA": "BEAR score=-0.55, close=11491, ema200=13304, slope20=-1.615%, ret180=0.0%, dd365=32.7%",
+        "methodB": "RANGE score=0.00, w_close=11880, ema52=15728, slope8=0.00%, ret26=0.0%, dd52=26.4%, vol8=0.000"
+      }
+    },
+    {
+      "date": "2019-05-06",
+      "state": "BULL",
+      "confidence": 0.756,
+      "basis": {
+        "methodA": "BULL score=0.65, close=5748, ema200=4868, slope20=2.579%, ret180=-12.6%, dd365=38.6%",
+        "methodB": "BULL score=0.35, w_close=6967, ema52=6084, slope8=-4.52%, ret26=8.0%, dd52=18.3%, vol8=0.085"
+      }
+    },
+    {
+      "date": "2019-11-18",
+      "state": "BEAR",
+      "confidence": 0.77,
+      "basis": {
+        "methodA": "BEAR score=-0.40, close=8187, ema200=8692, slope20=0.554%, ret180=7.3%, dd365=37.5%",
+        "methodB": "BEAR score=-0.70, w_close=6903, ema52=8214, slope8=0.96%, ret26=-19.9%, dd52=40.2%, vol8=0.094"
+      }
+    },
+    {
+      "date": "2020-01-26",
+      "state": "BULL",
+      "confidence": 0.651,
+      "basis": {
+        "methodA": "BULL score=0.65, close=8615, ema200=8213, slope20=0.709%, ret180=-10.0%, dd365=34.2%",
+        "methodB": "RANGE score=0.00, w_close=8615, ema52=8092, slope8=-1.11%, ret26=-9.7%, dd52=25.4%, vol8=0.048"
+      }
+    },
+    {
+      "date": "2020-03-11",
+      "state": "BEAR",
+      "confidence": 0.712,
+      "basis": {
+        "methodA": "BEAR score=-0.60, close=7935, ema200=8597, slope20=0.569%, ret180=-23.3%, dd365=39.4%",
+        "methodB": "BEAR score=-0.70, w_close=5361, ema52=8225, slope8=1.90%, ret26=-48.0%, dd52=53.6%, vol8=0.148"
+      }
+    },
+    {
+      "date": "2020-05-02",
+      "state": "BULL",
+      "confidence": 0.985,
+      "basis": {
+        "methodA": "BULL score=0.35, close=8972, ema200=7914, slope20=-0.966%, ret180=-4.5%, dd365=31.5%",
+        "methodB": "BULL score=0.35, w_close=8894, ema52=7956, slope8=-4.57%, ret26=-3.3%, dd52=23.0%, vol8=0.165"
+      }
+    },
+    {
+      "date": "2021-06-02",
+      "state": "RANGE",
+      "confidence": 0.431,
+      "basis": {
+        "methodA": "BEAR score=-0.70, close=37569, ema200=41458, slope20=-1.174%, ret180=101.4%, dd365=40.9%",
+        "methodB": "BULL score=0.80, w_close=35796, ema52=32888, slope8=16.59%, ret26=84.9%, dd52=40.3%, vol8=0.136"
+      }
+    },
+    {
+      "date": "2021-08-13",
+      "state": "BULL",
+      "confidence": 0.69,
+      "basis": {
+        "methodA": "BULL score=0.65, close=47800, ema200=39132, slope20=1.578%, ret180=-1.6%, dd365=24.8%",
+        "methodB": "BULL score=0.60, w_close=46974, ema52=34513, slope8=3.91%, ret26=-3.3%, dd52=21.7%, vol8=0.068"
+      }
+    },
+    {
+      "date": "2022-01-03",
+      "state": "BEAR",
+      "confidence": 0.784,
+      "basis": {
+        "methodA": "BEAR score=-0.55, close=46446, ema200=49645, slope20=-0.670%, ret180=37.2%, dd365=31.2%",
+        "methodB": "BEAR score=-0.50, w_close=41865, ema52=44457, slope8=4.57%, ret26=22.2%, dd52=36.1%, vol8=0.072"
+      }
+    },
+    {
+      "date": "2023-02-01",
+      "state": "RANGE",
+      "confidence": 0.569,
+      "basis": {
+        "methodA": "BULL score=0.65, close=23733, ema200=21239, slope20=1.133%, ret180=1.8%, dd365=50.0%",
+        "methodB": "BEAR score=-0.75, w_close=22933, ema52=25197, slope8=-7.00%, ret26=-1.0%, dd52=51.0%, vol8=0.071"
+      }
+    },
+    {
+      "date": "2023-03-15",
+      "state": "BULL",
+      "confidence": 0.799,
+      "basis": {
+        "methodA": "BULL score=0.85, close=24286, ema200=21827, slope20=0.835%, ret180=22.6%, dd365=48.8%",
+        "methodB": "BULL score=0.55, w_close=27973, ema52=24898, slope8=-1.77%, ret26=44.1%, dd52=40.3%, vol8=0.096"
+      }
+    },
+    {
+      "date": "2025-11-10",
+      "state": "BEAR",
+      "confidence": 0.842,
+      "basis": {
+        "methodA": "RANGE score=-0.20, close=106011, ema200=108027, slope20=-0.039%, ret180=2.4%, dd365=15.0%",
+        "methodB": "BEAR score=-0.30, w_close=94261, ema52=100089, slope8=3.65%, ret26=-11.5%, dd52=23.7%, vol8=0.063"
+      }
+    }
+  ],
+  "uncertain_segments": [
+    {
+      "start": "2021-06-02",
+      "end": "2021-08-12",
+      "state": "RANGE",
+      "confidence": 0.431,
+      "days": 72,
+      "evidence": {
+        "close": 37568.68,
+        "ema200": 41457.82814815752,
+        "slope20": -0.01173988741612808,
+        "ret180": 1.0143502701265166,
+        "dd365": 0.4090651985843492,
+        "w_close": 35796.31,
+        "w_ema52": 32888.293315775125,
+        "w_slope8": 0.1658836169374973,
+        "w_ret26": 0.8490402595121747,
+        "w_dd52": 0.40341899486404137,
+        "w_vol8": 0.13605786392744773,
+        "methodA": "BEAR",
+        "methodB": "BULL",
+        "scoreA": -0.7000000000000001,
+        "scoreB": 0.8,
+        "combined": -0.07
+      }
+    },
+    {
+      "start": "2023-02-01",
+      "end": "2023-03-14",
+      "state": "RANGE",
+      "confidence": 0.569,
+      "days": 42,
+      "evidence": {
+        "close": 23732.66,
+        "ema200": 21238.736799462826,
+        "slope20": 0.011328502229047688,
+        "ret180": 0.018026442557229183,
+        "dd365": 0.4996782952600201,
+        "w_close": 22932.91,
+        "w_ema52": 25197.245191999715,
+        "w_slope8": -0.06996248143360251,
+        "w_ret26": -0.010420123248120028,
+        "w_dd52": 0.5102710443548869,
+        "w_vol8": 0.07078110663283614,
+        "methodA": "BULL",
+        "methodB": "BEAR",
+        "scoreA": 0.6499999999999999,
+        "scoreB": -0.75,
+        "combined": 0.06799999999999995
+      }
+    }
+  ]
+}

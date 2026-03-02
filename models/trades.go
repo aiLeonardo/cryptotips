@@ -11,15 +11,16 @@ import (
 type TradeRecord struct {
 	ID         uint    `gorm:"primaryKey;autoIncrement"`
 	Md5        string  `gorm:"type:varchar(65);not null;"`
+	StrategyID string  `gorm:"type:varchar(100);not null;default:'';index:idx_strategy_symbol_status,priority:1"`
 	Platform   string  `gorm:"type:varchar(20);not null"` // binance
 	Type       string  `gorm:"type:varchar(10);not null"` // spot / future
 	Side       string  `gorm:"type:varchar(10);not null"` // buy / sell
-	Symbol     string  `gorm:"type:varchar(20);not null"`
+	Symbol     string  `gorm:"type:varchar(20);not null;index:idx_strategy_symbol_status,priority:2"`
 	Price      float64 `gorm:"type:decimal(20,8)"`
 	Qty        float64 `gorm:"type:decimal(20,8)"`
 	StopLoss   float64 `gorm:"type:decimal(20,8)"`
 	TakeProfit float64 `gorm:"type:decimal(20,8)"`
-	Status     string  `gorm:"type:varchar(20)"` // open / closed / cancelled
+	Status     string  `gorm:"type:varchar(20);index:idx_strategy_symbol_status,priority:3"` // open / closed / cancelled
 	PnL        float64 `gorm:"type:decimal(20,8)"`
 	CreatedAt  time.Time
 	UpdatedAt  time.Time
@@ -79,5 +80,22 @@ func (m *TradeRecord) CloseOpenTrades(db *gorm.DB, symbol string, pnl float64) e
 
 	return dbSession.Model(&TradeRecord{}).
 		Where("symbol = ? AND status = 'open'", symbol).
+		Updates(map[string]interface{}{"status": "closed", "pnl": pnl}).Error
+}
+
+func (m *TradeRecord) GetOpenTradeByStrategy(db *gorm.DB, strategyID, symbol, tradeType string) (*TradeRecord, error) {
+	var rec TradeRecord
+	dbSession := db.Session(&gorm.Session{NewDB: true})
+	err := dbSession.Where("strategy_id = ? AND symbol = ? AND type = ? AND status = 'open'", strategyID, symbol, tradeType).First(&rec).Error
+	if err == gorm.ErrRecordNotFound {
+		return nil, nil
+	}
+	return &rec, err
+}
+
+func (m *TradeRecord) CloseOpenTradesByStrategy(db *gorm.DB, strategyID, symbol string, pnl float64) error {
+	dbSession := db.Session(&gorm.Session{NewDB: true})
+	return dbSession.Model(&TradeRecord{}).
+		Where("strategy_id = ? AND symbol = ? AND status = 'open'", strategyID, symbol).
 		Updates(map[string]interface{}{"status": "closed", "pnl": pnl}).Error
 }

@@ -1,0 +1,7 @@
+strategy_id: btc_momentum_factor_v5
+symbol: BTCUSDT
+capital_usdt: 10000
+risk_per_trade: 0.008
+max_daily_loss_pct: 0.015
+max_weekly_loss_pct: 0.04
+style: momentum_factor

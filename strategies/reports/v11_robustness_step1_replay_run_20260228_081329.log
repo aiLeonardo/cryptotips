@@ -1,0 +1,84 @@
+=== segment=A profile=v8 2018-01-01~2021-12-31 ===
+使用配置文件: /home/ubuntu/cryptotips/config/config.pro.yaml
+main args: [./cryptotips strategy replay --profile v8 --start 2018-01-01 --end 2021-12-31]
+
+请设置正确的日志文件.
+replay done: trades=9 win_rate=33.33% pf=0.7709 max_dd=351.6554 net=-104.9086
+reports: strategies/spot_btc_conservative_v1/reports/replay_v8_10k_20180101_20211231_20260228_081410.json , strategies/spot_btc_conservative_v1/reports/replay_v8_10k_20180101_20211231_20260228_081410.md
+=== segment=A profile=v9 2018-01-01~2021-12-31 ===
+使用配置文件: /home/ubuntu/cryptotips/config/config.pro.yaml
+main args: [./cryptotips strategy replay --profile v9 --start 2018-01-01 --end 2021-12-31]
+
+请设置正确的日志文件.
+replay done: trades=74 win_rate=37.84% pf=1.2562 max_dd=2746.6443 net=1887.0778
+reports: strategies/spot_btc_conservative_v1/reports/replay_v9_10k_20180101_20211231_20260228_081633.json , strategies/spot_btc_conservative_v1/reports/replay_v9_10k_20180101_20211231_20260228_081633.md
+=== segment=A profile=v10 2018-01-01~2021-12-31 ===
+使用配置文件: /home/ubuntu/cryptotips/config/config.pro.yaml
+main args: [./cryptotips strategy replay --profile v10 --start 2018-01-01 --end 2021-12-31]
+
+请设置正确的日志文件.
+replay done: trades=10 win_rate=30.00% pf=0.9468 max_dd=24434.1841 net=-1288.9987
+reports: strategies/spot_btc_conservative_v1/reports/replay_v10_10k_20180101_20211231_20260228_081818.json , strategies/spot_btc_conservative_v1/reports/replay_v10_10k_20180101_20211231_20260228_081818.md
+=== segment=A profile=v11 2018-01-01~2021-12-31 ===
+使用配置文件: /home/ubuntu/cryptotips/config/config.pro.yaml
+main args: [./cryptotips strategy replay --profile v11 --start 2018-01-01 --end 2021-12-31]
+
+请设置正确的日志文件.
+replay done: trades=404 win_rate=39.36% pf=1.3206 max_dd=10490.0536 net=20813.7174
+reports: strategies/spot_btc_conservative_v1/reports/replay_v11_10k_20180101_20211231_20260228_081821.json , strategies/spot_btc_conservative_v1/reports/replay_v11_10k_20180101_20211231_20260228_081821.md
+=== segment=B profile=v8 2022-01-01~2023-12-31 ===
+使用配置文件: /home/ubuntu/cryptotips/config/config.pro.yaml
+main args: [./cryptotips strategy replay --profile v8 --start 2022-01-01 --end 2023-12-31]
+
+请设置正确的日志文件.
+replay done: trades=27 win_rate=48.15% pf=1.5026 max_dd=450.2976 net=398.2493
+reports: strategies/spot_btc_conservative_v1/reports/replay_v8_10k_20220101_20231231_20260228_081903.json , strategies/spot_btc_conservative_v1/reports/replay_v8_10k_20220101_20231231_20260228_081903.md
+=== segment=B profile=v9 2022-01-01~2023-12-31 ===
+使用配置文件: /home/ubuntu/cryptotips/config/config.pro.yaml
+main args: [./cryptotips strategy replay --profile v9 --start 2022-01-01 --end 2023-12-31]
+
+请设置正确的日志文件.
+replay done: trades=27 win_rate=48.15% pf=1.5026 max_dd=450.2976 net=398.2493
+reports: strategies/spot_btc_conservative_v1/reports/replay_v9_10k_20220101_20231231_20260228_082129.json , strategies/spot_btc_conservative_v1/reports/replay_v9_10k_20220101_20231231_20260228_082129.md
+=== segment=B profile=v10 2022-01-01~2023-12-31 ===
+使用配置文件: /home/ubuntu/cryptotips/config/config.pro.yaml
+main args: [./cryptotips strategy replay --profile v10 --start 2022-01-01 --end 2023-12-31]
+
+请设置正确的日志文件.
+replay done: trades=5 win_rate=40.00% pf=8.8712 max_dd=4762.0741 net=13107.1413
+reports: strategies/spot_btc_conservative_v1/reports/replay_v10_10k_20220101_20231231_20260228_082311.json , strategies/spot_btc_conservative_v1/reports/replay_v10_10k_20220101_20231231_20260228_082311.md
+=== segment=B profile=v11 2022-01-01~2023-12-31 ===
+使用配置文件: /home/ubuntu/cryptotips/config/config.pro.yaml
+main args: [./cryptotips strategy replay --profile v11 --start 2022-01-01 --end 2023-12-31]
+
+请设置正确的日志文件.
+replay done: trades=181 win_rate=40.33% pf=1.9553 max_dd=2863.4568 net=17672.4559
+reports: strategies/spot_btc_conservative_v1/reports/replay_v11_10k_20220101_20231231_20260228_082315.json , strategies/spot_btc_conservative_v1/reports/replay_v11_10k_20220101_20231231_20260228_082315.md
+=== segment=C profile=v8 2024-01-01~2026-02-28 ===
+使用配置文件: /home/ubuntu/cryptotips/config/config.pro.yaml
+main args: [./cryptotips strategy replay --profile v8 --start 2024-01-01 --end 2026-02-28]
+
+请设置正确的日志文件.
+replay done: trades=56 win_rate=51.79% pf=2.1888 max_dd=516.1213 net=1950.1056
+reports: strategies/spot_btc_conservative_v1/reports/replay_v8_10k_20240101_20260228_20260228_082400.json , strategies/spot_btc_conservative_v1/reports/replay_v8_10k_20240101_20260228_20260228_082400.md
+=== segment=C profile=v9 2024-01-01~2026-02-28 ===
+使用配置文件: /home/ubuntu/cryptotips/config/config.pro.yaml
+main args: [./cryptotips strategy replay --profile v9 --start 2024-01-01 --end 2026-02-28]
+
+请设置正确的日志文件.
+replay done: trades=56 win_rate=51.79% pf=2.1888 max_dd=516.1213 net=1950.1056
+reports: strategies/spot_btc_conservative_v1/reports/replay_v9_10k_20240101_20260228_20260228_082628.json , strategies/spot_btc_conservative_v1/reports/replay_v9_10k_20240101_20260228_20260228_082628.md
+=== segment=C profile=v10 2024-01-01~2026-02-28 ===
+使用配置文件: /home/ubuntu/cryptotips/config/config.pro.yaml
+main args: [./cryptotips strategy replay --profile v10 --start 2024-01-01 --end 2026-02-28]
+
+请设置正确的日志文件.
+replay done: trades=2 win_rate=100.00% pf=0.0000 max_dd=7845.6503 net=11246.0363
+reports: strategies/spot_btc_conservative_v1/reports/replay_v10_10k_20240101_20260228_20260228_082814.json , strategies/spot_btc_conservative_v1/reports/replay_v10_10k_20240101_20260228_20260228_082814.md
+=== segment=C profile=v11 2024-01-01~2026-02-28 ===
+使用配置文件: /home/ubuntu/cryptotips/config/config.pro.yaml
+main args: [./cryptotips strategy replay --profile v11 --start 2024-01-01 --end 2026-02-28]
+
+请设置正确的日志文件.
+replay done: trades=308 win_rate=40.91% pf=1.3200 max_dd=4470.3464 net=10802.8111
+reports: strategies/spot_btc_conservative_v1/reports/replay_v11_10k_20240101_20260228_20260228_082822.json , strategies/spot_btc_conservative_v1/reports/replay_v11_10k_20240101_20260228_20260228_082822.md

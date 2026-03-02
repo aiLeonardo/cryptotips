@@ -16,6 +16,12 @@ export interface ReversalSignalItem {
   score: number
 }
 
+export interface RegimeStartpointItem {
+  time: number
+  state: 'BULL' | 'BEAR' | 'RANGE'
+  confidence: number
+}
+
 export interface KLinesData {
   symbol: string
   interval: string
@@ -24,6 +30,7 @@ export interface KLinesData {
   quoteVolumeLogEma?: number[]
   quoteVolumeZ?: number[]
   reversalSignals?: ReversalSignalItem[]
+  regimeStartpoints?: RegimeStartpointItem[]
 }
 
 /** 后端 /api/klines/meta 响应的 data 字段 */

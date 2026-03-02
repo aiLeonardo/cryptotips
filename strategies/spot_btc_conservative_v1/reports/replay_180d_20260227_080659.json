@@ -1,0 +1,18 @@
+{
+  "strategy_id": "spot_btc_conservative_v1",
+  "symbol": "BTCUSDT",
+  "days": 180,
+  "interval": "4h",
+  "trade_count": 3,
+  "win_rate": 0,
+  "profit_factor": 0,
+  "max_drawdown": 153.06264036999985,
+  "net_pnl": -153.06264036999985,
+  "monthly_returns": {
+    "2025-09": -0.009466777281999978,
+    "2025-10": -0.02114575079199999
+  },
+  "generated_at_utc": "2026-02-27T08:06:59.722258081Z",
+  "report_path_json": "",
+  "report_path_md": ""
+}

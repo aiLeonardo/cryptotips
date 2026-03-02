@@ -53,8 +53,13 @@ func LoadDB(logger *LogrusAdapter) *gorm.DB {
 		&models.StrategyLogRecord{},
 		&models.TradeRecord{},
 		&models.FearGreedIndex{},
+		&models.RegimeStartpointRecord{},
 	); err != nil {
 		fmt.Printf("gorm auto migrate error: %v\n", err)
+		os.Exit(1)
+	}
+	if err := models.EnsureStrategySchema(dbConnect); err != nil {
+		fmt.Printf("ensure strategy schema error: %v\n", err)
 		os.Exit(1)
 	}
 

@@ -1,0 +1,1178 @@
+[
+  {
+    "params": {
+      "bull_core": 0.86,
+      "bull_max": 0.98,
+      "bull_floor": 0.46,
+      "addon_floor": 0.62,
+      "range_base": 0.16
+    },
+    "wins_abc": 1,
+    "score": -22572.247063442395,
+    "segments": {
+      "A": {
+        "excess": -12961.311010003925,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3080882348028278,
+        "max_dd": 5470.622650159346,
+        "net_pnl": 11563.214784321464,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035816.json"
+      },
+      "B": {
+        "excess": 5003.365084088249,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4260187369718729,
+        "max_dd": 2747.597074216636,
+        "net_pnl": 4003.7741976570683,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035820.json"
+      },
+      "C": {
+        "excess": -6209.131360471427,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9837987742737782,
+        "max_dd": 7568.111919376505,
+        "net_pnl": -387.6135845137193,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035828.json"
+      },
+      "ALL": {
+        "excess": -24014.77079158655,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2169776503277305,
+        "max_dd": 7568.1119193765135,
+        "net_pnl": 15379.217993713824,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_035842.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.86,
+      "bull_max": 0.98,
+      "bull_floor": 0.5,
+      "addon_floor": 0.62,
+      "range_base": 0.16
+    },
+    "wins_abc": 1,
+    "score": -22572.247063442395,
+    "segments": {
+      "A": {
+        "excess": -12961.311010003925,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3080882348028278,
+        "max_dd": 5470.622650159346,
+        "net_pnl": 11563.214784321464,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035915.json"
+      },
+      "B": {
+        "excess": 5003.365084088249,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4260187369718729,
+        "max_dd": 2747.597074216636,
+        "net_pnl": 4003.7741976570683,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035920.json"
+      },
+      "C": {
+        "excess": -6209.131360471427,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9837987742737782,
+        "max_dd": 7568.111919376505,
+        "net_pnl": -387.6135845137193,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035927.json"
+      },
+      "ALL": {
+        "excess": -24014.77079158655,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2169776503277305,
+        "max_dd": 7568.1119193765135,
+        "net_pnl": 15379.217993713824,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_035941.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.86,
+      "bull_max": 0.98,
+      "bull_floor": 0.46,
+      "addon_floor": 0.62,
+      "range_base": 0.12
+    },
+    "wins_abc": 1,
+    "score": -22589.876900267016,
+    "segments": {
+      "A": {
+        "excess": -12918.143101347958,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.30967853583258,
+        "max_dd": 5428.336996632168,
+        "net_pnl": 11606.382692977431,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035745.json"
+      },
+      "B": {
+        "excess": 4972.047107609726,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.425148859399073,
+        "max_dd": 2747.597074216636,
+        "net_pnl": 3972.4562211785446,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035750.json"
+      },
+      "C": {
+        "excess": -6236.915500886527,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.982637470469014,
+        "max_dd": 7568.111919376506,
+        "net_pnl": -415.3977249288197,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035757.json"
+      },
+      "ALL": {
+        "excess": -24019.61544469217,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2171883992595085,
+        "max_dd": 7568.1119193765135,
+        "net_pnl": 15374.373340608206,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_035812.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.86,
+      "bull_max": 0.98,
+      "bull_floor": 0.5,
+      "addon_floor": 0.62,
+      "range_base": 0.12
+    },
+    "wins_abc": 1,
+    "score": -22589.876900267016,
+    "segments": {
+      "A": {
+        "excess": -12918.143101347958,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.30967853583258,
+        "max_dd": 5428.336996632168,
+        "net_pnl": 11606.382692977431,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035846.json"
+      },
+      "B": {
+        "excess": 4972.047107609726,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.425148859399073,
+        "max_dd": 2747.597074216636,
+        "net_pnl": 3972.4562211785446,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035850.json"
+      },
+      "C": {
+        "excess": -6236.915500886527,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.982637470469014,
+        "max_dd": 7568.111919376506,
+        "net_pnl": -415.3977249288197,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035856.json"
+      },
+      "ALL": {
+        "excess": -24019.61544469217,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2171883992595085,
+        "max_dd": 7568.1119193765135,
+        "net_pnl": 15374.373340608206,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_035911.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.86,
+      "bull_max": 0.98,
+      "bull_floor": 0.46,
+      "addon_floor": 0.68,
+      "range_base": 0.16
+    },
+    "wins_abc": 1,
+    "score": -22605.089451470005,
+    "segments": {
+      "A": {
+        "excess": -13010.683447916179,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3079656034487552,
+        "max_dd": 5459.428674867153,
+        "net_pnl": 11513.84234640921,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_040016.json"
+      },
+      "B": {
+        "excess": 4983.619385551594,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4242918385300725,
+        "max_dd": 2751.7778753021666,
+        "net_pnl": 3984.028499120413,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_040020.json"
+      },
+      "C": {
+        "excess": -6163.326418262332,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9856694557119636,
+        "max_dd": 7552.265079778693,
+        "net_pnl": -341.8086423046244,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_040027.json"
+      },
+      "ALL": {
+        "excess": -24041.997059551682,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2172889901452608,
+        "max_dd": 7552.265079778697,
+        "net_pnl": 15351.991725748692,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_040041.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.86,
+      "bull_max": 0.98,
+      "bull_floor": 0.5,
+      "addon_floor": 0.68,
+      "range_base": 0.16
+    },
+    "wins_abc": 1,
+    "score": -22605.089451470005,
+    "segments": {
+      "A": {
+        "excess": -13010.683447916179,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3079656034487552,
+        "max_dd": 5459.428674867153,
+        "net_pnl": 11513.84234640921,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_040115.json"
+      },
+      "B": {
+        "excess": 4983.619385551594,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4242918385300725,
+        "max_dd": 2751.7778753021666,
+        "net_pnl": 3984.028499120413,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_040119.json"
+      },
+      "C": {
+        "excess": -6163.326418262332,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9856694557119636,
+        "max_dd": 7552.265079778693,
+        "net_pnl": -341.8086423046244,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_040126.json"
+      },
+      "ALL": {
+        "excess": -24041.997059551682,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2172889901452608,
+        "max_dd": 7552.265079778697,
+        "net_pnl": 15351.991725748692,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_040141.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.86,
+      "bull_max": 0.98,
+      "bull_floor": 0.46,
+      "addon_floor": 0.68,
+      "range_base": 0.12
+    },
+    "wins_abc": 1,
+    "score": -22622.719288294626,
+    "segments": {
+      "A": {
+        "excess": -12967.515539260208,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3095619217345116,
+        "max_dd": 5417.143021339971,
+        "net_pnl": 11557.01025506518,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035945.json"
+      },
+      "B": {
+        "excess": 4952.3014090730685,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4234111192620176,
+        "max_dd": 2751.777875302166,
+        "net_pnl": 3952.7105226418876,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035949.json"
+      },
+      "C": {
+        "excess": -6191.110558677432,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9845045879893717,
+        "max_dd": 7552.265079778693,
+        "net_pnl": -369.5927827197248,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035957.json"
+      },
+      "ALL": {
+        "excess": -24046.8417126573,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2175008185381426,
+        "max_dd": 7552.265079778701,
+        "net_pnl": 15347.147072643074,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_040012.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.86,
+      "bull_max": 0.98,
+      "bull_floor": 0.5,
+      "addon_floor": 0.68,
+      "range_base": 0.12
+    },
+    "wins_abc": 1,
+    "score": -22622.719288294626,
+    "segments": {
+      "A": {
+        "excess": -12967.515539260208,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3095619217345116,
+        "max_dd": 5417.143021339971,
+        "net_pnl": 11557.01025506518,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_040045.json"
+      },
+      "B": {
+        "excess": 4952.3014090730685,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4234111192620176,
+        "max_dd": 2751.777875302166,
+        "net_pnl": 3952.7105226418876,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_040049.json"
+      },
+      "C": {
+        "excess": -6191.110558677432,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9845045879893717,
+        "max_dd": 7552.265079778693,
+        "net_pnl": -369.5927827197248,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_040057.json"
+      },
+      "ALL": {
+        "excess": -24046.8417126573,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2175008185381426,
+        "max_dd": 7552.265079778701,
+        "net_pnl": 15347.147072643074,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_040111.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.9,
+      "bull_max": 0.98,
+      "bull_floor": 0.46,
+      "addon_floor": 0.62,
+      "range_base": 0.16
+    },
+    "wins_abc": 1,
+    "score": -22641.228482316877,
+    "segments": {
+      "A": {
+        "excess": -12945.744340655563,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3036862686280286,
+        "max_dd": 5577.138171010492,
+        "net_pnl": 11578.781453669826,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_040216.json"
+      },
+      "B": {
+        "excess": 5058.00548076033,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.429829051414499,
+        "max_dd": 2737.6870271990824,
+        "net_pnl": 4058.414594329149,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_040220.json"
+      },
+      "C": {
+        "excess": -6331.209181101141,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.978926493649237,
+        "max_dd": 7608.146640844128,
+        "net_pnl": -509.6914051434343,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_040227.json"
+      },
+      "ALL": {
+        "excess": -24063.658403772868,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2135451439928409,
+        "max_dd": 7608.146640844132,
+        "net_pnl": 15330.330381527505,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_040242.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.9,
+      "bull_max": 0.98,
+      "bull_floor": 0.5,
+      "addon_floor": 0.62,
+      "range_base": 0.16
+    },
+    "wins_abc": 1,
+    "score": -22641.228482316877,
+    "segments": {
+      "A": {
+        "excess": -12945.744340655563,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3036862686280286,
+        "max_dd": 5577.138171010492,
+        "net_pnl": 11578.781453669826,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_040316.json"
+      },
+      "B": {
+        "excess": 5058.00548076033,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.429829051414499,
+        "max_dd": 2737.6870271990824,
+        "net_pnl": 4058.414594329149,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_040321.json"
+      },
+      "C": {
+        "excess": -6331.209181101141,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.978926493649237,
+        "max_dd": 7608.146640844128,
+        "net_pnl": -509.6914051434343,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_040328.json"
+      },
+      "ALL": {
+        "excess": -24063.658403772868,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2135451439928409,
+        "max_dd": 7608.146640844132,
+        "net_pnl": 15330.330381527505,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_040342.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.9,
+      "bull_max": 0.98,
+      "bull_floor": 0.46,
+      "addon_floor": 0.62,
+      "range_base": 0.12
+    },
+    "wins_abc": 1,
+    "score": -22658.858319141502,
+    "segments": {
+      "A": {
+        "excess": -12902.576431999596,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.305245537752044,
+        "max_dd": 5534.852517483314,
+        "net_pnl": 11621.949362325793,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_040145.json"
+      },
+      "B": {
+        "excess": 5026.687504281805,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4289853279490636,
+        "max_dd": 2737.6870271990824,
+        "net_pnl": 4027.0966178506237,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_040149.json"
+      },
+      "C": {
+        "excess": -6358.99332151624,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.977777741181411,
+        "max_dd": 7608.1466408441265,
+        "net_pnl": -537.4755455585329,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_040156.json"
+      },
+      "ALL": {
+        "excess": -24068.503056878486,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.213748856428129,
+        "max_dd": 7608.146640844132,
+        "net_pnl": 15325.485728421887,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_040212.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.9,
+      "bull_max": 0.98,
+      "bull_floor": 0.5,
+      "addon_floor": 0.62,
+      "range_base": 0.12
+    },
+    "wins_abc": 1,
+    "score": -22658.858319141502,
+    "segments": {
+      "A": {
+        "excess": -12902.576431999596,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.305245537752044,
+        "max_dd": 5534.852517483314,
+        "net_pnl": 11621.949362325793,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_040246.json"
+      },
+      "B": {
+        "excess": 5026.687504281805,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4289853279490636,
+        "max_dd": 2737.6870271990824,
+        "net_pnl": 4027.0966178506237,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_040251.json"
+      },
+      "C": {
+        "excess": -6358.99332151624,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.977777741181411,
+        "max_dd": 7608.1466408441265,
+        "net_pnl": -537.4755455585329,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_040258.json"
+      },
+      "ALL": {
+        "excess": -24068.503056878486,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.213748856428129,
+        "max_dd": 7608.146640844132,
+        "net_pnl": 15325.485728421887,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_040312.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.9,
+      "bull_max": 0.98,
+      "bull_floor": 0.46,
+      "addon_floor": 0.68,
+      "range_base": 0.16
+    },
+    "wins_abc": 1,
+    "score": -22659.47425344334,
+    "segments": {
+      "A": {
+        "excess": -12973.173472829043,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3036099775897387,
+        "max_dd": 5570.919295848165,
+        "net_pnl": 11551.352321496346,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_040416.json"
+      },
+      "B": {
+        "excess": 5047.035648239966,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4288763502587678,
+        "max_dd": 2740.0096944688216,
+        "net_pnl": 4047.4447618087847,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_040420.json"
+      },
+      "C": {
+        "excess": -6305.761990984977,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9799449037444506,
+        "max_dd": 7599.342841067566,
+        "net_pnl": -484.24421502726966,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_040428.json"
+      },
+      "ALL": {
+        "excess": -24078.78410819795,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2137096333033706,
+        "max_dd": 7599.342841067564,
+        "net_pnl": 15315.204677102427,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_040443.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.9,
+      "bull_max": 0.98,
+      "bull_floor": 0.5,
+      "addon_floor": 0.68,
+      "range_base": 0.16
+    },
+    "wins_abc": 1,
+    "score": -22659.47425344334,
+    "segments": {
+      "A": {
+        "excess": -12973.173472829043,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3036099775897387,
+        "max_dd": 5570.919295848165,
+        "net_pnl": 11551.352321496346,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_040517.json"
+      },
+      "B": {
+        "excess": 5047.035648239966,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4288763502587678,
+        "max_dd": 2740.0096944688216,
+        "net_pnl": 4047.4447618087847,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_040521.json"
+      },
+      "C": {
+        "excess": -6305.761990984977,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9799449037444506,
+        "max_dd": 7599.342841067566,
+        "net_pnl": -484.24421502726966,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_040529.json"
+      },
+      "ALL": {
+        "excess": -24078.78410819795,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2137096333033706,
+        "max_dd": 7599.342841067564,
+        "net_pnl": 15315.204677102427,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_040544.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.9,
+      "bull_max": 0.98,
+      "bull_floor": 0.46,
+      "addon_floor": 0.68,
+      "range_base": 0.12
+    },
+    "wins_abc": 1,
+    "score": -22677.10409026796,
+    "segments": {
+      "A": {
+        "excess": -12930.005564173072,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.305172454145794,
+        "max_dd": 5528.633642320983,
+        "net_pnl": 11594.520230152317,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_040346.json"
+      },
+      "B": {
+        "excess": 5015.71767176144,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4280266857429051,
+        "max_dd": 2740.0096944688216,
+        "net_pnl": 4016.1267853302593,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_040351.json"
+      },
+      "C": {
+        "excess": -6333.546131400078,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9787942165640758,
+        "max_dd": 7599.342841067565,
+        "net_pnl": -512.0283554423701,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_040358.json"
+      },
+      "ALL": {
+        "excess": -24083.628761303567,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.213913913787663,
+        "max_dd": 7599.342841067568,
+        "net_pnl": 15310.36002399681,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_040412.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.9,
+      "bull_max": 0.98,
+      "bull_floor": 0.5,
+      "addon_floor": 0.68,
+      "range_base": 0.12
+    },
+    "wins_abc": 1,
+    "score": -22677.10409026796,
+    "segments": {
+      "A": {
+        "excess": -12930.005564173072,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.305172454145794,
+        "max_dd": 5528.633642320983,
+        "net_pnl": 11594.520230152317,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_040447.json"
+      },
+      "B": {
+        "excess": 5015.71767176144,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4280266857429051,
+        "max_dd": 2740.0096944688216,
+        "net_pnl": 4016.1267853302593,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_040451.json"
+      },
+      "C": {
+        "excess": -6333.546131400078,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9787942165640758,
+        "max_dd": 7599.342841067565,
+        "net_pnl": -512.0283554423701,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_040457.json"
+      },
+      "ALL": {
+        "excess": -24083.628761303567,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.213913913787663,
+        "max_dd": 7599.342841067568,
+        "net_pnl": 15310.36002399681,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_040513.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.8,
+      "bull_max": 0.92,
+      "bull_floor": 0.46,
+      "addon_floor": 0.62,
+      "range_base": 0.16
+    },
+    "wins_abc": 1,
+    "score": -22957.41060977391,
+    "segments": {
+      "A": {
+        "excess": -13273.87849078094,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3132866507051209,
+        "max_dd": 5216.824224722304,
+        "net_pnl": 11250.647303544449,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035416.json"
+      },
+      "B": {
+        "excess": 4891.382872328204,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4253163846337151,
+        "max_dd": 2668.967521003155,
+        "net_pnl": 3891.7919858970236,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035420.json"
+      },
+      "C": {
+        "excess": -6067.253685522914,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9893018742580215,
+        "max_dd": 7296.248297980674,
+        "net_pnl": -245.73590956520604,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035428.json"
+      },
+      "ALL": {
+        "excess": -24307.603730852174,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2217115843139,
+        "max_dd": 7296.248297980674,
+        "net_pnl": 15086.385054448201,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_035442.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.8,
+      "bull_max": 0.92,
+      "bull_floor": 0.5,
+      "addon_floor": 0.62,
+      "range_base": 0.16
+    },
+    "wins_abc": 1,
+    "score": -22957.41060977391,
+    "segments": {
+      "A": {
+        "excess": -13273.87849078094,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3132866507051209,
+        "max_dd": 5216.824224722304,
+        "net_pnl": 11250.647303544449,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035515.json"
+      },
+      "B": {
+        "excess": 4891.382872328204,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4253163846337151,
+        "max_dd": 2668.967521003155,
+        "net_pnl": 3891.7919858970236,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035520.json"
+      },
+      "C": {
+        "excess": -6067.253685522914,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9893018742580215,
+        "max_dd": 7296.248297980674,
+        "net_pnl": -245.73590956520604,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035528.json"
+      },
+      "ALL": {
+        "excess": -24307.603730852174,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2217115843139,
+        "max_dd": 7296.248297980674,
+        "net_pnl": 15086.385054448201,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_035542.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.8,
+      "bull_max": 0.92,
+      "bull_floor": 0.46,
+      "addon_floor": 0.62,
+      "range_base": 0.12
+    },
+    "wins_abc": 1,
+    "score": -22975.040446598527,
+    "segments": {
+      "A": {
+        "excess": -13230.71058212497,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3149565527161147,
+        "max_dd": 5174.538571195122,
+        "net_pnl": 11293.81521220042,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035346.json"
+      },
+      "B": {
+        "excess": 4860.064895849679,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4244186084421722,
+        "max_dd": 2668.967521003154,
+        "net_pnl": 3860.474009418498,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035350.json"
+      },
+      "C": {
+        "excess": -6095.037825938014,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9880922902443564,
+        "max_dd": 7296.248297980674,
+        "net_pnl": -273.52004998030645,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035357.json"
+      },
+      "ALL": {
+        "excess": -24312.448383957784,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.221937468278713,
+        "max_dd": 7296.248297980674,
+        "net_pnl": 15081.54040134259,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_035412.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.8,
+      "bull_max": 0.92,
+      "bull_floor": 0.5,
+      "addon_floor": 0.62,
+      "range_base": 0.12
+    },
+    "wins_abc": 1,
+    "score": -22975.040446598527,
+    "segments": {
+      "A": {
+        "excess": -13230.71058212497,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.3149565527161147,
+        "max_dd": 5174.538571195122,
+        "net_pnl": 11293.81521220042,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035445.json"
+      },
+      "B": {
+        "excess": 4860.064895849679,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4244186084421722,
+        "max_dd": 2668.967521003154,
+        "net_pnl": 3860.474009418498,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035450.json"
+      },
+      "C": {
+        "excess": -6095.037825938014,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9880922902443564,
+        "max_dd": 7296.248297980674,
+        "net_pnl": -273.52004998030645,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035457.json"
+      },
+      "ALL": {
+        "excess": -24312.448383957784,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.221937468278713,
+        "max_dd": 7296.248297980674,
+        "net_pnl": 15081.54040134259,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_035512.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.8,
+      "bull_max": 0.92,
+      "bull_floor": 0.46,
+      "addon_floor": 0.68,
+      "range_base": 0.16
+    },
+    "wins_abc": 1,
+    "score": -23001.2004604774,
+    "segments": {
+      "A": {
+        "excess": -13339.708407997281,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.313143712493208,
+        "max_dd": 5201.898924332716,
+        "net_pnl": 11184.817386328108,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035616.json"
+      },
+      "B": {
+        "excess": 4865.055274279329,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4229498852952076,
+        "max_dd": 2674.541922450529,
+        "net_pnl": 3865.4643878481484,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035620.json"
+      },
+      "C": {
+        "excess": -6006.180429244123,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9919263974757419,
+        "max_dd": 7275.119178516923,
+        "net_pnl": -184.66265328641532,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035627.json"
+      },
+      "ALL": {
+        "excess": -24343.905421472362,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2221656725275458,
+        "max_dd": 7275.1191785169285,
+        "net_pnl": 15050.083363828013,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_035642.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.8,
+      "bull_max": 0.92,
+      "bull_floor": 0.5,
+      "addon_floor": 0.68,
+      "range_base": 0.16
+    },
+    "wins_abc": 1,
+    "score": -23001.2004604774,
+    "segments": {
+      "A": {
+        "excess": -13339.708407997281,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.313143712493208,
+        "max_dd": 5201.898924332716,
+        "net_pnl": 11184.817386328108,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035715.json"
+      },
+      "B": {
+        "excess": 4865.055274279329,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4229498852952076,
+        "max_dd": 2674.541922450529,
+        "net_pnl": 3865.4643878481484,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035719.json"
+      },
+      "C": {
+        "excess": -6006.180429244123,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9919263974757419,
+        "max_dd": 7275.119178516923,
+        "net_pnl": -184.66265328641532,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035727.json"
+      },
+      "ALL": {
+        "excess": -24343.905421472362,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2221656725275458,
+        "max_dd": 7275.1191785169285,
+        "net_pnl": 15050.083363828013,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_035741.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.8,
+      "bull_max": 0.92,
+      "bull_floor": 0.46,
+      "addon_floor": 0.68,
+      "range_base": 0.12
+    },
+    "wins_abc": 1,
+    "score": -23018.83029730202,
+    "segments": {
+      "A": {
+        "excess": -13296.54049934131,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.314822476338059,
+        "max_dd": 5159.613270805534,
+        "net_pnl": 11227.985294984079,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035546.json"
+      },
+      "B": {
+        "excess": 4833.737297800803,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4220368376526276,
+        "max_dd": 2674.541922450528,
+        "net_pnl": 3834.146411369623,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035550.json"
+      },
+      "C": {
+        "excess": -6033.964569659223,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9907116520889648,
+        "max_dd": 7275.119178516924,
+        "net_pnl": -212.44679370151619,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035557.json"
+      },
+      "ALL": {
+        "excess": -24348.750074577973,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2223931778160417,
+        "max_dd": 7275.1191785169285,
+        "net_pnl": 15045.238710722402,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_035612.json"
+      }
+    }
+  },
+  {
+    "params": {
+      "bull_core": 0.8,
+      "bull_max": 0.92,
+      "bull_floor": 0.5,
+      "addon_floor": 0.68,
+      "range_base": 0.12
+    },
+    "wins_abc": 1,
+    "score": -23018.83029730202,
+    "segments": {
+      "A": {
+        "excess": -13296.54049934131,
+        "trade_count": 267,
+        "win_rate": 0.36329588014981273,
+        "pf": 1.314822476338059,
+        "max_dd": 5159.613270805534,
+        "net_pnl": 11227.985294984079,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20211231_20260301_035645.json"
+      },
+      "B": {
+        "excess": 4833.737297800803,
+        "trade_count": 125,
+        "win_rate": 0.344,
+        "pf": 1.4220368376526276,
+        "max_dd": 2674.541922450528,
+        "net_pnl": 3834.146411369623,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20220101_20231231_20260301_035650.json"
+      },
+      "C": {
+        "excess": -6033.964569659223,
+        "trade_count": 202,
+        "win_rate": 0.3564356435643564,
+        "pf": 0.9907116520889648,
+        "max_dd": 7275.119178516924,
+        "net_pnl": -212.44679370151619,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20240101_20260228_20260301_035656.json"
+      },
+      "ALL": {
+        "excess": -24348.750074577973,
+        "trade_count": 592,
+        "win_rate": 0.3597972972972973,
+        "pf": 1.2223931778160417,
+        "max_dd": 7275.1191785169285,
+        "net_pnl": 15045.238710722402,
+        "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v13_10k_20180101_20260228_20260301_035711.json"
+      }
+    }
+  }
+]

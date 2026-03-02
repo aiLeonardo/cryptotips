@@ -1,0 +1,25 @@
+strategy_id: spot_btc_conservative_v1
+symbol: BTCUSDT
+mode: paper
+risk:
+  capital_usdt: 10000
+  risk_per_trade: 0.008
+  max_daily_loss_pct: 0.015
+  max_weekly_loss_pct: 0.04
+signal:
+  ema_filter_period: 200
+  ema_pullback_period: 20
+  pullback_tolerance: 0.0045
+  ema200_min_slope: 0.0006
+  volume_min_ratio: 0.95
+  secondary_breakout_lookback: 6
+  secondary_breakout_buffer_pct: 0.0008
+regime_v6:
+  regime_vol_period: 20
+  regime_vol_converge_pct: 0.018
+  regime_min_confirm_bars: 2
+  bear_leverage: 1.0
+  switch_tp_1_pct: 0.5
+  switch_tp_2_pct: 0.3
+  switch_tp_3_pct: 0.2
+  switch_trail_atr_multiplier: 1.0

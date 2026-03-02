@@ -1,0 +1,334 @@
+{
+  "generated_at_utc": "2026-02-28T08:29:24.214102+00:00",
+  "assumptions": {
+    "turnover_notional_proxy": "trade_count * capital_usdt",
+    "trading_cost_formula": "trade_count * capital_usdt * roundtrip_rate",
+    "funding_formula": "capital_usdt * 5% * years * bear_ratio_proxy (applied to strategy only)",
+    "bear_ratio_proxy": "negative_months(benchmark_monthly_returns) / total_months",
+    "notes": "框架暂无原生 fee/slippage/funding 模型，以上为近似扣减。"
+  },
+  "segments": {
+    "A": {
+      "window": {
+        "start": "2018-01-01",
+        "end": "2021-12-31"
+      },
+      "buy_hold": {
+        "net_pnl": 24524.525794
+      },
+      "bear_ratio_proxy": 0.5208333333333334,
+      "years": 4.0,
+      "profiles": {
+        "v8": {
+          "trade_count": 9,
+          "win_rate": 0.3333333333333333,
+          "profit_factor": 0.7709111861448952,
+          "max_drawdown": 351.6554134025001,
+          "net_pnl": -104.90860017500005,
+          "excess_vs_bh": -24629.434394175,
+          "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v8_10k_20180101_20211231_20260228_081410.json"
+        },
+        "v9": {
+          "trade_count": 74,
+          "win_rate": 0.3783783783783784,
+          "profit_factor": 1.2561547298208195,
+          "max_drawdown": 2746.6443359839996,
+          "net_pnl": 1887.077769752999,
+          "excess_vs_bh": -22637.448024247,
+          "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v9_10k_20180101_20211231_20260228_081633.json"
+        },
+        "v10": {
+          "trade_count": 10,
+          "win_rate": 0.3,
+          "profit_factor": 0.9467757038058874,
+          "max_drawdown": 24434.18407630311,
+          "net_pnl": -1288.998730819189,
+          "excess_vs_bh": -25813.52452481919,
+          "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v10_10k_20180101_20211231_20260228_081818.json"
+        },
+        "v11": {
+          "trade_count": 404,
+          "win_rate": 0.3935643564356436,
+          "profit_factor": 1.3205839241047992,
+          "max_drawdown": 10490.053648247851,
+          "net_pnl": 20813.717365709446,
+          "excess_vs_bh": -3710.8084282905547,
+          "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v11_10k_20180101_20211231_20260228_081821.json"
+        }
+      },
+      "cost_scenarios": {
+        "cost_s1": {
+          "v8": {
+            "adj_net_pnl": -1326.5752668416667,
+            "excess_vs_bh": -25851.10106084167,
+            "funding_cost": 1041.6666666666667,
+            "trading_cost": 180.0
+          },
+          "v9": {
+            "adj_net_pnl": -634.5888969136677,
+            "excess_vs_bh": -25159.11469091367,
+            "funding_cost": 1041.6666666666667,
+            "trading_cost": 1480.0
+          },
+          "v10": {
+            "adj_net_pnl": -2530.6653974858555,
+            "excess_vs_bh": -27055.191191485857,
+            "funding_cost": 1041.6666666666667,
+            "trading_cost": 200.0
+          },
+          "v11": {
+            "adj_net_pnl": 11692.05069904278,
+            "excess_vs_bh": -12832.47509495722,
+            "funding_cost": 1041.6666666666667,
+            "trading_cost": 8080.0
+          }
+        },
+        "cost_s2": {
+          "v8": {
+            "adj_net_pnl": -1416.5752668416667,
+            "excess_vs_bh": -25941.10106084167,
+            "funding_cost": 1041.6666666666667,
+            "trading_cost": 270.0
+          },
+          "v9": {
+            "adj_net_pnl": -1374.5888969136677,
+            "excess_vs_bh": -25899.11469091367,
+            "funding_cost": 1041.6666666666667,
+            "trading_cost": 2220.0
+          },
+          "v10": {
+            "adj_net_pnl": -2630.6653974858555,
+            "excess_vs_bh": -27155.191191485857,
+            "funding_cost": 1041.6666666666667,
+            "trading_cost": 300.0
+          },
+          "v11": {
+            "adj_net_pnl": 7652.050699042779,
+            "excess_vs_bh": -16872.475094957223,
+            "funding_cost": 1041.6666666666667,
+            "trading_cost": 12120.0
+          }
+        }
+      }
+    },
+    "B": {
+      "window": {
+        "start": "2022-01-01",
+        "end": "2023-12-31"
+      },
+      "buy_hold": {
+        "net_pnl": -999.590886
+      },
+      "bear_ratio_proxy": 0.4583333333333333,
+      "years": 1.998631074606434,
+      "profiles": {
+        "v8": {
+          "trade_count": 27,
+          "win_rate": 0.48148148148148145,
+          "profit_factor": 1.5026232885447255,
+          "max_drawdown": 450.29762997999995,
+          "net_pnl": 398.2493104099993,
+          "excess_vs_bh": 1397.8401964099992,
+          "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v8_10k_20220101_20231231_20260228_081903.json"
+        },
+        "v9": {
+          "trade_count": 27,
+          "win_rate": 0.48148148148148145,
+          "profit_factor": 1.5026232885447255,
+          "max_drawdown": 450.29762997999995,
+          "net_pnl": 398.2493104099993,
+          "excess_vs_bh": 1397.8401964099992,
+          "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v9_10k_20220101_20231231_20260228_082129.json"
+        },
+        "v10": {
+          "trade_count": 5,
+          "win_rate": 0.4,
+          "profit_factor": 8.871150824139264,
+          "max_drawdown": 4762.074074074075,
+          "net_pnl": 13107.141289012914,
+          "excess_vs_bh": 14106.732175012914,
+          "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v10_10k_20220101_20231231_20260228_082311.json"
+        },
+        "v11": {
+          "trade_count": 181,
+          "win_rate": 0.40331491712707185,
+          "profit_factor": 1.9552774837559095,
+          "max_drawdown": 2863.4567528975203,
+          "net_pnl": 17672.45593398885,
+          "excess_vs_bh": 18672.04681998885,
+          "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v11_10k_20220101_20231231_20260228_082315.json"
+        }
+      },
+      "cost_scenarios": {
+        "cost_s1": {
+          "v8": {
+            "adj_net_pnl": -599.7703108539752,
+            "excess_vs_bh": 399.8205751460248,
+            "funding_cost": 458.01962126397444,
+            "trading_cost": 540.0
+          },
+          "v9": {
+            "adj_net_pnl": -599.7703108539752,
+            "excess_vs_bh": 399.8205751460248,
+            "funding_cost": 458.01962126397444,
+            "trading_cost": 540.0
+          },
+          "v10": {
+            "adj_net_pnl": 12549.12166774894,
+            "excess_vs_bh": 13548.71255374894,
+            "funding_cost": 458.01962126397444,
+            "trading_cost": 100.0
+          },
+          "v11": {
+            "adj_net_pnl": 13594.436312724876,
+            "excess_vs_bh": 14594.027198724876,
+            "funding_cost": 458.01962126397444,
+            "trading_cost": 3620.0
+          }
+        },
+        "cost_s2": {
+          "v8": {
+            "adj_net_pnl": -869.7703108539752,
+            "excess_vs_bh": 129.8205751460248,
+            "funding_cost": 458.01962126397444,
+            "trading_cost": 810.0
+          },
+          "v9": {
+            "adj_net_pnl": -869.7703108539752,
+            "excess_vs_bh": 129.8205751460248,
+            "funding_cost": 458.01962126397444,
+            "trading_cost": 810.0
+          },
+          "v10": {
+            "adj_net_pnl": 12499.12166774894,
+            "excess_vs_bh": 13498.71255374894,
+            "funding_cost": 458.01962126397444,
+            "trading_cost": 150.0
+          },
+          "v11": {
+            "adj_net_pnl": 11784.436312724876,
+            "excess_vs_bh": 12784.027198724876,
+            "funding_cost": 458.01962126397444,
+            "trading_cost": 5430.0
+          }
+        }
+      }
+    },
+    "C": {
+      "window": {
+        "start": "2024-01-01",
+        "end": "2026-02-28"
+      },
+      "buy_hold": {
+        "net_pnl": 5078.020595
+      },
+      "bear_ratio_proxy": 0.4230769230769231,
+      "years": 2.16290212183436,
+      "profiles": {
+        "v8": {
+          "trade_count": 56,
+          "win_rate": 0.5178571428571429,
+          "profit_factor": 2.188781929413609,
+          "max_drawdown": 516.1213271975002,
+          "net_pnl": 1950.105618392499,
+          "excess_vs_bh": -3127.9149766075006,
+          "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v8_10k_20240101_20260228_20260228_082400.json"
+        },
+        "v9": {
+          "trade_count": 56,
+          "win_rate": 0.5178571428571429,
+          "profit_factor": 2.188781929413609,
+          "max_drawdown": 516.1213271975002,
+          "net_pnl": 1950.105618392499,
+          "excess_vs_bh": -3127.9149766075006,
+          "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v9_10k_20240101_20260228_20260228_082628.json"
+        },
+        "v10": {
+          "trade_count": 2,
+          "win_rate": 1.0,
+          "profit_factor": 0.0,
+          "max_drawdown": 7845.650303555635,
+          "net_pnl": 11246.03625951718,
+          "excess_vs_bh": 6168.015664517179,
+          "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v10_10k_20240101_20260228_20260228_082814.json"
+        },
+        "v11": {
+          "trade_count": 308,
+          "win_rate": 0.4090909090909091,
+          "profit_factor": 1.3200377404040722,
+          "max_drawdown": 4470.346363532852,
+          "net_pnl": 10802.811131448512,
+          "excess_vs_bh": 5724.790536448512,
+          "report_json": "strategies/spot_btc_conservative_v1/reports/replay_v11_10k_20240101_20260228_20260228_082822.json"
+        }
+      },
+      "cost_scenarios": {
+        "cost_s1": {
+          "v8": {
+            "adj_net_pnl": 372.5686310813846,
+            "excess_vs_bh": -4705.451963918616,
+            "funding_cost": 457.5369873111145,
+            "trading_cost": 1120.0
+          },
+          "v9": {
+            "adj_net_pnl": 372.5686310813846,
+            "excess_vs_bh": -4705.451963918616,
+            "funding_cost": 457.5369873111145,
+            "trading_cost": 1120.0
+          },
+          "v10": {
+            "adj_net_pnl": 10748.499272206065,
+            "excess_vs_bh": 5670.478677206065,
+            "funding_cost": 457.5369873111145,
+            "trading_cost": 40.0
+          },
+          "v11": {
+            "adj_net_pnl": 4185.274144137397,
+            "excess_vs_bh": -892.7464508626026,
+            "funding_cost": 457.5369873111145,
+            "trading_cost": 6160.0
+          }
+        },
+        "cost_s2": {
+          "v8": {
+            "adj_net_pnl": -187.43136891861542,
+            "excess_vs_bh": -5265.451963918616,
+            "funding_cost": 457.5369873111145,
+            "trading_cost": 1680.0
+          },
+          "v9": {
+            "adj_net_pnl": -187.43136891861542,
+            "excess_vs_bh": -5265.451963918616,
+            "funding_cost": 457.5369873111145,
+            "trading_cost": 1680.0
+          },
+          "v10": {
+            "adj_net_pnl": 10728.499272206065,
+            "excess_vs_bh": 5650.478677206065,
+            "funding_cost": 457.5369873111145,
+            "trading_cost": 60.0
+          },
+          "v11": {
+            "adj_net_pnl": 1105.2741441373978,
+            "excess_vs_bh": -3972.746450862602,
+            "funding_cost": 457.5369873111145,
+            "trading_cost": 9240.0
+          }
+        }
+      }
+    }
+  },
+  "decision": {
+    "rule": {
+      "baseline_excess_positive_segments_min": 2,
+      "cost_s2_excess_positive_segments_min": 2,
+      "pf_ge_1_segments_min": 2
+    },
+    "v11": {
+      "baseline_excess_positive_segments": 2,
+      "cost_s2_excess_positive_segments": 1,
+      "pf_ge_1_segments": 3,
+      "result": "不通过"
+    }
+  }
+}

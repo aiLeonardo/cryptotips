@@ -1,0 +1,49 @@
+{
+  "strategy_id": "spot_btc_conservative_v1",
+  "symbol": "BTCUSDT",
+  "days": 360,
+  "profile": "baseline",
+  "interval": "4h",
+  "capital_usdt": 10000,
+  "risk_per_trade_pct": 0.008,
+  "risk_per_trade_usdt": 80,
+  "max_daily_loss_pct": 0.015,
+  "max_daily_loss_usdt": 150,
+  "max_weekly_loss_pct": 0.04,
+  "max_weekly_loss_usdt": 400,
+  "trade_count": 1,
+  "win_rate": 1,
+  "profit_factor": 0,
+  "max_drawdown": 0,
+  "net_pnl": 118.22308264599977,
+  "monthly_returns": {
+    "2025-11": 0.011822308264599977
+  },
+  "benchmark": {
+    "name": "buy_and_hold_10k",
+    "initial_capital": 10000,
+    "final_equity": 8137.219545502631,
+    "net_pnl": -1862.7804544973687,
+    "max_drawdown": 7513.361559101008,
+    "sharpe": -0.38276725704735926,
+    "monthly_returns": {
+      "2025-03": -0.007650168777588624,
+      "2025-04": 0.13474750680399683,
+      "2025-05": 0.11791927526614927,
+      "2025-06": 0.033244256272659915,
+      "2025-07": 0.10304208380215987,
+      "2025-08": -0.08897704432455303,
+      "2025-09": 0.07680245809411153,
+      "2025-10": -0.05492376157641156,
+      "2025-11": -0.2388175230566534,
+      "2025-12": 0.015652678803265735,
+      "2026-01": -0.10945214602386932,
+      "2026-02": -0.134369079561082
+    }
+  },
+  "excess_return": 1981.0035371433685,
+  "tactical_pnl": 118.22308264599977,
+  "generated_at_utc": "2026-02-27T08:43:51.035944357Z",
+  "report_path_json": "strategies/spot_btc_conservative_v1/reports/replay_baseline_10k_360d_20260227_084351.json",
+  "report_path_md": "strategies/spot_btc_conservative_v1/reports/replay_baseline_10k_360d_20260227_084351.md"
+}

@@ -16,6 +16,8 @@ interface Props {
   showAmountPanel:  boolean
   showEmaScorePanel:boolean
   showScoreLine:    boolean
+  showReversalMarkers:boolean
+  showRegimeMarkers:boolean
   onSymbolChange:   (v: string) => void
   onIntervalChange: (v: string) => void
   onLimitChange:    (v: number) => void
@@ -24,6 +26,8 @@ interface Props {
   onToggleAmountPanel: () => void
   onToggleEmaScorePanel: () => void
   onToggleScoreLine:() => void
+  onToggleReversalMarkers: () => void
+  onToggleRegimeMarkers: () => void
 }
 
 // 常用 interval 排序权重（数据库可能只有部分）
@@ -43,7 +47,9 @@ const Toolbar: FC<Props> = ({
   showAmountPanel,
   showEmaScorePanel,
   showScoreLine,
-  onSymbolChange, onIntervalChange, onLimitChange, onRefresh, onToggleVol, onToggleAmountPanel, onToggleEmaScorePanel, onToggleScoreLine,
+  showReversalMarkers,
+  showRegimeMarkers,
+  onSymbolChange, onIntervalChange, onLimitChange, onRefresh, onToggleVol, onToggleAmountPanel, onToggleEmaScorePanel, onToggleScoreLine, onToggleReversalMarkers, onToggleRegimeMarkers,
 }) => {
   const sortedIntervals = [...intervals].sort(
     (a, b) => (INTERVAL_ORDER[a] ?? 99) - (INTERVAL_ORDER[b] ?? 99),
@@ -133,6 +139,22 @@ const Toolbar: FC<Props> = ({
             title={showScoreLine ? '隐藏Top/Bottom分数走势线' : '显示Top/Bottom分数走势线'}
           >
             Score
+          </button>
+
+          <button
+            className={`${styles.btnVol}${showReversalMarkers ? ` ${styles.btnVolActive}` : ''}`}
+            onClick={onToggleReversalMarkers}
+            title={showReversalMarkers ? '隐藏Top/Bottom标记' : '显示Top/Bottom标记'}
+          >
+            TopBot
+          </button>
+
+          <button
+            className={`${styles.btnVol}${showRegimeMarkers ? ` ${styles.btnVolActive}` : ''}`}
+            onClick={onToggleRegimeMarkers}
+            title={showRegimeMarkers ? '隐藏牛熊盘整起点标记' : '显示牛熊盘整起点标记'}
+          >
+            Regime
           </button>
 
           <button

@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { fetchKLines, fetchKLinesMeta } from './api/klines'
 import { fetchFearGreedHistory } from './api/feargreed'
-import type { KLineItem, ReversalSignalItem } from './types/kline'
+import type { KLineItem, ReversalSignalItem, RegimeStartpointItem } from './types/kline'
 import type { FearGreedItem } from './types/feargreed'
 import Toolbar, { type PageKey } from './components/Toolbar'
 import Sidebar from './components/Sidebar'
@@ -25,6 +25,7 @@ export default function App() {
   const [quoteVolumeLogEma, setQuoteVolumeLogEma] = useState<number[]>([])
   const [quoteVolumeZ, setQuoteVolumeZ] = useState<number[]>([])
   const [reversalSignals, setReversalSignals] = useState<ReversalSignalItem[]>([])
+  const [regimeStartpoints, setRegimeStartpoints] = useState<RegimeStartpointItem[]>([])
   const [fearGreedHistory, setFearGreedHistory] = useState<FearGreedItem[]>([])
   const [loading, setLoading] = useState(false)
   const [error,   setError]   = useState<string | null>(null)
@@ -32,6 +33,8 @@ export default function App() {
   const [showAmountPanel, setShowAmountPanel] = useState(false)
   const [showEmaScorePanel, setShowEmaScorePanel] = useState(true)
   const [showScoreLine, setShowScoreLine] = useState(true)
+  const [showReversalMarkers, setShowReversalMarkers] = useState(false)
+  const [showRegimeMarkers, setShowRegimeMarkers] = useState(true)
 
   /** 加载 meta（symbol + interval 列表） */
   useEffect(() => {
@@ -58,6 +61,7 @@ export default function App() {
         setQuoteVolumeLogEma(data.quoteVolumeLogEma ?? [])
         setQuoteVolumeZ(data.quoteVolumeZ ?? [])
         setReversalSignals(data.reversalSignals ?? [])
+        setRegimeStartpoints(data.regimeStartpoints ?? [])
       })
       .catch(err => setError(String(err)))
       .finally(() => setLoading(false))
@@ -94,6 +98,8 @@ export default function App() {
         showAmountPanel={showAmountPanel}
         showEmaScorePanel={showEmaScorePanel}
         showScoreLine={showScoreLine}
+        showReversalMarkers={showReversalMarkers}
+        showRegimeMarkers={showRegimeMarkers}
         onSymbolChange={v => setSymbol(v)}
         onIntervalChange={v => setInterval(v)}
         onLimitChange={v => setLimit(v)}
@@ -102,6 +108,8 @@ export default function App() {
         onToggleAmountPanel={() => setShowAmountPanel(v => !v)}
         onToggleEmaScorePanel={() => setShowEmaScorePanel(v => !v)}
         onToggleScoreLine={() => setShowScoreLine(v => !v)}
+        onToggleReversalMarkers={() => setShowReversalMarkers(v => !v)}
+        onToggleRegimeMarkers={() => setShowRegimeMarkers(v => !v)}
       />
 
       {/* 下方主体：左侧菜单 + 右侧内容 */}
@@ -128,9 +136,12 @@ export default function App() {
                 showAmountPanel={showAmountPanel}
                 showEmaScorePanel={showEmaScorePanel}
                 showScoreLine={showScoreLine}
+                showReversalMarkers={showReversalMarkers}
+                showRegimeMarkers={showRegimeMarkers}
                 quoteVolumeLogEma={quoteVolumeLogEma}
                 quoteVolumeZ={quoteVolumeZ}
                 reversalSignals={reversalSignals}
+                regimeStartpoints={regimeStartpoints}
                 showFearGreedPanel={interval === '1d'}
                 fearGreedHistory={fearGreedHistory}
               />

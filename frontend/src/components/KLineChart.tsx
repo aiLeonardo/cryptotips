@@ -13,7 +13,7 @@ import {
   type ISeriesApi,
   type UTCTimestamp,
 } from 'lightweight-charts'
-import type { KLineItem, ReversalSignalItem } from '../types/kline'
+import type { KLineItem, ReversalSignalItem, RegimeStartpointItem } from '../types/kline'
 import type { FearGreedItem } from '../types/feargreed'
 import styles from './KLineChart.module.css'
 
@@ -25,10 +25,13 @@ interface Props {
   showAmountPanel?: boolean
   showEmaScorePanel?: boolean
   showScoreLine?: boolean
+  showReversalMarkers?: boolean
+  showRegimeMarkers?: boolean
   showFearGreedPanel?: boolean
   quoteVolumeLogEma?: number[]
   quoteVolumeZ?: number[]
   reversalSignals?: ReversalSignalItem[]
+  regimeStartpoints?: RegimeStartpointItem[]
   fearGreedHistory?: FearGreedItem[]
 }
 
@@ -98,10 +101,13 @@ const KLineChart: FC<Props> = ({
   showAmountPanel = true,
   showEmaScorePanel = true,
   showScoreLine = true,
+  showReversalMarkers = false,
+  showRegimeMarkers = true,
   showFearGreedPanel = false,
   quoteVolumeLogEma = [],
   quoteVolumeZ = [],
   reversalSignals = [],
+  regimeStartpoints = [],
   fearGreedHistory = [],
 }) => {
   // flex-grow 比例：蜡烛图 / 成交量 / 成交额
@@ -416,18 +422,38 @@ const KLineChart: FC<Props> = ({
     fgMap.current = new Map(fgData.map(d => [Number(d.time), d.value]))
     fgDayMap.current = new Map(fgData.map(d => [dayKey(Number(d.time)), d.value]))
 
-    const markers = reversalSignals.map(s => ({
-      time: s.time as UTCTimestamp,
-      position: s.type === 'top' ? 'aboveBar' : 'belowBar',
-      color: s.type === 'top' ? '#ef5350' : '#26a69a',
-      shape: s.type === 'top' ? 'arrowDown' : 'arrowUp',
-      text: `${s.type === 'top' ? 'Top' : 'Bottom'} z=${s.score.toFixed(2)}`,
-    }))
+    const reversalMarkers = showReversalMarkers
+      ? reversalSignals.map(s => ({
+          time: s.time as UTCTimestamp,
+          position: s.type === 'top' ? 'aboveBar' : 'belowBar',
+          color: s.type === 'top' ? '#ef5350' : '#26a69a',
+          shape: s.type === 'top' ? 'arrowDown' : 'arrowUp',
+          text: `${s.type === 'top' ? 'Top' : 'Bottom'} z=${s.score.toFixed(2)}`,
+        }))
+      : []
+
+    const regimeMarkers = showRegimeMarkers
+      ? regimeStartpoints.map(p => {
+          const isBull = p.state === 'BULL'
+          const isBear = p.state === 'BEAR'
+          return {
+            time: p.time as UTCTimestamp,
+            position: (isBull ? 'belowBar' : isBear ? 'aboveBar' : 'inBar') as 'aboveBar' | 'belowBar' | 'inBar',
+            color: isBull ? '#16c784' : isBear ? '#f6465d' : '#f0b429',
+            shape: (isBull ? 'arrowUp' : isBear ? 'arrowDown' : 'circle') as 'arrowUp' | 'arrowDown' | 'circle',
+            text: `Regime ${p.state} ${(p.confidence * 100).toFixed(1)}%`,
+          }
+        })
+      : []
+
+    const markers = [...reversalMarkers, ...regimeMarkers]
+      .sort((a, b) => Number(a.time) - Number(b.time))
+
     // lightweight-charts v4 标记接口
     ;(cs as any).setMarkers(markers)
 
     charts.current[0]?.timeScale().fitContent()
-  }, [klines, quoteVolumeLogEma, quoteVolumeZ, reversalSignals, fearGreedHistory])
+  }, [klines, quoteVolumeLogEma, quoteVolumeZ, reversalSignals, showReversalMarkers, regimeStartpoints, showRegimeMarkers, fearGreedHistory])
 
   useEffect(() => {
     const [,, , qEma, zLine, scoreLine, fgLine] = sers.current

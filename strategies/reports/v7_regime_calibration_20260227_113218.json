@@ -1,0 +1,461 @@
+{
+  "generated_at_utc": "2026-02-27T11:32:18.116719748Z",
+  "selected_timeframe": "1w",
+  "selection_reason": "日线判定不稳定或区分度不足，自动切换周线主判定；日线仅用于执行级别",
+  "daily_best": {
+    "timeframe": "1d",
+    "params": {
+      "ema200_slope_bull_min": 0.0004,
+      "ema200_slope_bear_max": -0.0002,
+      "return_bull_min": 0.1,
+      "return_bear_max": -0.1,
+      "drawdown_bear_min": 0.3,
+      "vol_range_max": 0.03,
+      "regime_min_confirm_bars": 3
+    },
+    "objective": 0.6083203086952713,
+    "stability": 0.42105263157894735,
+    "prior_penalty": 0.052119129438717104,
+    "profitability": 0.49410064513300556,
+    "switches": 11,
+    "bull_share": 0.7743413516609393,
+    "bear_share": 0.2222222222222222,
+    "range_share": 0.003436426116838488
+  },
+  "weekly_best": {
+    "timeframe": "1w",
+    "params": {
+      "ema200_slope_bull_min": 0.0002,
+      "ema200_slope_bear_max": -0.0002,
+      "return_bull_min": 0.1,
+      "return_bear_max": -0.1,
+      "drawdown_bear_min": 0.2,
+      "vol_range_max": 0.03,
+      "regime_min_confirm_bars": 2
+    },
+    "objective": 0.7058479025750284,
+    "stability": 0.8,
+    "prior_penalty": 0.17368421052631583,
+    "profitability": 0.5448829143323077,
+    "switches": 2,
+    "bull_share": 0.8315789473684211,
+    "bear_share": 0.15789473684210525,
+    "range_share": 0.010526315789473684
+  },
+  "top_candidates": [
+    {
+      "timeframe": "1w",
+      "params": {
+        "ema200_slope_bull_min": 0.0002,
+        "ema200_slope_bear_max": -0.0002,
+        "return_bull_min": 0.1,
+        "return_bear_max": -0.1,
+        "drawdown_bear_min": 0.2,
+        "vol_range_max": 0.03,
+        "regime_min_confirm_bars": 2
+      },
+      "objective": 0.7058479025750284,
+      "stability": 0.8,
+      "prior_penalty": 0.17368421052631583,
+      "profitability": 0.5448829143323077,
+      "switches": 2,
+      "bull_share": 0.8315789473684211,
+      "bear_share": 0.15789473684210525,
+      "range_share": 0.010526315789473684
+    },
+    {
+      "timeframe": "1w",
+      "params": {
+        "ema200_slope_bull_min": 0.0004,
+        "ema200_slope_bear_max": -0.0002,
+        "return_bull_min": 0.1,
+        "return_bear_max": -0.1,
+        "drawdown_bear_min": 0.3,
+        "vol_range_max": 0.03,
+        "regime_min_confirm_bars": 2
+      },
+      "objective": 0.7058479025750284,
+      "stability": 0.8,
+      "prior_penalty": 0.17368421052631583,
+      "profitability": 0.5448829143323077,
+      "switches": 2,
+      "bull_share": 0.8315789473684211,
+      "bear_share": 0.15789473684210525,
+      "range_share": 0.010526315789473684
+    },
+    {
+      "timeframe": "1w",
+      "params": {
+        "ema200_slope_bull_min": 0.0004,
+        "ema200_slope_bear_max": -0.0002,
+        "return_bull_min": 0.1,
+        "return_bear_max": -0.1,
+        "drawdown_bear_min": 0.2,
+        "vol_range_max": 0.03,
+        "regime_min_confirm_bars": 2
+      },
+      "objective": 0.7058479025750284,
+      "stability": 0.8,
+      "prior_penalty": 0.17368421052631583,
+      "profitability": 0.5448829143323077,
+      "switches": 2,
+      "bull_share": 0.8315789473684211,
+      "bear_share": 0.15789473684210525,
+      "range_share": 0.010526315789473684
+    },
+    {
+      "timeframe": "1w",
+      "params": {
+        "ema200_slope_bull_min": 0.0002,
+        "ema200_slope_bear_max": -0.0002,
+        "return_bull_min": 0.1,
+        "return_bear_max": -0.1,
+        "drawdown_bear_min": 0.3,
+        "vol_range_max": 0.03,
+        "regime_min_confirm_bars": 2
+      },
+      "objective": 0.7058479025750284,
+      "stability": 0.8,
+      "prior_penalty": 0.17368421052631583,
+      "profitability": 0.5448829143323077,
+      "switches": 2,
+      "bull_share": 0.8315789473684211,
+      "bear_share": 0.15789473684210525,
+      "range_share": 0.010526315789473684
+    },
+    {
+      "timeframe": "1w",
+      "params": {
+        "ema200_slope_bull_min": 0.0002,
+        "ema200_slope_bear_max": -0.0002,
+        "return_bull_min": 0.1,
+        "return_bear_max": -0.1,
+        "drawdown_bear_min": 0.2,
+        "vol_range_max": 0.03,
+        "regime_min_confirm_bars": 3
+      },
+      "objective": 0.7026900078381862,
+      "stability": 0.8,
+      "prior_penalty": 0.18421052631578952,
+      "profitability": 0.5448829143323077,
+      "switches": 2,
+      "bull_share": 0.8315789473684211,
+      "bear_share": 0.14736842105263157,
+      "range_share": 0.021052631578947368
+    },
+    {
+      "timeframe": "1w",
+      "params": {
+        "ema200_slope_bull_min": 0.0002,
+        "ema200_slope_bear_max": -0.0002,
+        "return_bull_min": 0.1,
+        "return_bear_max": -0.1,
+        "drawdown_bear_min": 0.3,
+        "vol_range_max": 0.03,
+        "regime_min_confirm_bars": 3
+      },
+      "objective": 0.7026900078381862,
+      "stability": 0.8,
+      "prior_penalty": 0.18421052631578952,
+      "profitability": 0.5448829143323077,
+      "switches": 2,
+      "bull_share": 0.8315789473684211,
+      "bear_share": 0.14736842105263157,
+      "range_share": 0.021052631578947368
+    },
+    {
+      "timeframe": "1w",
+      "params": {
+        "ema200_slope_bull_min": 0.0004,
+        "ema200_slope_bear_max": -0.0002,
+        "return_bull_min": 0.1,
+        "return_bear_max": -0.1,
+        "drawdown_bear_min": 0.2,
+        "vol_range_max": 0.03,
+        "regime_min_confirm_bars": 3
+      },
+      "objective": 0.7026900078381862,
+      "stability": 0.8,
+      "prior_penalty": 0.18421052631578952,
+      "profitability": 0.5448829143323077,
+      "switches": 2,
+      "bull_share": 0.8315789473684211,
+      "bear_share": 0.14736842105263157,
+      "range_share": 0.021052631578947368
+    },
+    {
+      "timeframe": "1w",
+      "params": {
+        "ema200_slope_bull_min": 0.0004,
+        "ema200_slope_bear_max": -0.0002,
+        "return_bull_min": 0.1,
+        "return_bear_max": -0.1,
+        "drawdown_bear_min": 0.3,
+        "vol_range_max": 0.03,
+        "regime_min_confirm_bars": 3
+      },
+      "objective": 0.7026900078381862,
+      "stability": 0.8,
+      "prior_penalty": 0.18421052631578952,
+      "profitability": 0.5448829143323077,
+      "switches": 2,
+      "bull_share": 0.8315789473684211,
+      "bear_share": 0.14736842105263157,
+      "range_share": 0.021052631578947368
+    },
+    {
+      "timeframe": "1d",
+      "params": {
+        "ema200_slope_bull_min": 0.0004,
+        "ema200_slope_bear_max": -0.0002,
+        "return_bull_min": 0.1,
+        "return_bear_max": -0.1,
+        "drawdown_bear_min": 0.3,
+        "vol_range_max": 0.03,
+        "regime_min_confirm_bars": 3
+      },
+      "objective": 0.6083203086952713,
+      "stability": 0.42105263157894735,
+      "prior_penalty": 0.052119129438717104,
+      "profitability": 0.49410064513300556,
+      "switches": 11,
+      "bull_share": 0.7743413516609393,
+      "bear_share": 0.2222222222222222,
+      "range_share": 0.003436426116838488
+    },
+    {
+      "timeframe": "1d",
+      "params": {
+        "ema200_slope_bull_min": 0.0004,
+        "ema200_slope_bear_max": -0.0002,
+        "return_bull_min": 0.1,
+        "return_bear_max": -0.1,
+        "drawdown_bear_min": 0.2,
+        "vol_range_max": 0.03,
+        "regime_min_confirm_bars": 3
+      },
+      "objective": 0.6041387603869184,
+      "stability": 0.4,
+      "prior_penalty": 0.04295532646048114,
+      "profitability": 0.4925633958126567,
+      "switches": 12,
+      "bull_share": 0.7674684994272624,
+      "bear_share": 0.22451317296678122,
+      "range_share": 0.008018327605956471
+    },
+    {
+      "timeframe": "1d",
+      "params": {
+        "ema200_slope_bull_min": 0.0002,
+        "ema200_slope_bear_max": -0.0002,
+        "return_bull_min": 0.1,
+        "return_bear_max": -0.1,
+        "drawdown_bear_min": 0.3,
+        "vol_range_max": 0.03,
+        "regime_min_confirm_bars": 2
+      },
+      "objective": 0.6018935922632516,
+      "stability": 0.38095238095238093,
+      "prior_penalty": 0.057846506300114564,
+      "profitability": 0.5124045746689291,
+      "switches": 13,
+      "bull_share": 0.7777777777777778,
+      "bear_share": 0.21993127147766323,
+      "range_share": 0.002290950744558992
+    },
+    {
+      "timeframe": "1d",
+      "params": {
+        "ema200_slope_bull_min": 0.0002,
+        "ema200_slope_bear_max": -0.0002,
+        "return_bull_min": 0.1,
+        "return_bear_max": -0.1,
+        "drawdown_bear_min": 0.2,
+        "vol_range_max": 0.03,
+        "regime_min_confirm_bars": 2
+      },
+      "objective": 0.5970160555054975,
+      "stability": 0.36363636363636365,
+      "prior_penalty": 0.04639175257731962,
+      "profitability": 0.504606680469461,
+      "switches": 14,
+      "bull_share": 0.7697594501718213,
+      "bear_share": 0.22336769759450173,
+      "range_share": 0.006872852233676976
+    }
+  ],
+  "daily_segments": [
+    {
+      "start": "2023-10-09",
+      "end": "2023-10-11",
+      "regime": "RANGE",
+      "confidence": 0.5833333333333333,
+      "score": 0.7666666666666666
+    },
+    {
+      "start": "2023-10-12",
+      "end": "2023-10-17",
+      "regime": "BEAR",
+      "confidence": 0.6041666666666666,
+      "score": 0.7083333333333334
+    },
+    {
+      "start": "2023-10-18",
+      "end": "2024-07-10",
+      "regime": "BULL",
+      "confidence": 0.9343445692883913,
+      "score": 0.9764044943820226
+    },
+    {
+      "start": "2024-07-11",
+      "end": "2024-07-16",
+      "regime": "BEAR",
+      "confidence": 0.755,
+      "score": 0.7666666666666666
+    },
+    {
+      "start": "2024-07-17",
+      "end": "2024-08-19",
+      "regime": "BULL",
+      "confidence": 0.8069117647058827,
+      "score": 0.8147058823529411
+    },
+    {
+      "start": "2024-08-20",
+      "end": "2024-08-24",
+      "regime": "BEAR",
+      "confidence": 0.7150000000000001,
+      "score": 0.7899999999999999
+    },
+    {
+      "start": "2024-08-25",
+      "end": "2024-08-28",
+      "regime": "BULL",
+      "confidence": 0.65625,
+      "score": 0.6124999999999999
+    },
+    {
+      "start": "2024-08-29",
+      "end": "2024-09-19",
+      "regime": "BEAR",
+      "confidence": 0.7204545454545456,
+      "score": 0.765909090909091
+    },
+    {
+      "start": "2024-09-20",
+      "end": "2025-03-12",
+      "regime": "BULL",
+      "confidence": 0.9097988505747127,
+      "score": 0.9183908045977015
+    },
+    {
+      "start": "2025-03-13",
+      "end": "2025-04-23",
+      "regime": "BEAR",
+      "confidence": 0.6751190476190478,
+      "score": 0.6607142857142854
+    },
+    {
+      "start": "2025-04-24",
+      "end": "2025-11-06",
+      "regime": "BULL",
+      "confidence": 0.8393908629441612,
+      "score": 0.9451776649746191
+    },
+    {
+      "start": "2025-11-07",
+      "end": "2026-02-27",
+      "regime": "BEAR",
+      "confidence": 0.8230088495575204,
+      "score": 0.9185840707964602
+    }
+  ],
+  "weekly_segments": [
+    {
+      "start": "2024-05-06",
+      "end": "2024-05-06",
+      "regime": "RANGE",
+      "confidence": 0.6749999999999999,
+      "score": 0.6499999999999999
+    },
+    {
+      "start": "2024-05-13",
+      "end": "2025-11-10",
+      "regime": "BULL",
+      "confidence": 0.8041139240506328,
+      "score": 0.7145569620253163
+    },
+    {
+      "start": "2025-11-17",
+      "end": "2026-02-23",
+      "regime": "BEAR",
+      "confidence": 0.8350000000000001,
+      "score": 0.7099999999999999
+    }
+  ],
+  "selected_segments": [
+    {
+      "start": "2024-05-06",
+      "end": "2024-05-06",
+      "regime": "RANGE",
+      "confidence": 0.6749999999999999,
+      "score": 0.6499999999999999
+    },
+    {
+      "start": "2024-05-13",
+      "end": "2025-11-10",
+      "regime": "BULL",
+      "confidence": 0.8041139240506328,
+      "score": 0.7145569620253163
+    },
+    {
+      "start": "2025-11-17",
+      "end": "2026-02-23",
+      "regime": "BEAR",
+      "confidence": 0.8350000000000001,
+      "score": 0.7099999999999999
+    }
+  ],
+  "search_space_summary": {
+    "confirm_bars": [
+      2,
+      3,
+      4
+    ],
+    "drawdown_bear_min": [
+      0.15,
+      0.2,
+      0.3
+    ],
+    "ema200_slope_bear_max": [
+      -0.0001,
+      -0.0002,
+      -0.0004,
+      -0.0006
+    ],
+    "ema200_slope_bull_min": [
+      0.0001,
+      0.0002,
+      0.0004,
+      0.0006
+    ],
+    "return_bear_max": [
+      -0.05,
+      -0.1,
+      -0.15
+    ],
+    "return_bull_min": [
+      0.05,
+      0.1,
+      0.15
+    ],
+    "vol_range_max": [
+      0.02,
+      0.03,
+      0.04
+    ]
+  },
+  "calibration_window_days": 1080,
+  "json_path": "strategies/reports/v7_regime_calibration_20260227_113218.json",
+  "md_path": "strategies/reports/v7_regime_calibration_20260227_113218.md"
+}
