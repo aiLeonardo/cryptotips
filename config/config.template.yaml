@@ -62,6 +62,7 @@ tg_client:
   app_id: 0
   app_hash: ""
   phone: ""
+  password: ""  # Telegram 2FA password (optional). Prefer env TG_CLIENT_PASSWORD.
   channel: "aigc1024"
   session_file: "./data/tg/aigc1024.session.json"
   output_dir: "./frontend/dist/aigc1024"

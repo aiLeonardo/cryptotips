@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"context"
+	"os"
 	"time"
 
 	"github.com/aiLeonardo/cryptotips/app/tgclient"
@@ -14,6 +15,7 @@ var (
 	tgAppID       int
 	tgAppHash     string
 	tgPhone       string
+	tgPassword    string
 	tgSessionFile string
 	tgOutputDir   string
 	tgChannel     string
@@ -38,6 +40,15 @@ var tgsyncCmd = &cobra.Command{
 		if tgPhone == "" {
 			tgPhone = viper.GetString("tg_client.phone")
 		}
+		if tgPassword == "" {
+			tgPassword = viper.GetString("tg_client.password")
+		}
+		if tgPassword == "" {
+			tgPassword = os.Getenv("TG_CLIENT_PASSWORD")
+		}
+		if tgPassword == "" {
+			tgPassword = os.Getenv("TG_PASSWORD")
+		}
 		if tgSessionFile == "" {
 			tgSessionFile = viper.GetString("tg_client.session_file")
 		}
@@ -58,6 +69,7 @@ var tgsyncCmd = &cobra.Command{
 			AppID:       tgAppID,
 			AppHash:     tgAppHash,
 			Phone:       tgPhone,
+			Password:    tgPassword,
 			SessionFile: tgSessionFile,
 			OutputDir:   tgOutputDir,
 			Channel:     tgChannel,
@@ -80,6 +92,7 @@ func init() {
 	tgsyncCmd.Flags().IntVar(&tgAppID, "app-id", viper.GetInt("tg_client.app_id"), "Telegram app_id (config: tg_client.app_id)")
 	tgsyncCmd.Flags().StringVar(&tgAppHash, "app-hash", viper.GetString("tg_client.app_hash"), "Telegram app_hash (config: tg_client.app_hash)")
 	tgsyncCmd.Flags().StringVar(&tgPhone, "phone", viper.GetString("tg_client.phone"), "Telegram phone number (config: tg_client.phone)")
+	tgsyncCmd.Flags().StringVar(&tgPassword, "password", viper.GetString("tg_client.password"), "Telegram 2FA password (config: tg_client.password, env: TG_CLIENT_PASSWORD/TG_PASSWORD)")
 	tgsyncCmd.Flags().StringVar(&tgSessionFile, "session-file", viper.GetString("tg_client.session_file"), "Session file path (config: tg_client.session_file)")
 	tgsyncCmd.Flags().StringVar(&tgOutputDir, "output-dir", viper.GetString("tg_client.output_dir"), "Output directory (config: tg_client.output_dir)")
 	tgsyncCmd.Flags().StringVar(&tgChannel, "channel", viper.GetString("tg_client.channel"), "Telegram channel username (config: tg_client.channel)")

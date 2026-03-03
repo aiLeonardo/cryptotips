@@ -61,7 +61,7 @@ func SyncChannel(ctx context.Context, cfg Config, logger *logrus.Logger) (*Stats
 	})
 
 	err := client.Run(ctx, func(ctx context.Context) error {
-		if err := client.Auth().IfNecessary(ctx, auth.NewFlow(termAuth(cfg.Phone), auth.SendCodeOptions{})); err != nil {
+		if err := authWithRetry(ctx, client, cfg.Phone, cfg.Password); err != nil {
 			return fmt.Errorf("telegram auth failed: %w", err)
 		}
 
@@ -95,16 +95,75 @@ func SyncChannel(ctx context.Context, cfg Config, logger *logrus.Logger) (*Stats
 	return stats, nil
 }
 
-func termAuth(phone string) auth.UserAuthenticator {
-	return auth.CodeOnly(phone, auth.CodeAuthenticatorFunc(func(ctx context.Context, _ *tg.AuthSentCode) (string, error) {
-		fmt.Print("Enter Telegram login code: ")
-		in := bufio.NewReader(os.Stdin)
-		code, err := in.ReadString('\n')
+type terminalAuth struct {
+	phone    string
+	password string
+}
+
+func (a *terminalAuth) Phone(context.Context) (string, error) {
+	return a.phone, nil
+}
+
+func (a *terminalAuth) Password(context.Context) (string, error) {
+	if strings.TrimSpace(a.password) == "" {
+		fmt.Print("Enter Telegram 2FA password (leave blank to cancel): ")
+		pwd, err := readLineTrimmed()
 		if err != nil {
 			return "", err
 		}
-		return strings.TrimSpace(code), nil
-	}))
+		a.password = pwd
+	}
+	if strings.TrimSpace(a.password) == "" {
+		return "", auth.ErrPasswordNotProvided
+	}
+	return a.password, nil
+}
+
+func (a *terminalAuth) AcceptTermsOfService(context.Context, tg.HelpTermsOfService) error {
+	return errors.New("sign up flow is not supported")
+}
+
+func (a *terminalAuth) SignUp(context.Context) (auth.UserInfo, error) {
+	return auth.UserInfo{}, errors.New("sign up flow is not supported")
+}
+
+func (a *terminalAuth) Code(context.Context, *tg.AuthSentCode) (string, error) {
+	fmt.Print("Enter Telegram login code: ")
+	return readLineTrimmed()
+}
+
+func termAuth(phone, password string) auth.UserAuthenticator {
+	return &terminalAuth{phone: phone, password: password}
+}
+
+func readLineTrimmed() (string, error) {
+	in := bufio.NewReader(os.Stdin)
+	line, err := in.ReadString('\n')
+	if err != nil {
+		return "", err
+	}
+	return strings.TrimSpace(line), nil
+}
+
+func authWithRetry(ctx context.Context, client *telegram.Client, phone, password string) error {
+	var lastErr error
+	for i := 0; i < 3; i++ {
+		err := client.Auth().IfNecessary(ctx, auth.NewFlow(termAuth(phone, password), auth.SendCodeOptions{}))
+		if err == nil {
+			return nil
+		}
+		lastErr = err
+		errUpper := strings.ToUpper(err.Error())
+		if strings.Contains(errUpper, "PHONE_CODE_EXPIRED") {
+			fmt.Println("Telegram login code expired, please enter the latest code.")
+			continue
+		}
+		if errors.Is(err, auth.ErrPasswordNotProvided) || strings.Contains(errUpper, "PASSWORD REQUESTED BUT NOT PROVIDED") {
+			return fmt.Errorf("2FA password required: pass --password or set tg_client.password / TG_CLIENT_PASSWORD")
+		}
+		return err
+	}
+	return fmt.Errorf("auth flow failed after retries: %w", lastErr)
 }
 
 func resolveChannelWithRetry(ctx context.Context, api *tg.Client, channel string, logger *logrus.Logger) (int64, int64, error) {
