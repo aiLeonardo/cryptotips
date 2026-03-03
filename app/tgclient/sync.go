@@ -61,7 +61,7 @@ func SyncChannel(ctx context.Context, cfg Config, logger *logrus.Logger) (*Stats
 	})
 
 	err := client.Run(ctx, func(ctx context.Context) error {
-		if err := authWithRetry(ctx, client, cfg.Phone, cfg.Password); err != nil {
+		if err := authWithRetry(ctx, client, cfg.Phone); err != nil {
 			return fmt.Errorf("telegram auth failed: %w", err)
 		}
 
@@ -96,8 +96,7 @@ func SyncChannel(ctx context.Context, cfg Config, logger *logrus.Logger) (*Stats
 }
 
 type terminalAuth struct {
-	phone    string
-	password string
+	phone string
 }
 
 func (a *terminalAuth) Phone(context.Context) (string, error) {
@@ -105,18 +104,15 @@ func (a *terminalAuth) Phone(context.Context) (string, error) {
 }
 
 func (a *terminalAuth) Password(context.Context) (string, error) {
-	if strings.TrimSpace(a.password) == "" {
-		fmt.Print("Enter Telegram 2FA password (leave blank to cancel): ")
-		pwd, err := readLineTrimmed()
-		if err != nil {
-			return "", err
-		}
-		a.password = pwd
+	fmt.Print("Enter Telegram 2FA password (leave blank to cancel): ")
+	pwd, err := readLineTrimmed()
+	if err != nil {
+		return "", err
 	}
-	if strings.TrimSpace(a.password) == "" {
+	if strings.TrimSpace(pwd) == "" {
 		return "", auth.ErrPasswordNotProvided
 	}
-	return a.password, nil
+	return pwd, nil
 }
 
 func (a *terminalAuth) AcceptTermsOfService(context.Context, tg.HelpTermsOfService) error {
@@ -132,8 +128,8 @@ func (a *terminalAuth) Code(context.Context, *tg.AuthSentCode) (string, error) {
 	return readLineTrimmed()
 }
 
-func termAuth(phone, password string) auth.UserAuthenticator {
-	return &terminalAuth{phone: phone, password: password}
+func termAuth(phone string) auth.UserAuthenticator {
+	return &terminalAuth{phone: phone}
 }
 
 func readLineTrimmed() (string, error) {
@@ -145,10 +141,10 @@ func readLineTrimmed() (string, error) {
 	return strings.TrimSpace(line), nil
 }
 
-func authWithRetry(ctx context.Context, client *telegram.Client, phone, password string) error {
+func authWithRetry(ctx context.Context, client *telegram.Client, phone string) error {
 	var lastErr error
 	for i := 0; i < 3; i++ {
-		err := client.Auth().IfNecessary(ctx, auth.NewFlow(termAuth(phone, password), auth.SendCodeOptions{}))
+		err := client.Auth().IfNecessary(ctx, auth.NewFlow(termAuth(phone), auth.SendCodeOptions{}))
 		if err == nil {
 			return nil
 		}

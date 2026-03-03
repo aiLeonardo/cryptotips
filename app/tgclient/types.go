@@ -23,7 +23,6 @@ type Config struct {
 	AppID       int
 	AppHash     string
 	Phone       string
-	Password    string
 	Channel     string
 	SessionFile string
 	OutputDir   string
