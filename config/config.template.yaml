@@ -58,5 +58,15 @@ feargreed:
 kline_sync:
   interval_minutes: 40  # K线增量同步间隔（分钟）
 
+tg_client:
+  app_id: 0
+  app_hash: ""
+  phone: ""
+  channel: "aigc1024"
+  session_file: "./data/tg/aigc1024.session.json"
+  output_dir: "./frontend/dist/aigc1024"
+  limit: 0
+  page_size: 100
+
 2captcha:
   apiKey: ""
